@@ -1,3 +1,10 @@
+name: Deploy Vue.js to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master # Trigger workflow on push to master branch
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
