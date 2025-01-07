@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "question": "What is your chess level?",
+    "conditional": false,
+    "options": [
+      { "text": "Beginner", "value": "beginner" },
+      { "text": "Intermediate", "value": "intermediate" },
+      { "text": "Advanced", "value": "advanced" }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Do you want an opening for White or Black?",
+    "conditional": false,
+    "options": [
+      { "text": "White", "value": "white" },
+      { "text": "Black", "value": "black" },
+      { "text": "Surprise me!", "value": "" }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "How do you want to start?",
+    "conditional": "white",
+    "options": [
+      { "text": "1. e4", "value": "e4" },
+      { "text": "1. d4", "value": "d4" },
+      { "text": "Other", "value": "other" },
+      { "text": "Surprise me!", "value": "" }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "How does your opponent start?",
+    "conditional": "black",
+    "options": [
+      { "text": "1. e4", "value": "e4" },
+      { "text": "1. d4", "value": "d4" },
+      { "text": "Other", "value": "other" },
+      { "text": "Surprise me!", "value": "" }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Is there an opening you specifically want a response to?",
+    "conditional": "e4",
+    "options": [
+      { "text": "1... e5", "value": "e5" },
+      { "text": "1... e6", "value": "e6" },
+      { "text": "1... c5", "value": "c5" },
+      { "text": "Other", "value": "other" },
+      { "text": "Surprise me!", "value": "" }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Is there an opening you specifically want a response to?",
+    "conditional": "d4",
+    "options": [
+      { "text": "1... d5", "value": "d5" },
+      { "text": "1... Nf6", "value": "Nf6" },
+      { "text": "Other", "value": "other" },
+      { "text": "Surprise me!", "value": "" }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "How do you like to play?",
+    "conditional": false,
+    "options": [
+      { "text": "Attacking. I love to be aggressive!", "value": "attacking" },
+      { "text": "Counter-attacking. I like to wait for a mistake and then fight.", "value": "counter-attacking" },
+      { "text": "Balanced. I believe in good moves.", "value": "balanced" },
+      { "text": "Positional. I like strategic maneuvering.", "value": "positional" },
+      { "text": "Trading. I like to win in the endgame.", "value": "trading" }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "How much do you want to memorize?",
+    "conditional": false,
+    "options": [
+      { "text": "Not much. I’d rather focus on playing.", "value": "not much" },
+      { "text": "A little. I want to learn ideas more than memorize.", "value": "a little" },
+      { "text": "Some. I’d like to learn some key lines.", "value": "some" },
+      { "text": "A lot. I want to go deep!", "value": "a lot" }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Do you want to play solid openings, or less solid but tricky openings?",
+    "conditional": false,
+    "options": [
+      { "text": "Tricks! I prefer traps even if the moves aren’t that solid.", "value": "tricks" },
+      { "text": "Surprises. I want less common moves that might surprise my opponent.", "value": "surprises" },
+      { "text": "Solid. I lean toward popular and reliable openings.", "value": "solid" },
+      { "text": "Top-tier. I only want to play what pros are playing.", "value": "top-tier" }
+    ]
+  }
+]

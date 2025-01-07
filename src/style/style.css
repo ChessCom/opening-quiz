@@ -1,0 +1,10 @@
+/* .wc-chess-board.board {
+  background-size: 100%;
+  padding-bottom: 100%;
+  height: 0;
+  display: block;
+} */
+
+.chessboard-wrapper {
+  width: 400px;
+}
