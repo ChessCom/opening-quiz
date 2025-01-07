@@ -18,11 +18,9 @@
         <button @click="toStartPostition" :disabled="currMove === 0">
           Start
         </button>
-        <button @click="prevMove" :disabled="currMove === 0">
-          Previous Move
-        </button>
+        <button @click="prevMove" :disabled="currMove === 0">Prev</button>
         <button @click="nextMove" :disabled="currMove >= moves.length">
-          Next Move
+          Next
         </button>
         <button @click="toEndPostition" :disabled="currMove >= moves.length">
           End
