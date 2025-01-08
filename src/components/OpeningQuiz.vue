@@ -35,9 +35,7 @@
 
     <!-- Show Chessboard Component Only After Completing Quiz -->
     <div v-if="currentQuestionIndex >= questions.length">
-      <ChessBoardComponent
-        :moves="convertMovesToArray(openingDetails ? openingDetails.Moves : '')"
-      />
+      <ChessBoardComponent :moves="convertedMoves" />
     </div>
 
     <!-- Debugging Section to Display Selected Answers and Result -->
@@ -68,18 +66,27 @@ export default {
       questions: questions,
       ecoCodes: ecoCodes,
       initialFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
-      initialMoves: [],
     };
   },
   computed: {
     resultEcoCode() {
-      const key = this.selectedAnswers.join(" - ");
+      const key = this.selectedAnswers
+        .map((answer) => answer.toLowerCase().trim())
+        .join(" - ");
+      console.log("Generated Key:", key);
       const result = results[key];
       return result ? result.ecoCode : "No ECO Code found";
     },
     openingDetails() {
       const ecoCode = this.resultEcoCode;
+      console.log("Resolved ECO Code:", ecoCode);
       return this.ecoCodes[ecoCode] || null;
+    },
+    convertedMoves() {
+      if (this.openingDetails && this.openingDetails.Moves) {
+        return this.convertMovesToArray(this.openingDetails.Moves);
+      }
+      return [];
     },
   },
   methods: {
@@ -186,8 +193,10 @@ export default {
       return options;
     },
     convertMovesToArray(movesString) {
-      const sanitizedString = movesString.replace(/\d+\./g, "");
-      return sanitizedString.trim().split(/\s+/);
+      if (!movesString) return [];
+      const sanitizedString = movesString.replace(/\d+\./g, "").trim(); // Remove move numbers
+      console.log("Sanitized Moves String:", sanitizedString);
+      return sanitizedString.split(/\s+/);
     },
   },
 };
