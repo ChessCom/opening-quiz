@@ -22,7 +22,7 @@
 
     <!-- Recommended Opening Section -->
     <div v-else>
-      <h2>Your Recommended Opening</h2>
+      <h2>Your Recommended Opening for {{ openingForColor }}</h2>
       <div v-if="openingDetails">
         <p><strong>Opening Name:</strong> {{ openingDetails.Name }}</p>
         <p><strong>FEN:</strong> {{ openingDetails.FEN }}</p>
@@ -87,6 +87,10 @@ export default {
         return this.convertMovesToArray(this.openingDetails.Moves);
       }
       return [];
+    },
+    openingForColor() {
+      const isEven = this.convertedMoves.length % 2 === 0;
+      return `${isEven ? "Black" : "White"}`;
     },
   },
   methods: {

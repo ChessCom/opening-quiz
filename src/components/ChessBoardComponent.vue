@@ -63,6 +63,11 @@ export default {
         },
       },
     });
+    if (this.moves.length % 2 === 0) {
+      this.game.setOptions({ flipped: true });
+    } else {
+      this.game.setOptions({ flipped: false });
+    }
     this.game.load({ moves: this.moves });
     this.currMove = this.moves.length;
 
