@@ -22,7 +22,7 @@
 
     <!-- Recommended Opening Section -->
     <div v-else>
-      <h2>Your Recommended Opening for {{ openingForColor }}</h2>
+      <h2>Your Recommended Opening for {{ openingDetails.openingFor }}</h2>
       <div v-if="openingDetails">
         <p><strong>Opening Name:</strong> {{ openingDetails.Name }}</p>
         <p><strong>FEN:</strong> {{ openingDetails.FEN }}</p>
@@ -35,7 +35,10 @@
 
     <!-- Show Chessboard Component Only After Completing Quiz -->
     <div v-if="currentQuestionIndex >= questions.length">
-      <ChessBoardComponent :moves="convertedMoves" />
+      <ChessBoardComponent
+        :moves="convertedMoves"
+        :openingFor="openingDetails?.openingFor"
+      />
     </div>
 
     <!-- Debugging Section to Display Selected Answers and Result -->
@@ -80,7 +83,23 @@ export default {
     openingDetails() {
       const ecoCode = this.resultEcoCode;
       console.log("Resolved ECO Code:", ecoCode);
-      return this.ecoCodes[ecoCode] || null;
+
+      // Retrieve the opening details from eco-codes.json using ecoCode
+      const openingDetails = this.ecoCodes[ecoCode] || null;
+
+      // If openingDetails are found, combine them with the 'openingFor' from results.json
+      if (openingDetails && ecoCode) {
+        const result = results[this.selectedAnswers.join(" - ").toLowerCase()];
+        const openingFor = result ? result.openingFor : "Unknown";
+        console.log("opening for", openingFor);
+        return {
+          ...openingDetails,
+          openingFor: openingFor || "Unknown",
+        };
+      } else {
+        console.log("No matching opening found for ECO Code:", ecoCode);
+        return null;
+      }
     },
     convertedMoves() {
       if (this.openingDetails && this.openingDetails.Moves) {
@@ -202,6 +221,13 @@ export default {
       console.log("Sanitized Moves String:", sanitizedString);
       return sanitizedString.split(/\s+/);
     },
+    resetQuiz() {
+      this.currentQuestionIndex = 0;
+      this.selectedAnswers = [];
+    },
+  },
+  mounted() {
+    this.resetQuiz();
   },
 };
 </script>

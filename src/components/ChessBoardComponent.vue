@@ -45,6 +45,10 @@ export default {
       type: Array,
       default: () => [],
     },
+    openingFor: {
+      type: String,
+      required: true,
+    },
   },
   data() {
     return {
@@ -63,21 +67,28 @@ export default {
         },
       },
     });
-    if (this.moves.length % 2 === 0) {
-      this.game.setOptions({ flipped: true });
-    } else {
-      this.game.setOptions({ flipped: false });
-    }
     this.game.load({ moves: this.moves });
     this.currMove = this.moves.length;
-
+    this.setBoardOrientation(this.openingFor);
     const plugin = createVerticalMoveListPlugin({
       displayTimeInClockFormat: false,
       el: document.querySelector(".vertical-move-list"),
     });
     this.game.plugins.add(plugin);
   },
+  watch: {
+    openingFor(newValue) {
+      this.setBoardOrientation(newValue);
+    },
+  },
   methods: {
+    setBoardOrientation(openingFor) {
+      if (openingFor === "Black") {
+        this.game.setOptions({ flipped: true });
+      } else {
+        this.game.setOptions({ flipped: false });
+      }
+    },
     nextMove() {
       if (this.currMove < this.moves.length) {
         this.game.moveForward();
