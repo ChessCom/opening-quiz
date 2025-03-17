@@ -2,12 +2,12 @@
   <div class="quiz-container">
     <header>
       <img
-        src="/assets/images/opening.png"
-        width="229"
-        height="35"
+        src="/assets/images/header-logo-desktop.svg"
         alt="Opening quiz heading"
+        width="229px"
+        onclick="window.location.href='/'"
+        style="cursor: pointer"
       />
-      <span>QUIZ</span>
     </header>
 
     <div class="progress-bar-container">
