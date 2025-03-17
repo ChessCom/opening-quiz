@@ -50,7 +50,7 @@
             >
               <div class="answer-item-img">
                 <img
-                  src="/assets/images/green.jpg"
+                  :src="option.icon"
                   width="68"
                   height="68"
                   alt="answer image"
@@ -71,7 +71,7 @@
             >
               <div class="answer-item-img">
                 <img
-                  src="/assets/images/green.jpg"
+                  :src="option.icon"
                   width="68"
                   height="68"
                   alt="answer image"
@@ -351,7 +351,7 @@ header span {
 }
 
 .progress-bar-item.completed {
-  background: #4caf50; /* Green or any color you want to indicate completion */
+  background: #81b64c;
 }
 
 .question-container {
@@ -458,6 +458,15 @@ header span {
   font-style: normal;
   font-weight: 600;
   line-height: 1em;
+}
+
+.answer-item-text span:nth-child(2) {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: "Chess Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
 }
 
 .debug-section {
