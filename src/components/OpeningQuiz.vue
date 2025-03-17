@@ -50,7 +50,7 @@
             >
               <div class="answer-item-img">
                 <img
-                  src="/assets/images/green.jpg"
+                  :src="option.icon"
                   width="68"
                   height="68"
                   alt="answer image"
@@ -58,6 +58,7 @@
               </div>
               <div class="answer-item-text">
                 <span>{{ option.text }}</span>
+                <span>{{ option.subtext }}</span>
               </div>
             </div>
           </div>
@@ -70,7 +71,7 @@
             >
               <div class="answer-item-img">
                 <img
-                  src="/assets/images/green.jpg"
+                  :src="option.icon"
                   width="68"
                   height="68"
                   alt="answer image"
@@ -78,6 +79,7 @@
               </div>
               <div class="answer-item-text">
                 <span>{{ option.text }}</span>
+                <span>{{ option.subtext }}</span>
               </div>
             </div>
           </div>
@@ -349,7 +351,7 @@ header span {
 }
 
 .progress-bar-item.completed {
-  background: #4caf50; /* Green or any color you want to indicate completion */
+  background: #81b64c;
 }
 
 .question-container {
@@ -441,6 +443,7 @@ header span {
 .answer-item-text {
   display: flex;
   gap: 10px;
+  flex-direction: column;
 }
 
 .answer-item-text span:nth-child(1) {
@@ -450,6 +453,15 @@ header span {
   font-style: normal;
   font-weight: 600;
   line-height: 20px; /* 100% */
+}
+
+.answer-item-text span:nth-child(2) {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: "Chess Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
 }
 
 .debug-section {
