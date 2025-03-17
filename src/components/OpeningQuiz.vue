@@ -417,6 +417,11 @@ header span {
   cursor: pointer;
 }
 
+.answer-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 200ms ease-in-out;
+}
+
 .answer-item-img {
   display: flex;
   justify-content: center;
