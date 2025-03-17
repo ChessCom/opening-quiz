@@ -213,7 +213,7 @@ footer {
   gap: 24px;
   align-items: center;
   justify-content: center;
-  padding: 40px 24px;
+  padding: 80px 24px 12px 24px;
 }
 
 footer nav {
