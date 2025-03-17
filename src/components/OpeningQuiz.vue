@@ -58,7 +58,7 @@
               </div>
               <div class="answer-item-text">
                 <span>{{ option.text }}</span>
-                <span>{{ option.subtext }}</span>
+                <span class="subtext">{{ option.subtext }}</span>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
               </div>
               <div class="answer-item-text">
                 <span>{{ option.text }}</span>
-                <span>{{ option.subtext }}</span>
+                <span class="subtext">{{ option.subtext }}</span>
               </div>
             </div>
           </div>
@@ -370,7 +370,7 @@ header span {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 8px;
   overflow: hidden;
   width: 100%;
 }
@@ -380,6 +380,11 @@ header span {
   flex-direction: column;
   gap: 10px;
   margin-bottom: 45px;
+}
+
+.subtext {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 18px;
 }
 
 .question-text .questions-answered {
@@ -412,7 +417,7 @@ header span {
   border-radius: 10px;
   padding: 10px 20px 10px 11px;
   display: flex;
-  gap: 21px;
+  gap: 16px;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
   align-items: center;
@@ -442,7 +447,7 @@ header span {
 
 .answer-item-text {
   display: flex;
-  gap: 10px;
+  gap: 6px;
   flex-direction: column;
 }
 
@@ -452,7 +457,7 @@ header span {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 20px; /* 100% */
+  line-height: 1em;
 }
 
 .answer-item-text span:nth-child(2) {
