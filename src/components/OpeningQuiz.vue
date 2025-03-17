@@ -351,7 +351,7 @@ header span {
 }
 
 .progress-bar-item.completed {
-  background: #4caf50; /* Green or any color you want to indicate completion */
+  background: #81b64c;
 }
 
 .question-container {
