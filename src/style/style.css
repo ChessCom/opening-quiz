@@ -5,18 +5,3 @@
   display: block;
 } */
 
-.chessboard-wrapper {
-  width: 400px;
-}
-
-@media only screen and (max-width: 560px) {
-  .chessboard-component {
-    flex-direction: column;
-  }
-  .chessboard-wrapper {
-    width: 100%;
-  }
-  .controls {
-    gap: 6px;
-  }
-}

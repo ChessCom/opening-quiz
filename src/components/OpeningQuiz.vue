@@ -1,54 +1,125 @@
 <template>
-  <div>
-    <h1>Chess Opening Quiz!</h1>
+  <div class="quiz-container">
+    <header>
+      <img
+        src="/assets/images/opening.png"
+        width="229"
+        height="35"
+        alt="Opening quiz heading"
+      />
+      <span>QUIZ</span>
+    </header>
 
-    <!-- Quiz Questions Section -->
-    <div v-if="currentQuestionIndex < questions.length">
-      <h2>{{ questions[currentQuestionIndex].question }}</h2>
-      <div v-if="currentQuestionIndex === 6">
-        <div v-for="(option, index) in getPlayStyleOptions()" :key="index">
-          <button @click="selectOption(option.value)">{{ option.text }}</button>
-        </div>
-      </div>
-      <div v-else>
+    <div class="progress-bar-container">
+      <div class="progress-bar">
+        <!-- Progress bar items (7 in total) -->
         <div
-          v-for="(option, index) in questions[currentQuestionIndex].options"
+          class="progress-bar-item"
+          v-for="index in 7"
           :key="index"
-        >
-          <button @click="selectOption(option.value)">{{ option.text }}</button>
-        </div>
+          :class="{
+            completed: selectedAnswers.length >= index,
+          }"
+        ></div>
       </div>
     </div>
 
-    <!-- Recommended Opening Section -->
-    <div v-else>
-      <h2>Your Recommended Opening for {{ openingDetails.openingFor }}</h2>
-      <div v-if="openingDetails">
-        <p><strong>Opening Name:</strong> {{ openingDetails.Name }}</p>
-        <p><strong>FEN:</strong> {{ openingDetails.FEN }}</p>
-        <p><strong>Moves:</strong> {{ openingDetails.Moves }}</p>
+    <!-- Quiz Questions Section -->
+    <div>
+      <div
+        class="question-container"
+        v-if="currentQuestionIndex < questions.length"
+      >
+        <div class="question-img">
+          <img src="/assets/images/chess_board.jpg" width="512" height="512" />
+        </div>
+        <div class="question-content">
+          <div class="question-text">
+            <div class="questions-answered">
+              {{ selectedAnswers.length }} of 7
+            </div>
+            <h2>{{ questions[currentQuestionIndex].question }}</h2>
+          </div>
+
+          <div class="answers-container" v-if="currentQuestionIndex === 6">
+            <div
+              class="answer-item"
+              v-for="(option, index) in getPlayStyleOptions()"
+              :key="index"
+              @click="selectOption(option.value)"
+            >
+              <div class="answer-item-img">
+                <img
+                  src="/assets/images/green.jpg"
+                  width="68"
+                  height="68"
+                  alt="answer image"
+                />
+              </div>
+              <div class="answer-item-text">
+                <span>{{ option.text }}</span>
+              </div>
+            </div>
+          </div>
+          <div class="answers-container" v-else>
+            <div
+              class="answer-item"
+              v-for="(option, index) in questions[currentQuestionIndex].options"
+              :key="index"
+              @click="selectOption(option.value)"
+            >
+              <div class="answer-item-img">
+                <img
+                  src="/assets/images/green.jpg"
+                  width="68"
+                  height="68"
+                  alt="answer image"
+                />
+              </div>
+              <div class="answer-item-text">
+                <span>{{ option.text }}</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div v-else>
-        <p>No matching opening found.</p>
+      <!-- Recommended Opening Section -->
+      <div class="results-container" v-else>
+        <div>
+          <ChessBoardComponent
+            :moves="convertedMoves"
+            :openingFor="openingDetails?.openingFor"
+            :openingName="openingDetails.Name"
+          />
+        </div>
+        <!-- <h2>Your Recommended Opening for {{ openingDetails.openingFor }}</h2>
+        <div v-if="openingDetails">
+          <p><strong>Opening Name:</strong> {{ openingDetails.Name }}</p>
+          <p><strong>FEN:</strong> {{ openingDetails.FEN }}</p>
+          <p><strong>Moves:</strong> {{ openingDetails.Moves }}</p>
+        </div>
+        <div v-else>
+          <p>No matching opening found.</p>
+        </div> -->
       </div>
     </div>
 
     <!-- Show Chessboard Component Only After Completing Quiz -->
-    <div v-if="currentQuestionIndex >= questions.length">
+    <!-- <div v-if="currentQuestionIndex >= questions.length">
       <ChessBoardComponent
         :moves="convertedMoves"
         :openingFor="openingDetails?.openingFor"
       />
-    </div>
+    </div> -->
 
     <!-- Debugging Section to Display Selected Answers and Result -->
-    <div class="debug-section">
+    <!-- <div class="debug-section">
       <h2>Debug Information</h2>
       <p><strong>Selected Answers:</strong> {{ selectedAnswers }}</p>
       <p><strong>Computed Key:</strong> {{ selectedAnswers.join(" - ") }}</p>
       <p><strong>ECO Code:</strong> {{ resultEcoCode }}</p>
       <p><strong>Opening Details:</strong> {{ openingDetails }}</p>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -233,14 +304,149 @@ export default {
 </script>
 
 <style scoped>
-h1,
-h2 {
-  text-align: center;
+.quiz-container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
 }
-button {
-  display: block;
-  margin: 10px auto;
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  padding: 58px 0;
 }
+
+header span {
+  color: #81b64c;
+  font-family: "Chess Sans";
+  font-size: 30px;
+  font-style: normal;
+  line-height: 100%; /* 30px */
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  transform: scaleX(1.18);
+  transform-origin: left;
+}
+
+.progress-bar-container {
+  margin-bottom: 41px;
+}
+
+.progress-bar {
+  display: flex;
+  gap: 4px;
+}
+
+.progress-bar-item {
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  height: 12px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.progress-bar-item.completed {
+  background: #4caf50; /* Green or any color you want to indicate completion */
+}
+
+.question-container {
+  display: flex;
+  gap: 70px;
+  align-items: start;
+}
+
+.question-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.question-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.question-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 45px;
+}
+
+.question-text .questions-answered {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.question-text h2 {
+  color: #fff;
+  font-family: "Chess Sans";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 116.129% */
+  text-wrap: balance;
+}
+
+.answers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.answer-item {
+  border-radius: 10px;
+  padding: 10px 20px 10px 11px;
+  display: flex;
+  gap: 21px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.1) inset;
+  align-items: center;
+  cursor: pointer;
+}
+
+.answer-item-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  overflow: hidden;
+  min-width: max-content;
+}
+
+.answer-item-img img {
+  width: 68px;
+  height: 68px;
+  min-width: 68px;
+  min-height: 68px;
+}
+
+.answer-item-text {
+  display: flex;
+  gap: 10px;
+}
+
+.answer-item-text span:nth-child(1) {
+  color: #fff;
+  font-family: "Chess Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px; /* 100% */
+}
+
 .debug-section {
   margin-top: 20px;
   padding: 15px;

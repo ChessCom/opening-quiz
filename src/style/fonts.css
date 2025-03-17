@@ -1,0 +1,71 @@
+/* Black */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Extra Bold */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-ExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Extra Light */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Light */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Medium */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Regular */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Semi Bold */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Thin */
+@font-face {
+  font-family: "Chess Sans";
+  src: url("./fonts/ChessSans-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}

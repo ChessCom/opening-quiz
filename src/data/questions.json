@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "question": "What is your chess level?",
+    "question": "First, what is your average skill level?",
     "conditional": false,
     "options": [
-      { "text": "Beginner", "value": "beginner" },
-      { "text": "Intermediate", "value": "intermediate" },
-      { "text": "Advanced", "value": "advanced" }
+      { "text": "Beginner", "subtext": "500+ ELO" , "value": "beginner", "icon": "" },
+      { "text": "Intermediate", "subtext": "1200+ ELO" ,"value": "intermediate", "icon": "" },
+      { "text": "Advanced", "subtext": "1800+ ELO" ,"value": "advanced", "icon": "" }
     ]
   },
   {
