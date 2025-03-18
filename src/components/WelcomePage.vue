@@ -1,5 +1,5 @@
 <template>
-  <div class="header-logo mobile">
+  <div class="header-logo mobile-img">
     <img
       src="/assets/images/mobile-header.svg"
       width="155"
@@ -18,7 +18,7 @@
         />
         <span>QUIZ</span>
       </h1> -->
-      <div class="header-logo desktop">
+      <div class="header-logo desktop-img">
         <img
           src="/assets/images/splash-header.svg"
           width="405"
@@ -39,18 +39,16 @@
     </div>
     <div class="welcome-image">
       <img
-        src="/assets/images/opening-book.svg"
+        src="/assets/images/open-book.svg"
         width="962"
         height="613"
         alt="openings book"
-        class="desktop"
+        class="desktop-img"
       />
       <img
-        src="/assets/images/opening-book-mob.svg"
-        width="585"
-        height="441"
+        src="/assets/images/open-book.svg"
         alt="openings book"
-        class="mobile"
+        class="mobile-img"
       />
     </div>
     <!-- <div class="cta-block mobile">
@@ -91,6 +89,8 @@ export default {
   margin-left: auto;
   max-width: 1150px;
   width: 100%;
+  margin: auto;
+  overflow: visible;
 }
 
 .welcome-text {
@@ -111,14 +111,13 @@ export default {
   align-items: center;
   position: relative;
   width: 100%;
-  overflow: hidden;
+  flex-grow: 1;
 }
 
 .welcome-image img {
   position: absolute;
   left: 0;
   object-fit: contain;
-  width: 116%;
 }
 
 .welcome-text p {
@@ -132,7 +131,7 @@ export default {
   font-family: "Chess Sans";
 }
 
-.mobile {
+.mobile-img {
   display: none;
 }
 @media only screen and (max-width: 1024px) {
@@ -144,18 +143,18 @@ export default {
     font-weight: 700;
     line-height: normal;
   }
-  .header-logo.desktop img {
+  .header-logo.desktop-img img {
     width: 290px;
     height: auto;
   }
 }
 
 @media only screen and (max-width: 640px) {
-  .desktop {
+  .desktop-img {
     display: none;
   }
 
-  .mobile {
+  .mobile-img {
     display: block;
   }
 
@@ -163,34 +162,33 @@ export default {
     flex-direction: column-reverse;
   }
 
-  .header-logo.mobile {
+  .welcome-text {
+    position: sticky;
+    bottom: 0;
+    z-index: 100000;
+    backdrop-filter: blur(10px);
+    padding: 24px 12px;
+    align-items: center;
+    gap: 26px;
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .header-logo.mobile-img {
     padding: 52px 40px 35px;
     display: flex;
     align-items: center;
   }
 
-  .welcome-text {
-    max-width: 100%;
-    width: 100%;
-    padding-top: 0px;
-    padding-bottom: 45px;
-    min-width: unset;
-    padding-left: 16px;
-    padding-right: 16px;
-    align-items: center;
-    gap: 26px;
-  }
-
   .welcome-image img {
-    height: 100%;
-    transform: translateX(-50%);
-    left: 50%;
-    width: auto;
+    overflow: visible;
+    position: relative;
+    width: 100%;
   }
 
   .welcome-image {
-    height: 441px;
-    margin-bottom: -24px;
+    width: 100%;
   }
 
   .welcome-text p {
