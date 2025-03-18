@@ -1,7 +1,15 @@
 <template>
+  <div class="header-logo mobile">
+    <img
+      src="/assets/images/mobile-header.svg"
+      width="155"
+      height="50"
+      alt="Opening quiz header"
+    />
+  </div>
   <div class="welcome-page">
     <div class="welcome-text">
-      <h1>
+      <!-- <h1>
         <img
           src="/assets/images/opening.png"
           width="406"
@@ -9,7 +17,15 @@
           alt="Opening quiz heading"
         />
         <span>QUIZ</span>
-      </h1>
+      </h1> -->
+      <div class="header-logo desktop">
+        <img
+          src="/assets/images/splash-header.svg"
+          width="405"
+          height="130"
+          alt="Opening quiz header"
+        />
+      </div>
       <p>Which opening <br />should you play?</p>
       <button class="primary-btn" @click="startQuiz">
         <img
@@ -29,6 +45,18 @@
         alt="openings book"
       />
     </div>
+    <!-- <div class="cta-block mobile">
+      <p>Which opening <br />should you play?</p>
+      <button class="primary-btn" @click="startQuiz">
+        <img
+          src="/assets/images/magnifier.png"
+          width="32"
+          height="32"
+          alt="magnifier"
+        />
+        <span>Take Quiz</span>
+      </button>
+    </div> -->
   </div>
 </template>
 
@@ -43,29 +71,18 @@ export default {
 </script>
 
 <style scoped>
-h1 {
+.header-logo {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
-  align-items: start;
-}
-
-h1 span {
-  color: #81b64c;
-  font-size: 70.45px;
-  font-family: "Chess Sans";
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60.956px; /* 86.523% */
-  letter-spacing: 3.522px;
-  transform: scaleX(1.18);
-  transform-origin: left;
+  align-items: center;
+  justify-content: center;
 }
 
 .welcome-page {
-  margin-top: 108px;
-  margin-bottom: 177px;
   position: relative;
+  display: flex;
+  margin-left: auto;
+  max-width: 1150px;
+  width: 100%;
 }
 
 .welcome-text {
@@ -74,17 +91,26 @@ h1 span {
   align-items: start;
   max-width: 486px;
   width: 100%;
-  padding-top: 108px;
-  margin-left: 171px;
+  padding-top: 215px;
+  padding-bottom: 177px;
+  min-width: 40%;
+  padding-left: 50px;
 }
 
 .welcome-image {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.welcome-image img {
   position: absolute;
-  top: 0;
-  right: 0;
+  left: 0;
+  object-fit: contain;
+  width: 116%;
 }
 
 .welcome-text p {
@@ -96,5 +122,82 @@ h1 span {
   line-height: normal;
   text-align: start;
   font-family: "Chess Sans";
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .welcome-page {
+    flex-direction: column-reverse;
+  }
+
+  .header-logo.mobile {
+    padding: 52px 40px 35px;
+    display: flex;
+    align-items: center;
+  }
+
+  .welcome-text {
+    max-width: 100%;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 45px;
+    min-width: unset;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    gap: 26px;
+  }
+
+  .welcome-image img {
+    height: 100%;
+    right: 0px;
+    left: unset;
+    width: auto;
+  }
+
+  .welcome-image {
+    height: 441px;
+  }
+
+  .welcome-text p {
+    color: #fff;
+    text-align: center;
+    font-family: "Chess Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+  }
+
+  .welcome-text .primary-btn {
+    max-width: 225px;
+    width: 100%;
+  }
+
+  footer nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 540px) {
+    .welcome-image img {
+      height: 100%;
+      transform: translateX(-50%);
+      left: 50%;
+      width: auto;
+    }
+  }
 }
 </style>

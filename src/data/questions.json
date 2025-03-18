@@ -2,6 +2,7 @@
   {
     "id": 1,
     "question": "First, what is your average skill level?",
+    "questionImage":"",
     "conditional": false,
     "options": [
       { "text": "Beginner", "subtext": "500+ ELO" , "value": "beginner", "icon": "/assets/images/answers/01-01.svg" },
@@ -11,7 +12,8 @@
   },
   {
     "id": 2,
-    "question": "Great! Which side of the board do you want to focus on??",
+    "question": "Great! Which side of the board do you want to focus on?",
+    "questionImage":"",
     "conditional": false,
     "options": [
       { "text": "White", "value": "white", "icon": "/assets/images/answers/02-01.svg"},
@@ -21,7 +23,8 @@
   },
   {
     "id": 3,
-    "question": "From the starting position, what would be your first move??",
+    "question": "From the starting position, what would be your first move?",
+    "questionImage":"",
     "conditional": "white",
     "options": [
       { "text": "1. e4", "value": "e4", "icon": "/assets/images/answers/03-01.svg" },
@@ -32,13 +35,13 @@
   },
   {
     "id": 4,
-    "question": "How does your opponent start?",
+    "question": "From the starting position, what would be your first move?",
     "conditional": "black",
     "options": [
-      { "text": "1. e4", "value": "e4", "icon": "" },
-      { "text": "1. d4", "value": "d4", "icon": "" },
-      { "text": "Other", "value": "other", "icon": "" },
-      { "text": "Surprise me!", "value": "", "icon": "" }
+      { "text": "1. e4", "value": "e4", "icon": "/assets/images/answers/03-01.svg" },
+      { "text": "1. d4", "value": "d4", "icon": "/assets/images/answers/03-02.svg" },
+      { "text": "Other", "value": "other", "icon": "/assets/images/answers/03-03.svg" },
+      { "text": "Surprise me!", "value": "", "icon": "/assets/images/answers/03-04.svg" }
     ]
   },
   {
@@ -55,13 +58,14 @@
   },
   {
     "id": 6,
-    "question": "Is there an opening you specifically want a response to?",
+    "question": "What would be your opponents first move?",
+    "questionImage":"",
     "conditional": "d4",
     "options": [
-      { "text": "1... d5", "value": "d5", "icon": "" },
-      { "text": "1... Nf6", "value": "Nf6", "icon": "" },
-      { "text": "Other", "value": "other", "icon": "" },
-      { "text": "Surprise me!", "value": "", "icon": "" }
+      { "text": "1... d5", "value": "d5", "icon": "/assets/images/answers/04-01.svg" },
+      { "text": "1... Nf6", "value": "Nf6", "icon": "/assets/images/answers/04-02.svg" },
+      { "text": "Other", "value": "other", "icon": "/assets/images/answers/04-03.svg" },
+      { "text": "Surprise me!", "value": "", "icon": "/assets/images/answers/04-04.svg" }
     ]
   },
   {
@@ -69,33 +73,35 @@
     "question": "Opponents would say your play style is...?",
     "conditional": false,
     "options": [
-      { "text": "Agressive", "subtext":"Always looking for attacks.", "value": "attacking", "icon":"/assets/images/answers/05-01"},
-      { "text": "Evasive","subtext":"Waiting for mistakes and countering.", "value": "counter-attacking" ,  "icon":"/assets/images/answers/05-02"},
-      { "text": "Balanced", "subtext":"Good moves = Good chess.","value": "balanced" , "icon": "/assets/images/answers/05-03"},
-      { "text": "Positional","subtext":"Controlling the board with patient strategy.", "value": "positional",  "icon":"/assets/images/answers/05-04" },
-      { "text": "Resilient", "subtext":"Trading early and winning the endgame.","value": "trading" ,  "icon":"/assets/images/answers/05-05"}
+      { "text": "Agressive", "subtext":"Always looking for attacks.", "value": "attacking", "icon":"/assets/images/answers/05-01.svg"},
+      { "text": "Evasive","subtext":"Waiting for mistakes and countering.", "value": "counter-attacking" ,  "icon":"/assets/images/answers/05-02.svg"},
+      { "text": "Balanced", "subtext":"Good moves = Good chess.","value": "balanced" , "icon": "/assets/images/answers/05-03.svg"},
+      { "text": "Positional","subtext":"Controlling the board with patient strategy.", "value": "positional",  "icon":"/assets/images/answers/05-04.svg" },
+      { "text": "Resilient", "subtext":"Trading early and winning the endgame.","value": "trading" ,  "icon":"/assets/images/answers/05-05.svg"}
     ]
   },
   {
     "id": 8,
     "question": "How do you feel about memorizing moves?",
+    "questionImage":"",
     "conditional": false,
     "options": [
-      { "text": "What was the question?","subtext":"No thanks. I’d rather focus on playing.", "value": "not much", "icon":"/assets/images/answers/06-01" },
-      { "text": "Okay, I guess...", "subtext":"I want to learn ideas more than memorize.","value": "a little",  "icon":"/assets/images/answers/06-02" },
-      { "text": "If it helps me improve","subtext":"I’ll learn key lines if it means I’ll win more.", "value": "some" ,  "icon":"/assets/images/answers/06-03"},
-      { "text": "Memorization is a strength", "subtext":"I use complexity to my advantage.","value": "a lot" ,  "icon":"/assets/images/answers/06-04"}
+      { "text": "What was the question?","subtext":"No thanks. I’d rather focus on playing.", "value": "not much", "icon":"/assets/images/answers/06-01.svg" },
+      { "text": "Okay, I guess...", "subtext":"I want to learn ideas more than memorize.","value": "a little",  "icon":"/assets/images/answers/06-02.svg" },
+      { "text": "If it helps me improve","subtext":"I’ll learn key lines if it means I’ll win more.", "value": "some" ,  "icon":"/assets/images/answers/06-03.svg"},
+      { "text": "Memorization is a strength", "subtext":"I use complexity to my advantage.","value": "a lot" ,  "icon":"/assets/images/answers/06-04.svg"}
     ]
   },
   {
     "id": 9,
     "question": "Finally, what type of opening do you want to learn?",
+    "questionImage":"",
     "conditional": false,
     "options": [
-      { "text": "Tricky", "subtext":"Traps and tactics for specific situations.","value": "tricks",  "icon":"/assets/images/answers/07-01" },
-      { "text": "Surprising", "subtext":"Uncommon moves that will surprise most players.","value": "surprises" ,  "icon":"/assets/images/answers/07-02"},
-      { "text": "Solid", "subtext":"Popular openings for reliable results.", "value": "solid" ,  "icon":"/assets/images/answers/07-03"},
-      { "text": "Competitive", "subtext": "Openings played by the best players.","value": "top-tier",  "icon":"/assets/images/answers/07-04" }
+      { "text": "Tricky", "subtext":"Traps and tactics for specific situations.","value": "tricks",  "icon":"/assets/images/answers/07-01.svg" },
+      { "text": "Surprising", "subtext":"Uncommon moves that will surprise most players.","value": "surprises" ,  "icon":"/assets/images/answers/07-02.svg"},
+      { "text": "Solid", "subtext":"Popular openings for reliable results.", "value": "solid" ,  "icon":"/assets/images/answers/07-03.svg"},
+      { "text": "Competitive", "subtext": "Openings played by the best players.","value": "top-tier",  "icon":"/assets/images/answers/07-04.svg" }
     ]
   }
 ]
