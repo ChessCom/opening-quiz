@@ -37,7 +37,7 @@
         v-if="currentQuestionIndex < questions.length"
       >
         <div class="question-img">
-          <img src="/assets/images/chess_board.jpg" width="512" height="512" />
+          <img src="/assets/images/chess_board.jpg" />
         </div>
         <div class="question-content">
           <div class="question-text desktop">
@@ -325,7 +325,7 @@ header {
   flex-direction: column;
   gap: 6px;
   align-items: center;
-  padding: 58px 0;
+  padding: 32px 0;
 }
 
 header span {
@@ -380,6 +380,10 @@ header span {
   justify-content: center;
   border-radius: 8px;
   overflow: hidden;
+  width: 100%;
+}
+
+.question-img > img {
   width: 100%;
 }
 
@@ -488,6 +492,12 @@ header span {
   border: 1px solid #ddd;
 }
 
+@media only screen and (max-width: 900px) {
+  .question-container {
+    gap: 24px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .mobile {
     display: block;
@@ -495,6 +505,14 @@ header span {
 
   .desktop {
     display: none;
+  }
+
+  header {
+    padding: 24px;
+  }
+
+  header > img {
+    max-width: 155px;
   }
 
   .question-container {
