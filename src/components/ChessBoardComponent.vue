@@ -27,7 +27,7 @@
         @click="showControls = true"
       >
         <img
-          src="@/assets/images/plus.svg"
+          src="/assets/images/plus.svg"
           width="16"
           height="16"
           alt="show controls"
@@ -39,7 +39,7 @@
         <div class="board-controls">
           <button @click="toStartPostition" :disabled="currMove === 0">
             <img
-              src="@/assets/images/chevron-start.svg"
+              src="/assets/images/chevron-start.svg"
               width="28"
               height="28"
               alt="to start position"
@@ -47,7 +47,7 @@
           </button>
           <button @click="prevMove" :disabled="currMove === 0">
             <img
-              src="@/assets/images/chevron-left.svg"
+              src="/assets/images/chevron-left.svg"
               width="28"
               height="28"
               alt="previous move"
@@ -55,7 +55,7 @@
           </button>
           <button @click="nextMove" :disabled="currMove >= moves.length">
             <img
-              src="@/assets/images/chevron-right.svg"
+              src="/assets/images/chevron-right.svg"
               width="28"
               height="28"
               alt="next move"
@@ -63,7 +63,7 @@
           </button>
           <button @click="toEndPostition" :disabled="currMove >= moves.length">
             <img
-              src="@/assets/images/chevron-end.svg"
+              src="/assets/images/chevron-end.svg"
               width="28"
               height="28"
               alt="to end of the line"
@@ -89,7 +89,7 @@
         </a>
         <a v-if="isChessCom" class="lesson-card" :href="courseLink">
           <img
-            src="@/assets/images/chess-coach.svg"
+            src="/assets/images/chess-coach.svg"
             width="48"
             height="48"
             alt="Chess Coach image"
@@ -103,7 +103,7 @@
       <div class="action-btn-container">
         <a class="secondary-btn" href="https://www.chess.com/play/online">
           <img
-            src="@/assets/images/playwhite.svg"
+            src="/assets/images/playwhite.svg"
             width="24"
             height="24"
             alt="hand and pawn"
@@ -112,7 +112,7 @@
         </a>
         <button class="secondary-btn">
           <img
-            src="@/assets/images/share.svg"
+            src="/assets/images/share.svg"
             width="24"
             height="24"
             alt="hand and pawn"
