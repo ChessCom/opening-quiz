@@ -252,7 +252,7 @@ footer nav a:hover {
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .secondary-btn img {
     width: 62px;
     height: 62px;
