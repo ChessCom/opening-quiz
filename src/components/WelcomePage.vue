@@ -40,8 +40,6 @@
     <div class="welcome-image">
       <img
         src="/assets/images/open-book.svg"
-        width="962"
-        height="613"
         alt="openings book"
         class="desktop-img"
       />
@@ -87,10 +85,8 @@ export default {
   position: relative;
   display: flex;
   margin-left: auto;
-  max-width: 1150px;
-  width: 100%;
-  margin: auto;
-  overflow: visible;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .welcome-text {
@@ -112,6 +108,7 @@ export default {
   position: relative;
   width: 100%;
   flex-grow: 1;
+  overflow: visible; /* Allow overflow outside the div */
 }
 
 .welcome-image img {
@@ -134,6 +131,13 @@ export default {
 .mobile-img {
   display: none;
 }
+
+@media only screen and (max-width: 1050px) {
+  .welcome-image img {
+    overflow: hidden;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .welcome-text p {
     color: #fff;
@@ -184,11 +188,12 @@ export default {
   .welcome-image img {
     overflow: visible;
     position: relative;
-    width: 100%;
+    width: 120%;
   }
 
   .welcome-image {
     width: 100%;
+    overflow: visible; /* Allow overflow outside the div */
   }
 
   .welcome-text p {
