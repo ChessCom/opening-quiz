@@ -37,7 +37,7 @@
         v-if="currentQuestionIndex < questions.length"
       >
         <div class="question-img">
-          <img src="/assets/images/chess_board.jpg" />
+          <img :src="questions[currentQuestionIndex].questionImage" />
         </div>
         <div class="question-content">
           <div class="question-text desktop">
@@ -537,7 +537,7 @@ header span {
     margin-bottom: 16px;
   }
 
-  .question-text.mobile h1 {
+  .question-text.mobile h2 {
     color: #fff;
     font-family: "Chess Sans";
     font-size: 28px;

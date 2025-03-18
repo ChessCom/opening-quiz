@@ -72,7 +72,10 @@
         </div>
       </div>
       <div class="learn-opening">
-        <span>Learn this opening on chesscom courses</span>
+        <span v-if="isChessable">Learn this opening on chesscom courses</span>
+        <span v-if="isChessCom"
+          >Practice this opening with a chess.com Lesson</span
+        >
         <a v-if="isChessable" class="course-card" :href="courseLink">
           <div class="course-img">
             <img :src="chessableCourseCover" width="65" height="65" alt="" />
@@ -84,18 +87,17 @@
             <div class="author">{{ chessableCourseAuthor }}</div>
           </div>
         </a>
-        <div v-if="isChessCom" class="lesson-card">
-          <div class="title">Learn The Scandinavian Defense</div>
-          <div class="author">Chess.com Lesson</div>
-        </div>
-        <a class="secondary-btn" :href="courseLink">
+        <a v-if="isChessCom" class="lesson-card" :href="courseLink">
           <img
             src="/assets/images/chess-coach.svg"
             width="48"
             height="48"
             alt="Chess Coach image"
           />
-          <span>Learn The Scandinavian Defense</span>
+          <div class="lesson-info">
+            <div class="title">Learn {{ openingName }}</div>
+            <div class="author">Chess.com Lesson</div>
+          </div>
         </a>
       </div>
       <div class="action-btn-container">
@@ -348,6 +350,9 @@ export default {
   position: relative;
   width: 512px;
   height: 512px;
+  border-radius: 5px;
+  overflow: hidden;
+  min-width: 512px;
 }
 .chessboard-component {
   display: flex;
@@ -442,7 +447,8 @@ export default {
   min-width: 65px;
 }
 
-.course-info {
+.course-info,
+.lesson-info {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -477,7 +483,7 @@ export default {
 
 .lesson-card {
   display: flex;
-  flex-direction: column;
+  text-decoration: none;
   gap: 4px;
   border-radius: 10px;
   padding: 12px;
@@ -606,6 +612,7 @@ button:disabled {
   align-items: center;
   gap: 8px;
   padding: 8px 16px 0;
+  cursor: pointer;
 }
 
 .show-controls span {
@@ -648,10 +655,11 @@ button:disabled {
   .action-btn-container .secondary-btn {
     width: 100%;
   }
-}
+  .chessboard-wrapper {
+    min-width: unset;
+    width: 50%;
+  }
 
-@media only screen and (max-width: 860px) {
-  .chessboard-wrapper,
   .results-content {
     width: 50%;
   }
@@ -670,7 +678,10 @@ button:disabled {
     flex-direction: column;
   }
 
-  .chessboard-wrapper,
+  .chessboard-wrapper {
+    height: max-content;
+    align-self: center;
+  }
   .results-content {
     width: 100%;
     height: max-content;
@@ -710,6 +721,12 @@ button:disabled {
 
   .notation-wrapper.mobile-show {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .chessboard-wrapper {
+    width: 100%;
   }
 }
 </style>

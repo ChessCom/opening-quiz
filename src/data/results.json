@@ -1482,7 +1482,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - black - e4 -  - counter-attacking - some - surprises": {
     "ecoName": "Scandinavian Defense: Modern, Scandinavian Gambit",
@@ -1500,7 +1500,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - black - e4 -  - attacking - a lot - top-tier": {
     "ecoName": "Ruy López Opening: Marshall Attack",
@@ -1752,7 +1752,7 @@
     "courseLink": "https://www.chessable.com/the-sturdy-lowenthal-sicilian-with-7-qe7/course/24825",
     "chessableCourseCover": "https://www.chessable.com/img/books/248251668547600.png",
     "chessableCourseTitle": "The Sturdy Lowenthal Sicilian with 7... Qe7!",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "raskerinochess"
   },
   "intermediate - black - e4 -  - positional - not much - surprises": {
     "ecoName": "Philidor Defense: Hanham, Lion Variation",
@@ -2040,7 +2040,7 @@
     "courseLink": "https://www.chessable.com/the-sturdy-lowenthal-sicilian-with-7-qe7/course/24825/",
     "chessableCourseCover": "https://www.chessable.com/img/books/248251668547600.png",
     "chessableCourseTitle": "The Sturdy Lowenthal Sicilian with 7... Qe7!",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "raskerinochess"
   },
   "intermediate - black - e4 -  - trading - some - solid": {
     "ecoName": "Ruy López Opening: Berlin Defense",
@@ -2193,7 +2193,7 @@
     "courseLink": "https://www.chessable.com/light-it-up-with-the-leningrad/course/77342/",
     "chessableCourseCover": "https://www.chessable.com/img/books/773421668533366.png",
     "chessableCourseTitle": "Light It Up With The Leningrad",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "till"
   },
   "intermediate - black - d4 -  - attacking - some - surprises": {
     "ecoName": "Budapest Gambit",
@@ -2346,7 +2346,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - black - d4 -  - balanced - some - solid": {
     "ecoName": "Nimzo-Indian Defense",
@@ -2362,18 +2362,18 @@
     "ecoCode": "1358",
     "openingFor": "Black",
     "courseLink": "https://www.chessable.com/the-notorious-nimzo-sicilian/course/65708/",
-    "chessableCourseCover": "Error",
-    "chessableCourseTitle": "Error",
-    "chessableCourseAuthor": "Error"
+    "chessableCourseCover": "https://www.chessable.com/img/books/657081668513574.png",
+    "chessableCourseTitle": "The Notorious Nimzo Sicilian",
+    "chessableCourseAuthor": "Amro El Jawich"
   },
   "intermediate - black - d4 -  - counter-attacking - a lot - surprises": {
     "ecoName": "Bogo-Indian Defense",
     "ecoCode": "223",
     "openingFor": "Black",
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
-    "chessableCourseCover": "Error",
-    "chessableCourseTitle": "Error",
-    "chessableCourseAuthor": "Error"
+    "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
+    "chessableCourseTitle": "The Active Bogo-Indian Defense",
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "intermediate - black - d4 -  - trading - not much - solid": {
     "ecoName": "Bogo-Indian Defense",
@@ -2436,7 +2436,7 @@
     "courseLink": "https://www.chessable.com/learn-the-classical-slav/course/150727/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1507271704192629.png",
     "chessableCourseTitle": "Learn the Classical Slav",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "LundiHakarlsson"
   },
   "intermediate - black - d4 -  - counter-attacking - some - tricks": {
     "ecoName": "Bogo-Indian Defense",
@@ -2454,7 +2454,7 @@
     "courseLink": "https://www.chessable.com/learn-the-classical-slav/course/150727/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1507271704192629.png",
     "chessableCourseTitle": "Learn the Classical Slav",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "LundiHakarlsson"
   },
   "intermediate - black - d4 -  - positional - a lot - top-tier": {
     "ecoName": "Queen's Gambit Declined: Three Knights, Semi-Tarrasch Defense",
@@ -2643,7 +2643,7 @@
     "courseLink": "https://www.chessable.com/learn-the-classical-slav/course/150727/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1507271704192629.png",
     "chessableCourseTitle": "Learn the Classical Slav",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "LundiHakarlsson"
   },
   "intermediate - black - d4 -  - counter-attacking - not much - tricks": {
     "ecoName": "Benoni Defense",
@@ -2679,7 +2679,7 @@
     "courseLink": "https://www.chessable.com/light-it-up-with-the-leningrad/course/77342/",
     "chessableCourseCover": "https://www.chessable.com/img/books/773421668533366.png",
     "chessableCourseTitle": "Light It Up With The Leningrad",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "till"
   },
   "intermediate - black - d4 -  - attacking - not much - solid": {
     "ecoName": "Queen's Gambit Declined: Cambridge Springs Defense",
@@ -2922,7 +2922,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "advanced - black - e4 -  - counter-attacking - some - solid": {
     "ecoName": "French Defense: Winawer Variation",
@@ -2931,7 +2931,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "advanced - black - e4 -  - attacking - a lot - top-tier": {
     "ecoName": "Ruy López Opening: Marshall Attack",
@@ -3201,7 +3201,7 @@
     "courseLink": "https://www.chessable.com/the-sturdy-lowenthal-sicilian-with-7-qe7/course/24825/",
     "chessableCourseCover": "https://www.chessable.com/img/books/248251668547600.png",
     "chessableCourseTitle": "The Sturdy Lowenthal Sicilian with 7... Qe7!",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "raskerinochess"
   },
   "advanced - black - e4 -  - positional - not much - surprises": {
     "ecoName": "Philidor Defense: Hanham, Lion Variation",
@@ -3489,7 +3489,7 @@
     "courseLink": "https://www.chessable.com/the-sturdy-lowenthal-sicilian-with-7-qe7/course/24825/",
     "chessableCourseCover": "https://www.chessable.com/img/books/248251668547600.png",
     "chessableCourseTitle": "The Sturdy Lowenthal Sicilian with 7... Qe7!",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "raskerinochess"
   },
   "advanced - black - e4 -  - positional - a lot - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Keres, Chigorin Defense",
@@ -3624,7 +3624,7 @@
     "courseLink": "https://www.chessable.com/light-it-up-with-the-leningrad/course/77342/",
     "chessableCourseCover": "https://www.chessable.com/img/books/773421668533366.png",
     "chessableCourseTitle": "Light It Up With The Leningrad",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "till"
   },
   "advanced - black - d4 -  - attacking - some - surprises": {
     "ecoName": "Budapest Gambit",
@@ -4083,7 +4083,7 @@
     "courseLink": "https://www.chessable.com/learn-the-classical-slav/course/150727/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1507271704192629.png",
     "chessableCourseTitle": "Learn the Classical Slav",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "LundiHakarlsson"
   },
   "advanced - black - d4 -  - counter-attacking - not much - tricks": {
     "ecoName": "Benoni Defense",
@@ -4461,7 +4461,7 @@
     "courseLink": "https://www.chessable.com/the-devious-ponziani/course/92093/",
     "chessableCourseCover": "https://www.chessable.com/img/books/920931668551070.png",
     "chessableCourseTitle": "The Devious Ponziani",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JayWeigall"
   },
   "beginner - white - e4 - e5 - counter-attacking - a little - surprises": {
     "ecoName": "Ponziani Opening",
@@ -4470,7 +4470,7 @@
     "courseLink": "https://www.chessable.com/the-devious-ponziani/course/92093/",
     "chessableCourseCover": "https://www.chessable.com/img/books/920931668551070.png",
     "chessableCourseTitle": "The Devious Ponziani",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JayWeigall"
   },
   "beginner - white - e4 - e5 - positional - not much - top-tier": {
     "ecoName": "Four Knights Game: Scotch Variation Accepted",
@@ -4506,7 +4506,7 @@
     "courseLink": "https://www.chessable.com/the-devious-ponziani/course/92093/",
     "chessableCourseCover": "https://www.chessable.com/img/books/920931668551070.png",
     "chessableCourseTitle": "The Devious Ponziani",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JayWeigall"
   },
   "beginner - white - e4 - e5 - attacking - not much - solid": {
     "ecoName": "Vienna Game: Falkbeer, Stanley Variation",
@@ -4524,7 +4524,7 @@
     "courseLink": "https://www.chessable.com/the-devious-ponziani/course/92093/",
     "chessableCourseCover": "https://www.chessable.com/img/books/920931668551070.png",
     "chessableCourseTitle": "The Devious Ponziani",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JayWeigall"
   },
   "beginner - white - e4 - e5 - attacking - a little - solid": {
     "ecoName": "Vienna Game: Falkbeer, Stanley Variation",
@@ -4740,16 +4740,16 @@
     "courseLink": "https://www.chessable.com/the-devious-ponziani/course/92093/",
     "chessableCourseCover": "https://www.chessable.com/img/books/920931668551070.png",
     "chessableCourseTitle": "The Devious Ponziani",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JayWeigall"
   },
   "beginner - white - e4 - e5 - counter-attacking - a little - tricks": {
     "ecoName": "Ponziani Opening",
     "ecoCode": "1558",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/the-devious-ponziani/course/92093/",
-    "chessableCourseCover": "Error",
-    "chessableCourseTitle": "Error",
-    "chessableCourseAuthor": "Error"
+    "chessableCourseCover": "https://www.chessable.com/img/books/920931668551070.png",
+    "chessableCourseTitle": "The Devious Ponziani",
+    "chessableCourseAuthor": "JayWeigall"
   },
   "beginner - white - e4 - e5 - positional - a little - tricks": {
     "ecoName": "Petrov's Defense: Three Knights Game",
@@ -4767,7 +4767,7 @@
     "courseLink": "https://www.chessable.com/the-devious-ponziani/course/92093/",
     "chessableCourseCover": "https://www.chessable.com/img/books/920931668551070.png",
     "chessableCourseTitle": "The Devious Ponziani",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JayWeigall"
   },
   "beginner - white - e4 - e5 - attacking - not much - top-tier": {
     "ecoName": "Vienna Game: Falkbeer, Stanley Variation",
@@ -4785,7 +4785,7 @@
     "courseLink": "https://www.chessable.com/the-devious-ponziani/course/92093/",
     "chessableCourseCover": "https://www.chessable.com/img/books/920931668551070.png",
     "chessableCourseTitle": "The Devious Ponziani",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JayWeigall"
   },
   "beginner - white - e4 - e5 - attacking - a little - top-tier": {
     "ecoName": "Vienna Game: Falkbeer, Stanley Variation",
@@ -6450,7 +6450,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - counter-attacking - a little - surprises": {
     "ecoName": "Richter-Veresov Attack",
@@ -6459,7 +6459,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - counter-attacking - not much - surprises": {
     "ecoName": "Richter-Veresov Attack",
@@ -6468,14 +6468,14 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - positional - a little - solid": {
     "ecoName": "Slav Defense: Modern, Breyer Variation",
     "ecoCode": "2309",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -6639,7 +6639,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - counter-attacking - a little - tricks": {
     "ecoName": "Richter-Veresov Attack",
@@ -6648,7 +6648,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - counter-attacking - not much - tricks": {
     "ecoName": "Richter-Veresov Attack",
@@ -6657,7 +6657,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - attacking - some - solid": {
     "ecoName": "Queen's Gambit Accepted: Old Variation",
@@ -6729,7 +6729,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - attacking - not much - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -6738,7 +6738,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - attacking - a little - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -6747,7 +6747,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - attacking - a little - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -6756,7 +6756,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - counter-attacking - not much - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -6765,7 +6765,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - counter-attacking - not much - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -6774,7 +6774,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - counter-attacking - a little - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -6783,7 +6783,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - counter-attacking - a little - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -6792,7 +6792,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white - d4 - d5 - balanced - some - tricks": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -7638,7 +7638,7 @@
     "courseLink": "https://www.chessable.com/super-scotch-game/course/469/",
     "chessableCourseCover": "https://www.chessable.com/img/books/4691457275149.png",
     "chessableCourseTitle": "Super Scotch Game",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "jasonrawls"
   },
   "intermediate - white - e4 - e5 - counter-attacking - some - surprises": {
     "ecoName": "Giuoco Piano Game: Evans Gambit",
@@ -7782,7 +7782,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100/",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Miodrag Perunović"
   },
   "intermediate - white - e4 - e5 - attacking - not much - surprises": {
     "ecoName": "Bishop's Opening",
@@ -7818,7 +7818,7 @@
     "courseLink": "https://www.chessable.com/get-romantic-play-the-kings-gambit-from-18th-and-19th-century-manuals/course/79397/",
     "chessableCourseCover": "https://www.chessable.com/img/books/793971668528038.png",
     "chessableCourseTitle": "Get Romantic: Play The King's Gambit From 18th and 19th Century Manuals",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "peterjohnson"
   },
   "intermediate - white - e4 - e5 - attacking - some - tricks": {
     "ecoName": "King's Gambit Accepted: King's Knight Gambit",
@@ -7827,7 +7827,7 @@
     "courseLink": "https://www.chessable.com/get-romantic-play-the-kings-gambit-from-18th-and-19th-century-manuals/course/79397/",
     "chessableCourseCover": "https://www.chessable.com/img/books/793971668528038.png",
     "chessableCourseTitle": "Get Romantic: Play The King's Gambit From 18th and 19th Century Manuals",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "peterjohnson"
   },
   "intermediate - white - e4 - e5 - positional - not much - top-tier": {
     "ecoName": "Four Knights Game: Scotch Variation Accepted",
@@ -7881,7 +7881,7 @@
     "courseLink": "https://www.chessable.com/the-complete-scotch/course/20476/",
     "chessableCourseCover": "https://www.chessable.com/img/books/204761668524051.png",
     "chessableCourseTitle": "The Complete Scotch",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - white - e4 - e5 - balanced - not much - top-tier": {
     "ecoName": "Italian Game",
@@ -7962,7 +7962,7 @@
     "courseLink": "https://www.chessable.com/italian-ambush-deutz-gambit/course/212371/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2123711727790628.png",
     "chessableCourseTitle": "Italian Ambush: Deutz Gambit",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Fylypo"
   },
   "intermediate - white - e4 - e5 - trading - a little - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Exchange, Normal Variation",
@@ -7989,7 +7989,7 @@
     "courseLink": "https://www.chessable.com/italian-ambush-deutz-gambit/course/212371/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2123711727790628.png",
     "chessableCourseTitle": "Italian Ambush: Deutz Gambit",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Fylypo"
   },
   "intermediate - white - e4 - e5 - attacking - a lot - top-tier": {
     "ecoName": "Ruy López Opening: Marshall Attack, Modern, Main Line",
@@ -8052,7 +8052,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "Miodrag Perunović"
+    "chessableCourseAuthor": "No Author Found"
   },
   "intermediate - white - e4 - e5 - counter-attacking - a little - tricks": {
     "ecoName": "Bishop's Opening",
@@ -8061,7 +8061,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "Miodrag Perunović"
+    "chessableCourseAuthor": "No Author Found"
   },
   "intermediate - white - e4 - e5 - counter-attacking - a little - top-tier": {
     "ecoName": "Bishop's Opening",
@@ -8070,7 +8070,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "Miodrag Perunović"
+    "chessableCourseAuthor": "No Author Found"
   },
   "intermediate - white - e4 - e5 - attacking - not much - tricks": {
     "ecoName": "Bishop's Opening",
@@ -8133,7 +8133,7 @@
     "courseLink": "https://www.chessable.com/the-complete-scotch/course/20476/",
     "chessableCourseCover": "https://www.chessable.com/img/books/204761668524051.png",
     "chessableCourseTitle": "The Complete Scotch",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - white - e4 - e5 - balanced - not much - solid": {
     "ecoName": "Italian Game",
@@ -9661,7 +9661,7 @@
     "ecoCode": "1686",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -9708,7 +9708,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - balanced - a lot - top-tier": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -9717,7 +9717,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - positional - some - top-tier": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -9726,7 +9726,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - positional - a lot - top-tier": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -9735,7 +9735,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - attacking - a lot - top-tier": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -9744,7 +9744,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - counter-attacking - a lot - top-tier": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -9753,7 +9753,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - balanced - a little - surprises": {
     "ecoName": "Queen's Pawn Opening: Chigorin, Barry Attack",
@@ -9778,7 +9778,7 @@
     "ecoCode": "1669",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -9787,7 +9787,7 @@
     "ecoCode": "1669",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -9807,7 +9807,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - counter-attacking - a little - surprises": {
     "ecoName": "Richter-Veresov Attack",
@@ -9816,7 +9816,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - counter-attacking - not much - surprises": {
     "ecoName": "Richter-Veresov Attack",
@@ -9825,7 +9825,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - balanced - some - solid": {
     "ecoName": "Queen's Gambit Declined: Ragozin, Alekhine Variation",
@@ -9897,7 +9897,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - counter-attacking - a lot - surprises": {
     "ecoName": "Slav Defense: Modern, Geller Gambit",
@@ -9915,7 +9915,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - positional - not much - solid": {
     "ecoName": "London System",
@@ -9942,7 +9942,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - counter-attacking - some - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -9951,7 +9951,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - attacking - not much - surprises": {
     "ecoName": "Queen's Pawn Opening: Torre Attack",
@@ -9994,7 +9994,7 @@
     "ecoCode": "1669",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -10003,7 +10003,7 @@
     "ecoCode": "1669",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -10023,7 +10023,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - counter-attacking - a little - tricks": {
     "ecoName": "Richter-Veresov Attack",
@@ -10032,7 +10032,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - counter-attacking - not much - tricks": {
     "ecoName": "Richter-Veresov Attack",
@@ -10041,7 +10041,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - trading - not much - top-tier": {
     "ecoName": "Slav Defense: Exchange Variation",
@@ -10113,7 +10113,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - balanced - some - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -10122,7 +10122,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - balanced - a lot - tricks": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -10131,7 +10131,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - balanced - a lot - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -10140,7 +10140,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - positional - some - tricks": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -10149,7 +10149,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - positional - some - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -10158,7 +10158,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - positional - a lot - tricks": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -10167,7 +10167,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - positional - a lot - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -10176,7 +10176,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - d5 - attacking - not much - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -10185,7 +10185,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - attacking - not much - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -10194,7 +10194,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - attacking - a little - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -10203,7 +10203,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - attacking - a little - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -10212,7 +10212,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - counter-attacking - not much - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -10221,7 +10221,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - counter-attacking - not much - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -10230,7 +10230,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - counter-attacking - a little - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -10239,7 +10239,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - counter-attacking - a little - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -10248,7 +10248,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white - d4 - d5 - trading - not much - tricks": {
     "ecoName": "Slav Defense: Exchange Variation",
@@ -10365,7 +10365,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - balanced - some - solid": {
     "ecoName": "Benoni Defense: Modern, Classical Variation",
@@ -10491,7 +10491,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - balanced - a lot - top-tier": {
     "ecoName": "Catalan Opening",
@@ -10500,7 +10500,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - positional - some - top-tier": {
     "ecoName": "Catalan Opening",
@@ -10509,7 +10509,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - positional - a lot - top-tier": {
     "ecoName": "Catalan Opening",
@@ -10518,7 +10518,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - attacking - a lot - top-tier": {
     "ecoName": "Queen's Indian Defense: Spassky System",
@@ -10680,7 +10680,7 @@
     "courseLink": "https://www.chessable.com/tactics-in-the-trompowsky/course/16578/",
     "chessableCourseCover": "https://www.chessable.com/img/books/165781617698385.png",
     "chessableCourseTitle": "Tactics in the TromPOWsky",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JeroenW"
   },
   "intermediate - white - d4 - nf6 - counter-attacking - not much - surprises": {
     "ecoName": "Torre Attack with 3.Bg5",
@@ -10851,7 +10851,7 @@
     "courseLink": "https://www.chessable.com/tactics-in-the-trompowsky/course/16578/",
     "chessableCourseCover": "https://www.chessable.com/img/books/165781617698385.png",
     "chessableCourseTitle": "Tactics in the TromPOWsky",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JeroenW"
   },
   "intermediate - white - d4 - nf6 - counter-attacking - not much - tricks": {
     "ecoName": "Torre Attack with 3.Bg5",
@@ -10905,7 +10905,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - balanced - some - surprises": {
     "ecoName": "Catalan Opening",
@@ -10914,7 +10914,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - balanced - a lot - tricks": {
     "ecoName": "Catalan Opening",
@@ -10923,7 +10923,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - balanced - a lot - surprises": {
     "ecoName": "Catalan Opening",
@@ -10932,7 +10932,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - positional - some - tricks": {
     "ecoName": "Catalan Opening",
@@ -10941,7 +10941,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - positional - some - surprises": {
     "ecoName": "Catalan Opening",
@@ -10950,7 +10950,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - positional - a lot - tricks": {
     "ecoName": "Catalan Opening",
@@ -10959,7 +10959,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - positional - a lot - surprises": {
     "ecoName": "Catalan Opening",
@@ -10968,7 +10968,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white - d4 - nf6 - trading - some - solid": {
     "ecoName": "King's Indian Defense: Orthodox, Exchange Variation",
@@ -11085,7 +11085,7 @@
     "courseLink": "https://www.chessable.com/the-complete-scotch-gambit/course/80250/",
     "chessableCourseCover": "https://www.chessable.com/img/books/802501710148861.png",
     "chessableCourseTitle": "The Complete Scotch Gambit",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "IronStone"
   },
   "advanced - white - e4 - e5 - balanced - a little - solid": {
     "ecoName": "Scotch Game",
@@ -11112,7 +11112,7 @@
     "courseLink": "https://www.chessable.com/the-complete-scotch-gambit/course/80250/",
     "chessableCourseCover": "https://www.chessable.com/img/books/802501710148861.png",
     "chessableCourseTitle": "The Complete Scotch Gambit",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "IronStone"
   },
   "advanced - white - e4 - e5 - balanced - some - top-tier": {
     "ecoName": "Giuoco Piano Game: Giuoco Pianissimo Variation",
@@ -11220,7 +11220,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100/",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "Miodrag Perunović"
+    "chessableCourseAuthor": "No Author Found"
   },
   "advanced - white - e4 - e5 - trading - a little - solid": {
     "ecoName": "Four Knights Game: Scotch Variation",
@@ -11418,7 +11418,7 @@
     "courseLink": "https://www.chessable.com/the-complete-scotch-gambit/course/80250/",
     "chessableCourseCover": "https://www.chessable.com/img/books/802501710148861.png",
     "chessableCourseTitle": "The Complete Scotch Gambit",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "IronStone"
   },
   "advanced - white - e4 - e5 - trading - a little - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Exchange, Normal Variation",
@@ -11454,7 +11454,7 @@
     "courseLink": "https://www.chessable.com/the-complete-scotch-gambit/course/80250/",
     "chessableCourseCover": "https://www.chessable.com/img/books/802501710148861.png",
     "chessableCourseTitle": "The Complete Scotch Gambit",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "IronStone"
   },
   "advanced - white - e4 - e5 - attacking - a lot - top-tier": {
     "ecoName": "Ruy López Opening: Marshall Attack, Modern, Main Line",
@@ -11724,7 +11724,7 @@
     "courseLink": "https://www.chessable.com/gustafsson-s-aggressive-1-e4-part-1/course/207313/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2073131710148929.png",
     "chessableCourseTitle": "Gustafsson’s Aggressive 1.e4 - Part 1",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Gustafsson"
   },
   "advanced - white - e4 - e5 - trading - some - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Exchange, Normal Variation",
@@ -11733,7 +11733,7 @@
     "courseLink": "https://www.chessable.com/the-smart-ruy-lopez--part-1-exchange-variation/course/48889/",
     "chessableCourseCover": "https://www.chessable.com/img/books/488891668536564.png",
     "chessableCourseTitle": "The Smart Ruy Lopez - Part 1: Exchange Variation",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Werle"
   },
   "advanced - white - e4 - e5 - trading - some - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Exchange, Normal Variation",
@@ -11742,7 +11742,7 @@
     "courseLink": "https://www.chessable.com/the-smart-ruy-lopez--part-1-exchange-variation/course/48889/",
     "chessableCourseCover": "https://www.chessable.com/img/books/488891668536564.png",
     "chessableCourseTitle": "The Smart Ruy Lopez - Part 1: Exchange Variation",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Werle"
   },
   "advanced - white - e4 - e5 - trading - some - solid": {
     "ecoName": "Ruy López Opening: Morphy Defense, Exchange, Normal Variation",
@@ -11751,7 +11751,7 @@
     "courseLink": "https://www.chessable.com/the-smart-ruy-lopez--part-1-exchange-variation/course/48889/",
     "chessableCourseCover": "https://www.chessable.com/img/books/488891668536564.png",
     "chessableCourseTitle": "The Smart Ruy Lopez - Part 1: Exchange Variation",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Werle"
   },
   "advanced - white - e4 - e5 - trading - some - top-tier": {
     "ecoName": "Ruy López Opening: Morphy Defense, Exchange, Normal Variation",
@@ -11769,7 +11769,7 @@
     "courseLink": "https://www.chessable.com/the-smart-ruy-lopez--part-1-exchange-variation/course/48889/",
     "chessableCourseCover": "https://www.chessable.com/img/books/488891668536564.png",
     "chessableCourseTitle": "The Smart Ruy Lopez - Part 1: Exchange Variation",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Werle"
   },
   "advanced - white - e4 - e5 - trading - a lot - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Exchange, Normal Variation",
@@ -11787,7 +11787,7 @@
     "courseLink": "https://www.chessable.com/the-smart-ruy-lopez--part-1-exchange-variation/course/48889/",
     "chessableCourseCover": "https://www.chessable.com/img/books/488891668536564.png",
     "chessableCourseTitle": "The Smart Ruy Lopez - Part 1: Exchange Variation",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Werle"
   },
   "advanced - white - e4 - e5 - trading - a lot - top-tier": {
     "ecoName": "Ruy López Opening: Morphy Defense, Exchange, Normal Variation",
@@ -11796,7 +11796,7 @@
     "courseLink": "https://www.chessable.com/the-smart-ruy-lopez--part-1-exchange-variation/course/48889/",
     "chessableCourseCover": "https://www.chessable.com/img/books/488891668536564.png",
     "chessableCourseTitle": "The Smart Ruy Lopez - Part 1: Exchange Variation",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Werle"
   },
   "advanced - white - e4 - c5 - attacking - a lot - top-tier": {
     "ecoName": "Sicilian Defense: Open Variation",
@@ -11805,7 +11805,7 @@
     "courseLink": "https://www.chessable.com/the-open-sicilian-a-champions-guide/course/97795/",
     "chessableCourseCover": "https://www.chessable.com/img/books/977951668535545.png",
     "chessableCourseTitle": "The Open Sicilian: A Champion's Guide",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Ivan Saric"
   },
   "advanced - white - e4 - c5 - counter-attacking - some - top-tier": {
     "ecoName": "Sicilian Defense: Open Variation",
@@ -11814,7 +11814,7 @@
     "courseLink": "https://www.chessable.com/the-open-sicilian-a-champions-guide/course/97795/",
     "chessableCourseCover": "https://www.chessable.com/img/books/977951668535545.png",
     "chessableCourseTitle": "The Open Sicilian: A Champion's Guide",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Ivan Saric"
   },
   "advanced - white - e4 - c5 - counter-attacking - a lot - top-tier": {
     "ecoName": "Sicilian Defense: Open Variation",
@@ -11823,7 +11823,7 @@
     "courseLink": "https://www.chessable.com/the-open-sicilian-a-champions-guide/course/97795/",
     "chessableCourseCover": "https://www.chessable.com/img/books/977951668535545.png",
     "chessableCourseTitle": "The Open Sicilian: A Champion's Guide",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Ivan Saric"
   },
   "advanced - white - e4 - c5 - attacking - a lot - solid": {
     "ecoName": "Sicilian Defense: Open, Najdorf, Opočenský Variation",
@@ -11832,7 +11832,7 @@
     "courseLink": "https://www.chessable.com/gustafsson-s-aggressive-1-e4-part-2/course/228856/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2288561722246841.png",
     "chessableCourseTitle": "Gustafsson’s Aggressive 1.e4 - Part 2",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Gustafsson"
   },
   "advanced - white - e4 - c5 - counter-attacking - some - solid": {
     "ecoName": "Sicilian Defense: Open, Najdorf, Opočenský Variation",
@@ -11841,7 +11841,7 @@
     "courseLink": "https://www.chessable.com/gustafsson-s-aggressive-1-e4-part-2/course/228856/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2288561722246841.png",
     "chessableCourseTitle": "Gustafsson’s Aggressive 1.e4 - Part 2",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Gustafsson"
   },
   "advanced - white - e4 - c5 - counter-attacking - a lot - solid": {
     "ecoName": "Sicilian Defense: Open, Najdorf, Opočenský Variation",
@@ -11850,7 +11850,7 @@
     "courseLink": "https://www.chessable.com/gustafsson-s-aggressive-1-e4-part-2/course/228856/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2288561722246841.png",
     "chessableCourseTitle": "Gustafsson’s Aggressive 1.e4 - Part 2",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Jan Gustafsson"
   },
   "advanced - white - e4 - c5 - attacking - some - solid": {
     "ecoName": "Sicilian Defense: Open, Scheveningen, Sozin Attack",
@@ -11859,7 +11859,7 @@
     "courseLink": "https://www.chessable.com/1-e4-a-comprehensive-white-repertoire/course/8209/",
     "chessableCourseCover": "https://www.chessable.com/img/books/82091636988771.png",
     "chessableCourseTitle": "1.e4: A Comprehensive White Repertoire",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Elijah Logozar"
   },
   "advanced - white - e4 - c5 - balanced - not much - solid": {
     "ecoName": "Alapin Sicilian Defense",
@@ -11868,7 +11868,7 @@
     "courseLink": "https://www.chessable.com/tame-the-sicilian-the-alapin-variation/course/130531/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1305311672665713.png",
     "chessableCourseTitle": "Tame the Sicilian: The Alapin Variation",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Rustam Kasimdzhanov"
   },
   "advanced - white - e4 - c5 - balanced - a little - solid": {
     "ecoName": "Sicilian Defense: O'Kelly, Maróczy Bind Formation",
@@ -11877,7 +11877,7 @@
     "courseLink": "https://www.chessable.com/stomp-the-sicilian-the-maroczy-bind/course/125308/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1253081667206465.png",
     "chessableCourseTitle": "Stomp the Sicilian: The Maroczy Bind",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Vjekoslav Nemec"
   },
   "advanced - white - e4 - c5 - attacking - some - top-tier": {
     "ecoName": "Sicilian Defense: Open Variation",
@@ -11886,7 +11886,7 @@
     "courseLink": "https://www.chessable.com/the-open-sicilian-a-champions-guide/course/97795/",
     "chessableCourseCover": "https://www.chessable.com/img/books/977951668535545.png",
     "chessableCourseTitle": "The Open Sicilian: A Champion's Guide",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Ivan Saric"
   },
   "advanced - white - e4 - c5 - attacking - a little - surprises": {
     "ecoName": "Sicilian Defense: Open Variation",
@@ -11895,7 +11895,7 @@
     "courseLink": "https://www.chessable.com/the-open-sicilian-a-champions-guide/course/97795/",
     "chessableCourseCover": "https://www.chessable.com/img/books/977951668535545.png",
     "chessableCourseTitle": "The Open Sicilian: A Champion's Guide",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Ivan Saric"
   },
   "advanced - white - e4 - c5 - positional - a little - solid": {
     "ecoName": "Sicilian Defense: Canal, Main Line, Sokolsky Variation",
@@ -11904,7 +11904,7 @@
     "courseLink": "https://www.chessable.com/keep-it-simple-1-e4-2-0/course/135659/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1356591673256599.png",
     "chessableCourseTitle": "Keep It Simple: 1.e4  - 2.0",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Christof Sielecki"
   },
   "advanced - white - e4 - c5 - attacking - not much - surprises": {
     "ecoName": "Sicilian Defense: McDonnell Attack",
@@ -11922,7 +11922,7 @@
     "courseLink": "https://www.chessable.com/keep-it-simple-1-e4-2-0/course/135659/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1356591673256599.png",
     "chessableCourseTitle": "Keep It Simple: 1.e4  - 2.0",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Christof Sielecki"
   },
   "advanced - white - e4 - c5 - balanced - a little - top-tier": {
     "ecoName": "Sicilian Defense: Nyezhmetdinov-Rossolimo Attack",
@@ -11931,7 +11931,7 @@
     "courseLink": "https://www.chessable.com/keep-it-simple-1-e4-2-0/course/135659/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1356591673256599.png",
     "chessableCourseTitle": "Keep It Simple: 1.e4  - 2.0",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Christof Sielecki"
   },
   "advanced - white - e4 - c5 - attacking - a little - solid": {
     "ecoName": "Closed Sicilian Defense: Grand Prix Attack",
@@ -11949,7 +11949,7 @@
     "courseLink": "https://www.chessable.com/grand-prix-attack-reloaded/course/102331/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1023311668528131.png",
     "chessableCourseTitle": "Grand Prix Attack Reloaded",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Eugene Perelshteyn"
   },
   "advanced - white - e4 - c5 - positional - not much - surprises": {
     "ecoName": "Sicilian Defense: Open Variation",
@@ -13117,7 +13117,7 @@
     "ecoCode": "1686",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -13182,7 +13182,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - balanced - a lot - top-tier": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13191,7 +13191,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - positional - some - top-tier": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13200,7 +13200,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - positional - a lot - top-tier": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13209,7 +13209,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - balanced - a little - surprises": {
     "ecoName": "Queen's Pawn Opening: Chigorin, Barry Attack",
@@ -13234,7 +13234,7 @@
     "ecoCode": "1669",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -13243,7 +13243,7 @@
     "ecoCode": "1669",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -13263,7 +13263,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - counter-attacking - a little - surprises": {
     "ecoName": "Richter-Veresov Attack",
@@ -13272,7 +13272,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - counter-attacking - not much - surprises": {
     "ecoName": "Richter-Veresov Attack",
@@ -13281,7 +13281,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - balanced - some - solid": {
     "ecoName": "Queen's Gambit Declined: Ragozin, Alekhine Variation",
@@ -13395,6 +13395,7 @@
     "ecoName": "Semi-Slav Defense: Main Line, Stoltz, Shabalov Attack",
     "ecoCode": "2008",
     "openingFor": "White",
+    "courseLink": "",
     "chessableCourseCover": "",
     "chessableCourseTitle": "",
     "chessableCourseAuthor": ""
@@ -13403,6 +13404,7 @@
     "ecoName": "Semi-Slav Defense: Main Line, Stoltz, Shabalov Attack",
     "ecoCode": "2008",
     "openingFor": "White",
+    "courseLink": "",
     "chessableCourseCover": "",
     "chessableCourseTitle": "",
     "chessableCourseAuthor": ""
@@ -13448,7 +13450,7 @@
     "ecoCode": "1669",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -13457,7 +13459,7 @@
     "ecoCode": "1669",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -13477,7 +13479,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - counter-attacking - a little - tricks": {
     "ecoName": "Richter-Veresov Attack",
@@ -13486,7 +13488,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - counter-attacking - not much - tricks": {
     "ecoName": "Richter-Veresov Attack",
@@ -13495,7 +13497,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - trading - not much - top-tier": {
     "ecoName": "Slav Defense: Exchange Variation",
@@ -13567,7 +13569,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - balanced - some - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13576,7 +13578,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - balanced - a lot - tricks": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13585,7 +13587,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - balanced - a lot - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13594,7 +13596,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - positional - some - tricks": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13603,7 +13605,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - positional - some - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13612,7 +13614,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - positional - a lot - tricks": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13621,7 +13623,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - positional - a lot - surprises": {
     "ecoName": "Queen's Gambit Declined: Catalan Opening",
@@ -13630,7 +13632,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - d5 - attacking - not much - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -13639,7 +13641,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - attacking - not much - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -13648,7 +13650,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - attacking - a little - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -13657,7 +13659,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - attacking - a little - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -13666,7 +13668,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - counter-attacking - not much - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -13675,7 +13677,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - counter-attacking - not much - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -13684,7 +13686,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - counter-attacking - a little - solid": {
     "ecoName": "Richter-Veresov Attack",
@@ -13693,7 +13695,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - counter-attacking - a little - top-tier": {
     "ecoName": "Richter-Veresov Attack",
@@ -13702,7 +13704,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white - d4 - d5 - trading - not much - tricks": {
     "ecoName": "Slav Defense: Exchange Variation",
@@ -13819,7 +13821,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - balanced - some - solid": {
     "ecoName": "Benoni Defense: Modern, Classical Variation",
@@ -13900,7 +13902,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - balanced - a lot - top-tier": {
     "ecoName": "Catalan Opening",
@@ -13909,7 +13911,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - positional - some - top-tier": {
     "ecoName": "Catalan Opening",
@@ -13918,7 +13920,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - positional - a lot - top-tier": {
     "ecoName": "Catalan Opening",
@@ -13927,7 +13929,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - attacking - a lot - top-tier": {
     "ecoName": "Benoni Defense: Modern, Classical Variation",
@@ -14134,7 +14136,7 @@
     "courseLink": "https://www.chessable.com/tactics-in-the-trompowsky/course/16578/",
     "chessableCourseCover": "https://www.chessable.com/img/books/165781617698385.png",
     "chessableCourseTitle": "Tactics in the TromPOWsky",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JeroenW"
   },
   "advanced - white - d4 - nf6 - counter-attacking - not much - surprises": {
     "ecoName": "Torre Attack with 3.Bg5",
@@ -14305,7 +14307,7 @@
     "courseLink": "https://www.chessable.com/tactics-in-the-trompowsky/course/16578/",
     "chessableCourseCover": "https://www.chessable.com/img/books/165781617698385.png",
     "chessableCourseTitle": "Tactics in the TromPOWsky",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "JeroenW"
   },
   "advanced - white - d4 - nf6 - counter-attacking - not much - tricks": {
     "ecoName": "Torre Attack with 3.Bg5",
@@ -14359,7 +14361,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - balanced - some - surprises": {
     "ecoName": "Catalan Opening",
@@ -14368,7 +14370,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - balanced - a lot - tricks": {
     "ecoName": "Catalan Opening",
@@ -14377,7 +14379,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - balanced - a lot - surprises": {
     "ecoName": "Catalan Opening",
@@ -14386,7 +14388,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - positional - some - tricks": {
     "ecoName": "Catalan Opening",
@@ -14395,7 +14397,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - positional - some - surprises": {
     "ecoName": "Catalan Opening",
@@ -14404,7 +14406,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - positional - a lot - tricks": {
     "ecoName": "Catalan Opening",
@@ -14413,7 +14415,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - positional - a lot - surprises": {
     "ecoName": "Catalan Opening",
@@ -14422,7 +14424,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced - white - d4 - nf6 - trading - some - solid": {
     "ecoName": "King's Indian Defense: Orthodox, Exchange Variation",
@@ -14926,7 +14928,7 @@
     "courseLink": "https://www.chessable.com/lifetime-repertoires-philidor-defense/course/67961/",
     "chessableCourseCover": "https://www.chessable.com/img/books/679611669215274.png",
     "chessableCourseTitle": "Lifetime Repertoires: Philidor Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Pepe Cuenca"
   },
   "beginner -  -  -  - attacking - some - tricks": {
     "ecoName": "Center Game",
@@ -15286,7 +15288,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate -  -  -  - balanced - a little - top-tier": {
     "ecoName": "Ruy López Opening",
@@ -15997,7 +15999,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "advanced -  -  -  - counter-attacking - a little - surprises": {
     "ecoName": "Richter-Veresov Attack",
@@ -16006,7 +16008,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced -  -  -  - balanced - a little - top-tier": {
     "ecoName": "Ruy López Opening",
@@ -16042,7 +16044,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "advanced -  -  -  - balanced - some - top-tier": {
     "ecoName": "Queen's Gambit Declined: Ragozin Defense",
@@ -16276,7 +16278,7 @@
     "courseLink": "https://www.chessable.com/the-brave-bird-opening-a-complete-1-f4-repertoire/course/78195/",
     "chessableCourseCover": "https://www.chessable.com/img/books/781951675763352.png",
     "chessableCourseTitle": "The Brave Bird Opening: a Complete 1.f4 Repertoire",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "BoyPurgatory"
   },
   "advanced -  -  -  - balanced - not much - top-tier": {
     "ecoName": "Italian Game",
@@ -16852,7 +16854,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white -  -  - balanced - not much - solid": {
     "ecoName": "Caro-Kann Defense: Two Knights Attack",
@@ -17203,7 +17205,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "beginner - white -  -  - balanced - not much - tricks": {
     "ecoName": "Bird's Opening",
@@ -17437,7 +17439,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white -  -  - positional - a lot - top-tier": {
     "ecoName": "Catalan Opening",
@@ -17446,7 +17448,7 @@
     "courseLink": "https://www.chessable.com/im-bobulas-dynamic-catalan/course/26077/",
     "chessableCourseCover": "https://www.chessable.com/img/books/260771606749607.png",
     "chessableCourseTitle": "IM Bobula’s Dynamic Catalan",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "MatBobula"
   },
   "intermediate - white -  -  - balanced - a little - top-tier": {
     "ecoName": "Ruy López Opening",
@@ -17671,7 +17673,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white -  -  - balanced - not much - solid": {
     "ecoName": "Caro-Kann Defense: Two Knights Attack",
@@ -17977,7 +17979,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "intermediate - white -  -  - balanced - not much - tricks": {
     "ecoName": "Bird's Opening",
@@ -18382,7 +18384,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white -  -  - attacking - a little - solid": {
     "ecoName": "Vienna Game: Falkbeer, Stanley Variation",
@@ -18697,7 +18699,7 @@
     "courseLink": "https://www.chessable.com/veresov-for-vendetta/course/163709",
     "chessableCourseCover": "https://www.chessable.com/img/books/1637091716811529.png",
     "chessableCourseTitle": "Veresov for Vendetta",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "CavScout"
   },
   "advanced - white -  -  - balanced - not much - tricks": {
     "ecoName": "Bird's Opening",
@@ -19309,7 +19311,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "No Author Found"
   },
   "beginner - black -  -  - trading - a little - solid": {
     "ecoName": "Bogo-Indian Defense: Exchange Variation",
@@ -19327,7 +19329,7 @@
     "courseLink": "https://www.chessable.com/dealing-with-1-d4-for-club-players/course/188877/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1888771728581870.png",
     "chessableCourseTitle": "Dealing with 1.d4 for Club Players",
-    "chessableCourseAuthor": "GLSmyth"
+    "chessableCourseAuthor": "No Author Found"
   },
   "beginner - black -  -  - attacking - not much - surprises": {
     "ecoName": "Queen's Gambit Declined: Albin Countergambit",
@@ -19498,7 +19500,7 @@
     "courseLink": "https://www.chessable.com/lifetime-repertoires-nimzoragozin/course/17354/",
     "chessableCourseCover": "https://www.chessable.com/img/books/173541669215075.png",
     "chessableCourseTitle": "Lifetime Repertoires: Nimzo-Ragozin",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Daniel Barrish"
   },
   "beginner - black -  -  - trading - some - tricks": {
     "ecoName": "Bogo-Indian Defense",
@@ -19507,7 +19509,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "beginner - black -  -  - trading - some - surprises": {
     "ecoName": "Bogo-Indian Defense",
@@ -19516,7 +19518,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "beginner - black -  -  - trading - some - solid": {
     "ecoName": "Bogo-Indian Defense",
@@ -19525,7 +19527,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "beginner - black -  -  - trading - some - top-tier": {
     "ecoName": "Bogo-Indian Defense",
@@ -19534,7 +19536,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a lot - tricks": {
     "ecoName": "Bogo-Indian Defense",
@@ -19543,7 +19545,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a lot - surprises": {
     "ecoName": "Bogo-Indian Defense",
@@ -19552,7 +19554,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a lot - solid": {
     "ecoName": "Bogo-Indian Defense",
@@ -19561,7 +19563,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a lot - top-tier": {
     "ecoName": "Bogo-Indian Defense",
@@ -19570,7 +19572,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Irina Bulmaga"
   },
   "intermediate - black -  -  - attacking - a little - surprises": {
     "ecoName": "Benoni Defense",
@@ -19579,7 +19581,7 @@
     "courseLink": "https://www.chessable.com/benoni-simplified/course/189036/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1890361698658482.png",
     "chessableCourseTitle": "Benoni: Simplified",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Bryan Tillis"
   },
   "intermediate - black -  -  - counter-attacking - a little - surprises": {
     "ecoName": "Dutch Defense",
@@ -19588,7 +19590,7 @@
     "courseLink": "https://www.chessable.com/the-killer-dutch-rebooted/course/21812/",
     "chessableCourseCover": "https://www.chessable.com/img/books/218121668531907.png",
     "chessableCourseTitle": "The Killer Dutch Rebooted",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Simon Williams"
   },
   "intermediate - black -  -  - attacking - some - solid": {
     "ecoName": "French Defense: Winawer Variation",
@@ -19597,7 +19599,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - black -  -  - counter-attacking - some - solid": {
     "ecoName": "French Defense: Winawer Variation",
@@ -19606,7 +19608,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - black -  -  - attacking - some - surprises": {
     "ecoName": "Budapest Gambit",
@@ -19615,7 +19617,7 @@
     "courseLink": "https://www.chessable.com/the-fearsome-budapest-gambit/course/49250/",
     "chessableCourseCover": "https://www.chessable.com/img/books/492501668518576.png",
     "chessableCourseTitle": "The Fearsome Budapest Gambit",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Kamil Plichta"
   },
   "intermediate - black -  -  - counter-attacking - some - surprises": {
     "ecoName": "Budapest Gambit",
@@ -19633,7 +19635,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - black -  -  - counter-attacking - a little - solid": {
     "ecoName": "French Defense",
@@ -19642,7 +19644,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "intermediate - black -  -  - balanced - a little - solid": {
     "ecoName": "Queen's Indian Defense",
@@ -19966,7 +19968,7 @@
     "courseLink": "https://www.chessable.com/learn-the-classical-slav/course/150727/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1507271704192629.png",
     "chessableCourseTitle": "Learn the Classical Slav",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "LundiHakarlsson"
   },
   "intermediate - black -  -  - attacking - a little - tricks": {
     "ecoName": "Owen's Defense",
@@ -20317,7 +20319,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "advanced - black -  -  - counter-attacking - some - solid": {
     "ecoName": "French Defense: Winawer Variation",
@@ -20326,7 +20328,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "advanced - black -  -  - attacking - some - surprises": {
     "ecoName": "Budapest Gambit",
@@ -20353,7 +20355,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "advanced - black -  -  - counter-attacking - a little - solid": {
     "ecoName": "French Defense",
@@ -20362,7 +20364,7 @@
     "courseLink": "https://www.chessable.com/unbalanced-the-french-winawer-for-black/course/17632/",
     "chessableCourseCover": "https://www.chessable.com/img/books/176321668538095.png",
     "chessableCourseTitle": "Unbalanced: The French Winawer for Black",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Chessinblackandwhite"
   },
   "advanced - black -  -  - balanced - a little - solid": {
     "ecoName": "Queen's Indian Defense",
@@ -20686,7 +20688,7 @@
     "courseLink": "https://www.chessable.com/learn-the-classical-slav/course/150727",
     "chessableCourseCover": "https://www.chessable.com/img/books/1507271704192629.png",
     "chessableCourseTitle": "Learn the Classical Slav",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "LundiHakarlsson"
   },
   "advanced - black -  -  - attacking - a little - tricks": {
     "ecoName": "Owen's Defense",
@@ -23170,7 +23172,7 @@
     "courseLink": "https://www.chessable.com/the-lasker-special-fight-1-g3-with-h5/course/211780/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2117801719220978.png",
     "chessableCourseTitle": "The Lasker Special: Fight 1.g3 with ...h5!",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "aCupOfGreenTea"
   },
   "beginner - black - other -  - counter-attacking - some - top-tier": {
     "ecoName": "English Opening: Carls-Bremen, Keres Variation",
@@ -23188,7 +23190,7 @@
     "courseLink": "https://www.chessable.com/the-lasker-special-fight-1-g3-with-h5/course/211780/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2117801719220978.png",
     "chessableCourseTitle": "The Lasker Special: Fight 1.g3 with ...h5!",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "aCupOfGreenTea"
   },
   "beginner - black - other -  - counter-attacking - a lot - top-tier": {
     "ecoName": "English Opening: Carls-Bremen, Reversed Dragon Variation",
@@ -23633,7 +23635,7 @@
   },
   "intermediate - black - other -  - balanced - some - solid": {
     "ecoName": "King's Indian Attack: French Variation",
-    "ecoCode": "3535",
+    "ecoCode": "3435",
     "openingFor": "Black",
     "courseLink": "https://www.chessable.com/keep-it-simple-for-black/course/92793/",
     "chessableCourseCover": "https://www.chessable.com/img/books/927931668531835.png",
@@ -26210,7 +26212,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -26219,7 +26221,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -26228,7 +26230,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -26345,7 +26347,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -26354,7 +26356,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -26381,7 +26383,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -26471,7 +26473,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -26543,7 +26545,7 @@
     "ecoCode": "81",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -26561,7 +26563,7 @@
     "ecoCode": "81",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -27031,7 +27033,7 @@
     "courseLink": "https://www.chessable.com/keep-it-simple-1-e4-20/course/135659/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1356591673256599.png",
     "chessableCourseTitle": "Keep It Simple: 1.e4  - 2.0",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Christof Sielecki"
   },
   "advanced - white - e4 - other - balanced - some - top-tier": {
     "ecoName": "Modern Defense: Standard, Two Knights Variation",
@@ -27290,7 +27292,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -27299,7 +27301,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -27434,7 +27436,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -27497,7 +27499,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -27506,7 +27508,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -27533,7 +27535,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -27623,7 +27625,7 @@
     "ecoCode": "394",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -27713,7 +27715,7 @@
     "ecoCode": "81",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -29999,7 +30001,7 @@
     "ecoCode": "1683",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -30017,7 +30019,7 @@
     "ecoCode": "1683",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -30566,7 +30568,7 @@
     "ecoCode": "1405",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -30575,7 +30577,7 @@
     "ecoCode": "1405",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -30584,16 +30586,16 @@
     "ecoCode": "1405",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "Error",
-    "chessableCourseTitle": "Error",
-    "chessableCourseAuthor": "Error"
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
+    "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
+    "chessableCourseAuthor": "Angelika Valkova"
   },
   "intermediate - white - d4 -  - positional - some - surprises": {
     "ecoName": "Nimzo-Indian Defense: Spielmann Variation",
     "ecoCode": "1405",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -30602,7 +30604,7 @@
     "ecoCode": "1405",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -30611,7 +30613,7 @@
     "ecoCode": "1405",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -31430,7 +31432,7 @@
     "ecoCode": "1685",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -31439,7 +31441,7 @@
     "ecoCode": "1685",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -31556,7 +31558,7 @@
     "ecoCode": "1405",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -31592,7 +31594,7 @@
     "ecoCode": "1405",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -31673,9 +31675,9 @@
     "ecoCode": "1817",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/the-club-players-1-d4-repertoire/course/115162/",
-    "chessableCourseCover": "Error",
-    "chessableCourseTitle": "Error",
-    "chessableCourseAuthor": "Error"
+    "chessableCourseCover": "https://www.chessable.com/img/books/1151621705401013.png",
+    "chessableCourseTitle": "The Club Player's 1.d4 Repertoire",
+    "chessableCourseAuthor": "Andras Toth"
   },
   "advanced - white - d4 -  - attacking - a lot - surprises": {
     "ecoName": "Dutch Defense: Hopton Attack",
@@ -31853,9 +31855,9 @@
     "ecoCode": "2821",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/the-trompowsky-simplified/course/134623/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1346231672665903.png",
-    "chessableCourseTitle": "The Trompowsky: Simplified",
-    "chessableCourseAuthor": "Michiel Abeln"
+    "chessableCourseCover": "Error",
+    "chessableCourseTitle": "Error",
+    "chessableCourseAuthor": "Error"
   },
   "advanced - white - d4 -  - attacking - some - tricks": {
     "ecoName": "King's Indian Defense: Alekhine Anti-Grünfeld Variation",
@@ -31898,9 +31900,9 @@
     "ecoCode": "2323",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/the-principled-queens-gambit-part-1/course/35735/",
-    "chessableCourseCover": "Error",
-    "chessableCourseTitle": "Error",
-    "chessableCourseAuthor": "Error"
+    "chessableCourseCover": "https://www.chessable.com/img/books/357351668535593.png",
+    "chessableCourseTitle": "The Principled Queen's Gambit - Part 1",
+    "chessableCourseAuthor": "Daniel Barrish"
   },
   "advanced - white - d4 -  - trading - a little - top-tier": {
     "ecoName": "Slav Defense: Exchange Variation",
@@ -31979,7 +31981,7 @@
     "ecoCode": "1140",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -31988,7 +31990,7 @@
     "ecoCode": "1140",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -31997,7 +31999,7 @@
     "ecoCode": "1140",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -32006,7 +32008,7 @@
     "ecoCode": "1140",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -32015,7 +32017,7 @@
     "ecoCode": "1140",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -32024,7 +32026,7 @@
     "ecoCode": "751",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -32033,7 +32035,7 @@
     "ecoCode": "751",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
@@ -32042,7 +32044,7 @@
     "ecoCode": "751",
     "openingFor": "White",
     "courseLink": "https://www.chessable.com/1-d4-for-ambitious-chess-improvers/course/105711/",
-    "chessableCourseCover": "https://www.chessable.com/img/books/1057111668510080.png",
+    "chessableCourseCover": "https://www.chessable.com/img/books/1057111742227213.png",
     "chessableCourseTitle": "1.d4 for Ambitious Chess Improvers",
     "chessableCourseAuthor": "Angelika Valkova"
   },
