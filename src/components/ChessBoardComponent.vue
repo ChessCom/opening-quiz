@@ -405,10 +405,24 @@ export default {
   display: flex;
   gap: 15px;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.2);
   padding: 12px;
   cursor: pointer;
   text-decoration: none;
+  background: var(
+    --Button-Monetize-color-fill-enabled-monetize,
+    linear-gradient(
+      180deg,
+      var(--color-blue-300, #008cd1) 0%,
+      var(--color-blue-400, #0069ab) 100%
+    )
+  );
+  /* Button/Monetize/button-monetize-enabled */
+  box-shadow: 0px 1px 0px 0px rgba(77, 195, 234, 0.4) inset,
+    0px -1px 0px 0px var(--color-blue-500, #0b548c) inset,
+    0px 2px 4px 0px rgba(0, 159, 217, 0.5) inset,
+    0px -2px 4px 0px rgba(11, 84, 140, 0.5) inset,
+    0px 1px 2px 0px var(--color-transparent-black-14, rgba(0, 0, 0, 0.14)),
+    0px 2px 4px 0px var(--color-transparent-black-10, rgba(0, 0, 0, 0.1));
 }
 
 .course-img {
@@ -444,6 +458,7 @@ export default {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -464,14 +479,49 @@ export default {
   flex-direction: column;
   gap: 4px;
   border-radius: 10px;
-  background: rgba(0, 0, 0, 0.2);
   padding: 12px;
+  cursor: pointer;
+  background: var(
+    --Button-Monetize-color-fill-enabled-monetize,
+    linear-gradient(
+      180deg,
+      var(--color-blue-300, #008cd1) 0%,
+      var(--color-blue-400, #0069ab) 100%
+    )
+  );
+  /* Button/Monetize/button-monetize-enabled */
+  box-shadow: 0px 1px 0px 0px rgba(77, 195, 234, 0.4) inset,
+    0px -1px 0px 0px var(--color-blue-500, #0b548c) inset,
+    0px 2px 4px 0px rgba(0, 159, 217, 0.5) inset,
+    0px -2px 4px 0px rgba(11, 84, 140, 0.5) inset,
+    0px 1px 2px 0px var(--color-transparent-black-14, rgba(0, 0, 0, 0.14)),
+    0px 2px 4px 0px var(--color-transparent-black-10, rgba(0, 0, 0, 0.1));
+}
+
+.lesson-card:hover,
+.course-card:hover {
+  background: var(
+    --Button-Monetize-color-fill-enabled-monetize,
+    linear-gradient(
+      180deg,
+      var(--color-blue-300, #008cd1) 0%,
+      var(--color-blue-400, #0069ab) 100%
+    )
+  );
+  /* Button/Monetize/button-monetize-hovered */
+  box-shadow: 0px -1px 0px 0px var(--color-blue-600, #083a66) inset,
+    0px 1px 0px 0px rgba(178, 240, 255, 0.4) inset,
+    0px -2px 4px 0px rgba(8, 58, 102, 0.5) inset,
+    0px 2px 4px 0px rgba(206, 245, 255, 0.25) inset,
+    0px 1px 2px 0px var(--color-transparent-black-14, rgba(0, 0, 0, 0.14)),
+    0px 2px 4px 0px var(--color-transparent-black-10, rgba(0, 0, 0, 0.1));
 }
 
 .learn-opening button span {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   overflow: hidden;
   text-overflow: ellipsis;
 }
