@@ -1,20 +1,3 @@
-<!-- <template>
-  <div id="app">
-    <OpeningQuiz />
-  </div>
-</template>
-
-<script>
-import OpeningQuiz from './components/OpeningQuiz.vue';
-
-export default {
-  name: 'App',
-  components: {
-    OpeningQuiz
-  }
-};
-</script> -->
-
 <template>
   <WelcomePage v-if="!quizStarted" @startQuiz="startQuiz" />
   <OpeningQuiz v-else />
@@ -28,11 +11,15 @@ export default {
       />
     </div>
     <nav>
-      <a href="" target="_blank">About</a>
+      <a href="https://www.chess.com/about" target="_blank">About</a>
       <span>·</span>
-      <a href="" target="_blank">Privacy</a>
+      <a href="https://www.chess.com/legal/privacy" target="_blank">Privacy</a>
       <span>·</span>
-      <a href="" target="_blank">Compliance</a>
+      <a
+        href="https://www.chess.com/article/view/digital-services-act-compliance?expose=0"
+        target="_blank"
+        >Compliance</a
+      >
       <span>·</span>
       <a href="" target="_blank">Chess.com © {{ currentYear }}</a>
     </nav>
@@ -227,6 +214,8 @@ footer {
 footer nav {
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 footer nav a,
@@ -258,6 +247,9 @@ footer nav a:hover {
     height: 62px;
     min-width: 62px;
     min-width: 62px;
+  }
+  footer {
+    padding: 40px 16px 24px;
   }
 }
 </style>
