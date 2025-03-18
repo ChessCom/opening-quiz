@@ -390,6 +390,10 @@ header span {
   margin-bottom: 45px;
 }
 
+.question-text.mobile {
+  display: none;
+}
+
 .subtext {
   color: rgba(255, 255, 255, 0.72);
   font-size: 18px;
@@ -484,7 +488,7 @@ header span {
   border: 1px solid #ddd;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .mobile {
     display: block;
   }

@@ -39,10 +39,18 @@
     </div>
     <div class="welcome-image">
       <img
-        src="/assets/images/opening-book.png"
-        width="762"
+        src="/assets/images/opening-book.svg"
+        width="962"
         height="613"
         alt="openings book"
+        class="desktop"
+      />
+      <img
+        src="/assets/images/opening-book-mob.svg"
+        width="585"
+        height="441"
+        alt="openings book"
+        class="mobile"
       />
     </div>
     <!-- <div class="cta-block mobile">
@@ -127,6 +135,20 @@ export default {
 .mobile {
   display: none;
 }
+@media only screen and (max-width: 1024px) {
+  .welcome-text p {
+    color: #fff;
+    font-family: "Chess Sans";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .header-logo.desktop img {
+    width: 290px;
+    height: auto;
+  }
+}
 
 @media only screen and (max-width: 640px) {
   .desktop {
@@ -153,21 +175,22 @@ export default {
     padding-top: 0px;
     padding-bottom: 45px;
     min-width: unset;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
     align-items: center;
     gap: 26px;
   }
 
   .welcome-image img {
     height: 100%;
-    right: 0px;
-    left: unset;
+    transform: translateX(-50%);
+    left: 50%;
     width: auto;
   }
 
   .welcome-image {
     height: 441px;
+    margin-bottom: -24px;
   }
 
   .welcome-text p {
@@ -189,15 +212,6 @@ export default {
   footer nav {
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-  @media only screen and (max-width: 540px) {
-    .welcome-image img {
-      height: 100%;
-      transform: translateX(-50%);
-      left: 50%;
-      width: auto;
-    }
   }
 }
 </style>

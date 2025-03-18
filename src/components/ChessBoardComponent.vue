@@ -358,6 +358,7 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  flex-grow: 1;
 }
 
 .recommended-opening {
@@ -529,11 +530,9 @@ export default {
 .action-btn-container {
   display: flex;
   gap: 12px;
-  flex-wrap: wrap;
 }
 
 .action-btn-container button {
-  flex-grow: 1;
   min-width: max-content;
 }
 
@@ -619,15 +618,19 @@ button:disabled {
   line-height: 16px; /* 114.286% */
 }
 
-.action-btn-container {
-  flex-direction: column;
-}
-
 .action-btn-container .secondary-btn img {
   width: 24px;
   height: 24px;
   min-height: 24px;
   min-width: 24px;
+}
+
+.learn-opening .secondary-btn span {
+  text-align: start;
+}
+
+.action-btn-container .secondary-btn {
+  width: 50%;
 }
 
 .notation-wrapper {
@@ -638,6 +641,15 @@ button:disabled {
   display: none;
 }
 
+@media only screen and (max-width: 1024px) {
+  .action-btn-container {
+    flex-direction: column;
+  }
+  .action-btn-container .secondary-btn {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 860px) {
   .chessboard-wrapper,
   .results-content {
@@ -645,7 +657,7 @@ button:disabled {
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .desktop {
     display: none;
   }
@@ -688,6 +700,9 @@ button:disabled {
     font-style: normal;
     font-weight: 600;
     line-height: 32px; /* 114.286% */
+  }
+  .action-btn-container {
+    flex-direction: column;
   }
   .notation-wrapper {
     display: none;
