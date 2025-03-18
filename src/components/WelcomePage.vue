@@ -30,7 +30,7 @@
     </div>
     <div class="welcome-image">
       <img
-        src="/assets/images/open-book.svg"
+        src="assets/images/open-book.svg"
         alt="openings book"
         class="desktop-img"
       />
