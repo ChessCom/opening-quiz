@@ -12,7 +12,6 @@
 
     <div class="progress-bar-container">
       <div class="progress-bar">
-        <!-- Progress bar items (7 in total) -->
         <div
           class="progress-bar-item"
           v-for="index in 7"
@@ -23,9 +22,16 @@
         ></div>
       </div>
     </div>
-
-    <!-- Quiz Questions Section -->
     <div>
+      <div
+        class="question-text mobile"
+        v-if="currentQuestionIndex < questions.length"
+      >
+        <div class="questions-answered">{{ selectedAnswers.length }} of 7</div>
+        <h2 v-if="questions[currentQuestionIndex]">
+          {{ questions[currentQuestionIndex].question }}
+        </h2>
+      </div>
       <div
         class="question-container"
         v-if="currentQuestionIndex < questions.length"
@@ -34,7 +40,7 @@
           <img src="/assets/images/chess_board.jpg" width="512" height="512" />
         </div>
         <div class="question-content">
-          <div class="question-text">
+          <div class="question-text desktop">
             <div class="questions-answered">
               {{ selectedAnswers.length }} of 7
             </div>
@@ -53,7 +59,7 @@
                   :src="option.icon"
                   width="68"
                   height="68"
-                  alt="answer image"
+                  alt="answer image nerodo"
                 />
               </div>
               <div class="answer-item-text">
@@ -89,39 +95,18 @@
       <div class="results-container" v-else>
         <div>
           <ChessBoardComponent
+            v-if="openingDetails"
             :moves="convertedMoves"
-            :openingFor="openingDetails?.openingFor"
-            :openingName="openingDetails.Name"
+            :openingFor="openingDetails?.openingFor || ''"
+            :openingName="openingDetails?.Name || ''"
+            :courseLink="openingDetails?.courseLink || ''"
+            :chessableCourseCover="openingDetails?.chessableCourseCover || ''"
+            :chessableCourseTitle="openingDetails?.chessableCourseTitle || ''"
+            :chessableCourseAuthor="openingDetails?.chessableCourseAuthor || ''"
           />
         </div>
-        <!-- <h2>Your Recommended Opening for {{ openingDetails.openingFor }}</h2>
-        <div v-if="openingDetails">
-          <p><strong>Opening Name:</strong> {{ openingDetails.Name }}</p>
-          <p><strong>FEN:</strong> {{ openingDetails.FEN }}</p>
-          <p><strong>Moves:</strong> {{ openingDetails.Moves }}</p>
-        </div>
-        <div v-else>
-          <p>No matching opening found.</p>
-        </div> -->
       </div>
     </div>
-
-    <!-- Show Chessboard Component Only After Completing Quiz -->
-    <!-- <div v-if="currentQuestionIndex >= questions.length">
-      <ChessBoardComponent
-        :moves="convertedMoves"
-        :openingFor="openingDetails?.openingFor"
-      />
-    </div> -->
-
-    <!-- Debugging Section to Display Selected Answers and Result -->
-    <!-- <div class="debug-section">
-      <h2>Debug Information</h2>
-      <p><strong>Selected Answers:</strong> {{ selectedAnswers }}</p>
-      <p><strong>Computed Key:</strong> {{ selectedAnswers.join(" - ") }}</p>
-      <p><strong>ECO Code:</strong> {{ resultEcoCode }}</p>
-      <p><strong>Opening Details:</strong> {{ openingDetails }}</p>
-    </div> -->
   </div>
 </template>
 
@@ -157,22 +142,22 @@ export default {
       const ecoCode = this.resultEcoCode;
       console.log("Resolved ECO Code:", ecoCode);
 
-      // Retrieve the opening details from eco-codes.json using ecoCode
-      const openingDetails = this.ecoCodes[ecoCode] || null;
-
-      // If openingDetails are found, combine them with the 'openingFor' from results.json
-      if (openingDetails && ecoCode) {
-        const result = results[this.selectedAnswers.join(" - ").toLowerCase()];
-        const openingFor = result ? result.openingFor : "Unknown";
-        console.log("opening for", openingFor);
-        return {
-          ...openingDetails,
-          openingFor: openingFor || "Unknown",
-        };
-      } else {
+      if (!ecoCode || !this.ecoCodes[ecoCode]) {
         console.log("No matching opening found for ECO Code:", ecoCode);
         return null;
       }
+
+      const resultKey = this.selectedAnswers.join(" - ").toLowerCase();
+      const result = results[resultKey] || {};
+
+      return {
+        ...this.ecoCodes[ecoCode],
+        openingFor: result.openingFor || "Unknown",
+        courseLink: result.courseLink || "", // Fetch from results.json
+        chessableCourseCover: result.chessableCourseCover || "", // Fetch from results.json
+        chessableCourseTitle: result.chessableCourseTitle || "", // Fetch from results.json
+        chessableCourseAuthor: result.chessableCourseAuthor || "", // Fetch from results.json
+      };
     },
     convertedMoves() {
       if (this.openingDetails && this.openingDetails.Moves) {
@@ -190,6 +175,10 @@ export default {
       this.selectedAnswers.push(value);
       this.handleConditionalQuestions(value);
     },
+    // selectOption(value) {
+    //   this.selectedAnswers = [...this.selectedAnswers, value]; // Creates a new reactive array
+    //   this.handleConditionalQuestions(value);
+    // },
     handleConditionalQuestions(value) {
       switch (this.currentQuestionIndex) {
         case 1:
@@ -269,17 +258,36 @@ export default {
     },
     getPlayStyleOptions() {
       let options = [
-        { text: "Attacking. I love to be aggressive!", value: "attacking" },
         {
-          text: "Counter-attacking. I like to wait for a mistake and then fight.",
+          text: "Agressive",
+          subtext: "Always looking for attacks.",
+          value: "attacking",
+          icon: "/assets/images/answers/05-01.svg",
+        },
+        {
+          text: "Evasive",
+          subtext: "Waiting for mistakes and countering.",
           value: "counter-attacking",
+          icon: "/assets/images/answers/05-02.svg",
         },
-        { text: "Balanced. I believe in good moves.", value: "balanced" },
         {
-          text: "Positional. I like strategic maneuvering.",
-          value: "positional",
+          text: "Balanced",
+          subtext: "Good moves = Good chess.",
+          value: "balanced",
+          icon: "/assets/images/answers/05-03.svg",
         },
-        { text: "Trading. I like to win in the endgame.", value: "trading" },
+        {
+          text: "Positional",
+          subtext: "Controlling the board with patient strategy.",
+          value: "positional",
+          icon: "/assets/images/answers/05-04.svg",
+        },
+        {
+          text: "Resilient",
+          subtext: "Trading early and winning the endgame.",
+          value: "trading",
+          icon: "/assets/images/answers/05-05.svg",
+        },
       ];
 
       if (this.shouldRemoveTrading()) {
@@ -464,5 +472,68 @@ header span {
   padding: 15px;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 640px) {
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .question-container {
+    flex-direction: column;
+  }
+
+  .question-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .progress-bar-container {
+    margin-bottom: 24px;
+  }
+
+  .progress-bar-item {
+    height: 10px;
+  }
+
+  .question-text.mobile {
+    display: flex;
+    margin-bottom: 16px;
+  }
+
+  .question-text.mobile h1 {
+    color: #fff;
+    font-family: "Chess Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 114.286% */
+  }
+  .question-container {
+    gap: 16px;
+  }
+
+  .answer-item-img img {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+  }
+
+  .answer-item {
+    padding: 10px;
+  }
+
+  .quiz-container {
+    margin-bottom: 24px;
+  }
+
+  .action-btn-container {
+    flex-direction: column;
+  }
 }
 </style>

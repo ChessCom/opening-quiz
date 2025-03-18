@@ -1,5 +1,9 @@
 <template>
   <div class="chessboard-component">
+    <div class="recommended-opening mobile">
+      <span>We recommend to play</span>
+      <div class="opening-name">{{ openingName }}</div>
+    </div>
     <div class="chessboard-wrapper">
       <div
         id="chessboard"
@@ -13,11 +17,24 @@
       ></div>
     </div>
     <div class="results-content">
-      <div class="recommended-opening">
+      <div class="recommended-opening desktop">
         <span>We recommend to play</span>
         <div class="opening-name">{{ openingName }}</div>
       </div>
-      <div class="notation-wrapper">
+      <div
+        v-if="!showControls"
+        class="show-controls mobile"
+        @click="showControls = true"
+      >
+        <img
+          src="/assets/images/plus.svg"
+          width="16"
+          height="16"
+          alt="show controls"
+        />
+        <span>Show Move Controls</span>
+      </div>
+      <div :class="['notation-wrapper', { 'mobile-show': showControls }]">
         <div class="vertical-move-list scroll-container"></div>
         <div class="board-controls">
           <button @click="toStartPostition" :disabled="currMove === 0">
@@ -56,33 +73,33 @@
       </div>
       <div class="learn-opening">
         <span>Learn this opening on chesscom courses</span>
-        <a class="course-card">
+        <a v-if="isChessable" class="course-card" :href="courseLink">
           <div class="course-img">
-            <img src="" width="65" height="65" alt="" />
+            <img :src="chessableCourseCover" width="65" height="65" alt="" />
           </div>
           <div class="course-info">
             <div class="title">
-              Lifetime Repertoires: Schandorff's Caro-Kann
+              {{ chessableCourseTitle }}
             </div>
-            <div class="author">GM Lars Schandorff</div>
+            <div class="author">{{ chessableCourseAuthor }}</div>
           </div>
         </a>
-        <div class="lesson-card">
+        <div v-if="isChessCom" class="lesson-card">
           <div class="title">Learn The Scandinavian Defense</div>
           <div class="author">Chess.com Lesson</div>
         </div>
-        <button class="secondary-btn">
+        <a class="secondary-btn" :href="courseLink">
           <img
-            src="/assets/images/playwhite.svg"
-            width="24"
-            height="24"
-            alt="hand and pawn"
+            src="/assets/images/chess-coach.svg"
+            width="48"
+            height="48"
+            alt="Chess Coach image"
           />
           <span>Learn The Scandinavian Defense</span>
-        </button>
+        </a>
       </div>
       <div class="action-btn-container">
-        <button class="secondary-btn">
+        <a class="secondary-btn" href="https://www.chess.com/play/online">
           <img
             src="/assets/images/playwhite.svg"
             width="24"
@@ -90,7 +107,7 @@
             alt="hand and pawn"
           />
           <span>Play a Game</span>
-        </button>
+        </a>
         <button class="secondary-btn">
           <img
             src="/assets/images/share.svg"
@@ -125,6 +142,136 @@ export default {
       required: true,
     },
     openingName: {
+      type: String,
+      required: true,
+    },
+    courseLink: {
+      type: String,
+      required: true,
+    },
+    chessableCourseCover: {
+      type: String,
+      required: false,
+      default: "",
+    },
+    chessableCourseTitle: {
+      type: String,
+      required: false,
+      default: "",
+    },
+    chessableCourseAuthor: {
+      type: String,
+      required: false,
+      default: "",
+    },
+  },
+  data() {
+    return {
+      game: null,
+      currMove: 0,
+      showControls: false,
+    };
+  },
+  computed: {
+    isChessable() {
+      return this.courseLink.includes("chessable");
+    },
+    isChessCom() {
+      return this.courseLink.includes("chess.com");
+    },
+  },
+  mounted() {
+    const el = document.getElementById("chessboard");
+    this.game = createGame({
+      el,
+      mode: {
+        modeType: Modes.Types.Observing,
+        options: {
+          canInteractWithPieces: false,
+        },
+      },
+    });
+    this.game.load({ moves: this.moves });
+    this.currMove = this.moves.length;
+    this.setBoardOrientation(this.openingFor);
+    const plugin = createVerticalMoveListPlugin({
+      displayTimeInClockFormat: false,
+      el: document.querySelector(".vertical-move-list"),
+    });
+    this.game.plugins.add(plugin);
+  },
+  watch: {
+    openingFor(newValue) {
+      this.setBoardOrientation(newValue);
+    },
+  },
+  methods: {
+    setBoardOrientation(openingFor) {
+      this.game.setOptions({ flipped: openingFor === "Black" });
+    },
+    nextMove() {
+      if (this.currMove < this.moves.length) {
+        this.game.moveForward();
+        this.currMove++;
+      }
+    },
+    prevMove() {
+      if (this.currMove > 0) {
+        this.game.moveBackward();
+        this.currMove--;
+      }
+    },
+    toStartPostition() {
+      this.game.selectNode(0, -1);
+      this.currMove = 0;
+    },
+    toEndPostition() {
+      this.game.selectNode(0, this.moves.length - 1);
+      this.currMove = this.moves.length;
+    },
+  },
+  beforeUnmount() {
+    if (this.game) this.game.destroy();
+  },
+};
+</script>
+
+<!-- <script>
+import {
+  Modes,
+  createGame,
+  createVerticalMoveListPlugin,
+} from "@chesscom/chessboard";
+import "@chesscom/chessboard/dist/chessboard/chessboard.css";
+
+export default {
+  name: "ChessBoardComponent",
+  props: {
+    moves: {
+      type: Array,
+      default: () => [],
+    },
+    openingFor: {
+      type: String,
+      required: true,
+    },
+    openingName: {
+      type: String,
+      required: true,
+    },
+    courseLink: {
+      type: String,
+      required: true,
+    },
+    chessableCourseCover: {
+      type: String,
+      required: true,
+    },
+    chessableCourseTitle: {
+      type: String,
+      required: true,
+    },
+    chessableCourseAuthor: {
       type: String,
       required: true,
     },
@@ -194,7 +341,7 @@ export default {
     if (this.game) this.game.destroy();
   },
 };
-</script>
+</script> -->
 
 <style>
 .chessboard-wrapper {
@@ -261,6 +408,7 @@ export default {
   background: rgba(0, 0, 0, 0.2);
   padding: 12px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .course-img {
@@ -398,6 +546,48 @@ button:disabled {
   background: rgba(255, 255, 255, 0.14);
   border-radius: 2px;
 }
+
+.learn-opening .secondary-btn {
+  justify-content: start;
+}
+
+.show-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px 0;
+}
+
+.show-controls span {
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px; /* 114.286% */
+}
+
+.action-btn-container {
+  flex-direction: column;
+}
+
+.action-btn-container .secondary-btn img {
+  width: 24px;
+  height: 24px;
+  min-height: 24px;
+  min-width: 24px;
+}
+
+.notation-wrapper {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 860px) {
   .chessboard-wrapper,
   .results-content {
@@ -406,12 +596,55 @@ button:disabled {
 }
 
 @media only screen and (max-width: 640px) {
+  .desktop {
+    display: none;
+  }
+
+  .show-controls.mobile {
+    display: flex;
+  }
+
   .chessboard-component {
     flex-direction: column;
   }
+
   .chessboard-wrapper,
   .results-content {
     width: 100%;
+    height: max-content;
+  }
+
+  .results-content {
+    gap: 24px;
+  }
+
+  .chessboard-component {
+    gap: 0px;
+  }
+
+  .recommended-opening.mobile {
+    margin-bottom: 24px;
+    display: flex;
+  }
+
+  .notation-wrapper {
+    margin-top: 24px;
+  }
+
+  .recommended-opening.mobile .opening-name {
+    color: #fff;
+    font-family: "Chess Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 114.286% */
+  }
+  .notation-wrapper {
+    display: none;
+  }
+
+  .notation-wrapper.mobile-show {
+    display: block;
   }
 }
 </style>

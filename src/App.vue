@@ -148,6 +148,7 @@ body {
 }
 
 .secondary-btn {
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.85);
   text-align: center;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
@@ -207,6 +208,13 @@ body {
   backdrop-filter: blur(25px);
 }
 
+.secondary-btn img {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-width: 48px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -241,6 +249,15 @@ footer nav a:hover {
 @media only screen and (max-width: 1132px) {
   .quiz-container {
     padding: 0 16px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .secondary-btn img {
+    width: 62px;
+    height: 62px;
+    min-width: 62px;
+    min-width: 62px;
   }
 }
 </style>
