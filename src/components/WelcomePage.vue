@@ -1,7 +1,7 @@
 <template>
   <div class="header-logo mobile-img">
     <img
-      src="/assets/images/mobile-header.svg"
+      src="assets/images/mobile-header.svg"
       width="155"
       height="50"
       alt="Opening quiz header"
@@ -11,7 +11,7 @@
     <div class="welcome-text">
       <div class="header-logo desktop-img">
         <img
-          src="/assets/images/splash-header.svg"
+          src="assets/images/splash-header.svg"
           width="405"
           height="130"
           alt="Opening quiz header"
@@ -20,7 +20,7 @@
       <p>Which opening <br />should you play?</p>
       <button class="primary-btn" @click="startQuiz">
         <img
-          src="/assets/images/magnifier.png"
+          src="assets/images/magnifier.png"
           width="32"
           height="32"
           alt="magnifier"
@@ -35,7 +35,7 @@
         class="desktop-img"
       />
       <img
-        src="/assets/images/open-book.svg"
+        src="assets/images/open-book.svg"
         alt="openings book"
         class="mobile-img"
       />
