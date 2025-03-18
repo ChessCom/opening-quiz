@@ -4,7 +4,7 @@
   <footer>
     <div class="logo-container">
       <img
-        src="/assets/images/chesscom-logo.png"
+        src="./assets/images/chesscom-logo.png"
         width="126"
         height="40"
         alt="chess.com logo"
