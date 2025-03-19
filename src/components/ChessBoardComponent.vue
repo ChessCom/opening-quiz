@@ -100,25 +100,65 @@
           </div>
         </a>
       </div>
-      <div class="action-btn-container">
-        <a class="secondary-btn" href="https://www.chess.com/play/online">
-          <img
-            src="assets/images/playwhite.svg"
-            width="24"
-            height="24"
-            alt="hand and pawn"
-          />
-          <span>Play a Game</span>
-        </a>
-        <button class="secondary-btn">
-          <img
-            src="assets/images/share.svg"
-            width="24"
-            height="24"
-            alt="hand and pawn"
-          />
-          <span>Share Result</span>
-        </button>
+      <div class="action-btn-wrapper">
+        <div class="action-btn-container">
+          <a class="secondary-btn" href="https://www.chess.com/play/online">
+            <img
+              src="/assets/images/playwhite.svg"
+              width="24"
+              height="24"
+              alt="hand and pawn"
+            />
+            <span>Play a Game</span>
+          </a>
+          <button class="secondary-btn">
+            <img
+              src="/assets/images/share.svg"
+              width="24"
+              height="24"
+              alt="hand and pawn"
+            />
+            <span>Share Result</span>
+          </button>
+        </div>
+        <div class="share-container">
+          <div class="share-item">
+            <a
+              :href="
+                'https://www.x.com/share?url=' +
+                encodeURIComponent(courseLink) +
+                '&title=Learn The Scandinavian Defense&description=Explore the Scandinavian Defense opening on chess.com courses'
+              "
+              target="_blank"
+            >
+              <img src="assets/images/x-share.svg" alt="X Share" />
+            </a>
+          </div>
+          <div class="share-item">
+            <a
+              :href="
+                'https://www.linkedin.com/shareArticle?mini=true&url=' +
+                encodeURIComponent(courseLink) +
+                '&title=Learn The Scandinavian Defense&summary=Explore the Scandinavian Defense opening on chess.com courses'
+              "
+              target="_blank"
+            >
+              <img src="assets/images/li-share.svg" alt="LinkedIn Share" />
+            </a>
+          </div>
+          <div class="share-item">
+            <img src="assets/images/fb-share.svg" alt="" />
+          </div>
+          <div class="share-item">
+            <img src="assets/images/wa-share.svg" alt="" />
+          </div>
+          <div class="share-item">
+            <img src="assets/images/copy-share.svg" alt="" />
+          </div>
+          <div class="share-item">
+            <img src="assets/images/tg-share.svg" alt="" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -646,6 +686,42 @@ button:disabled {
 
 .mobile {
   display: none;
+}
+
+.action-btn-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.share-container {
+  width: 100%;
+  display: flex;
+  padding: 12px 24px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background: var(
+    --Button-Secondary-color-fill-focus-secondary,
+    linear-gradient(
+      180deg,
+      var(
+          --color-component-button-secondary-enabled-start,
+          rgba(255, 255, 255, 0.1)
+        )
+        0%,
+      var(
+          --color-component-button-secondary-enabled-end,
+          rgba(255, 255, 255, 0.05)
+        )
+        100%
+    )
+  );
+  /* Button/Secondary/button-secondary-active */
+  box-shadow: 0px -1px 0px 0px rgba(255, 255, 255, 0.1) inset,
+    0px 1px 2px 0px var(--color-transparent-black-14, rgba(0, 0, 0, 0.14)),
+    0px 2px 4px 0px var(--color-transparent-black-10, rgba(0, 0, 0, 0.1));
+  backdrop-filter: blur(25px);
 }
 
 @media only screen and (max-width: 1024px) {
