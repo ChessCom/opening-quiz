@@ -401,6 +401,7 @@ header span {
 .subtext {
   color: rgba(255, 255, 255, 0.72);
   font-size: 18px;
+  line-height: 1em;
 }
 
 .question-text .questions-answered {
@@ -474,15 +475,6 @@ header span {
   font-style: normal;
   font-weight: 600;
   line-height: 1em;
-}
-
-.answer-item-text span:nth-child(2) {
-  color: rgba(255, 255, 255, 0.72);
-  font-family: "Chess Sans";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 133.333% */
 }
 
 .debug-section {
