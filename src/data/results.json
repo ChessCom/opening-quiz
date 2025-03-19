@@ -1509,7 +1509,7 @@
     "courseLink": "https://www.chessable.com/blog/marshall-gambit/",
     "chessableCourseCover": "https://www.chessable.com/blog/wp-content/uploads/2022/04/chessable_marshall_attack.jpg",
     "chessableCourseTitle": "Marshall Gambit - Playing Against the Ruy Lopez Blog",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Shaun Sedice"
   },
   "intermediate - black - e4 -  - attacking - a lot - solid": {
     "ecoName": "Sicilian Defense: Old Sicilian, Open, Accelerated Dragon Variation",
@@ -1527,7 +1527,7 @@
     "courseLink": "https://www.chessable.com/blog/marshall-gambit/",
     "chessableCourseCover": "https://www.chessable.com/blog/wp-content/uploads/2022/04/chessable_marshall_attack.jpg",
     "chessableCourseTitle": "Marshall Gambit - Playing Against the Ruy Lopez Blog",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Shaun Sedice"
   },
   "intermediate - black - e4 -  - attacking - not much - solid": {
     "ecoName": "French Defense",
@@ -1587,10 +1587,10 @@
     "ecoName": "King's Gambit Declined: Classical Variation",
     "ecoCode": "1094",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608/fen/rnbqk1nr;pppp1ppp;8;2b1p3;4PP2;8;PPPP2PP;RNBQKBNR%20w%20KQkq%20-%201%203",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608//",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black - e4 -  - balanced - a lot - top-tier": {
     "ecoName": "Sicilian Defense: Open, Pelikán and Sveshnikov, Novosibirsk Variation",
@@ -2019,19 +2019,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black - e4 -  - balanced - some - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black - e4 -  - counter-attacking - a lot - tricks": {
     "ecoName": "Sicilian Defense: Open, Löwenthal Variation",
@@ -2247,7 +2247,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - attacking - a lot - solid": {
     "ecoName": "Slav Defense: Modern, Triangle System",
@@ -2337,7 +2337,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - attacking - a lot - top-tier": {
     "ecoName": "Grünfeld Defense",
@@ -2373,7 +2373,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - trading - not much - solid": {
     "ecoName": "Bogo-Indian Defense",
@@ -2382,7 +2382,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - counter-attacking - a lot - top-tier": {
     "ecoName": "Semi-Slav Defense",
@@ -2400,7 +2400,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - trading - some - top-tier": {
     "ecoName": "Queen's Gambit Declined: Lasker Defense",
@@ -2427,7 +2427,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - attacking - some - top-tier": {
     "ecoName": "Semi-Slav Defense: Main Line, Normal Variation",
@@ -2445,7 +2445,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - counter-attacking - some - top-tier": {
     "ecoName": "Semi-Slav Defense: Main Line, Normal Variation",
@@ -2598,7 +2598,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - positional - not much - solid": {
     "ecoName": "Torre Attack: Fianchetto Defense",
@@ -2616,7 +2616,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - trading - a little - top-tier": {
     "ecoName": "Queen's Pawn Opening: English Rat Defense",
@@ -2784,19 +2784,19 @@
     "ecoName": "Indian Game: Accelerated Variation",
     "ecoCode": "852",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/the-accelerated-queens-indian-defense--a-full-repertoire-against-1-d4,-1-c4-and-1-nf3/course/32956/",
+    "courseLink": "https://www.chessable.com/the-accelerated-queens-indian-defense-a-full-repertoire-against-1d4-1c4-and-1nf3/course/32956/",
     "chessableCourseCover": "https://www.chessable.com/img/chessableSquarev2small.png",
     "chessableCourseTitle": "Chessable",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Yuriy Krykun"
   },
   "intermediate - black - d4 -  - balanced - a lot - tricks": {
     "ecoName": "Indian Game: Accelerated Variation",
     "ecoCode": "852",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/the-accelerated-queens-indian-defense--a-full-repertoire-against-1-d4,-1-c4-and-1-nf3/course/32956/",
+    "courseLink": "https://www.chessable.com/the-accelerated-queens-indian-defense-a-full-repertoire-against-1d4-1c4-and-1nf3/course/32956/",
     "chessableCourseCover": "https://www.chessable.com/img/chessableSquarev2small.png",
     "chessableCourseTitle": "Chessable",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Yuriy Krykun"
   },
   "intermediate - black - d4 -  - positional - a lot - tricks": {
     "ecoName": "King's Indian Defense: Sämisch, Normal Defense",
@@ -2823,7 +2823,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - trading - a little - tricks": {
     "ecoName": "Bogo-Indian Defense: Nimzowitsch Variation",
@@ -2832,7 +2832,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black - d4 -  - trading - some - tricks": {
     "ecoName": "Queen's Gambit Declined: Lasker Defense",
@@ -3027,10 +3027,10 @@
     "ecoName": "King's Gambit Declined: Classical Variation",
     "ecoCode": "1094",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black - e4 -  - balanced - some - top-tier": {
     "ecoName": "Ruy López Opening: Morphy Defense, Keres, Breyer Defense",
@@ -3108,19 +3108,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black - e4 -  - balanced - some - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black - e4 -  - attacking - not much - top-tier": {
     "ecoName": "Sicilian Defense",
@@ -3450,19 +3450,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black - e4 -  - balanced - some - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black - e4 -  - trading - some - solid": {
     "ecoName": "Ruy López Opening: Berlin Defense",
@@ -3831,7 +3831,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black - d4 -  - trading - a little - solid": {
     "ecoName": "Bogo-Indian Defense: Exchange Variation",
@@ -3840,7 +3840,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black - d4 -  - trading - some - top-tier": {
     "ecoName": "Queen's Gambit Declined: Lasker Defense",
@@ -3999,19 +3999,19 @@
     "ecoName": "Indian Game: Accelerated Variation",
     "ecoCode": "852",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/the-accelerated-queens-indian-defense--a-full-repertoire-against-1-d4,-1-c4-and-1-nf3/course/32956/",
+    "courseLink": "https://www.chessable.com/the-accelerated-queens-indian-defense-a-full-repertoire-against-1d4-1c4-and-1nf3/course/32956/",
     "chessableCourseCover": "https://www.chessable.com/img/chessableSquarev2small.png",
     "chessableCourseTitle": "Chessable",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Yuriy Krykun"
   },
   "advanced - black - d4 -  - balanced - a lot - surprises": {
     "ecoName": "Indian Game: Accelerated Variation",
     "ecoCode": "852",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/the-accelerated-queens-indian-defense--a-full-repertoire-against-1-d4,-1-c4-and-1-nf3/course/32956/",
+    "courseLink": "https://www.chessable.com/the-accelerated-queens-indian-defense-a-full-repertoire-against-1d4-1c4-and-1nf3/course/32956/",
     "chessableCourseCover": "https://www.chessable.com/img/chessableSquarev2small.png",
     "chessableCourseTitle": "Chessable",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Yuriy Krykun"
   },
   "advanced - black - d4 -  - positional - a lot - surprises": {
     "ecoName": "King's Indian Defense: Sämisch, Normal Defense",
@@ -4038,7 +4038,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black - d4 -  - positional - not much - solid": {
     "ecoName": "Torre Attack: Fianchetto Defense",
@@ -4056,7 +4056,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black - d4 -  - trading - a little - top-tier": {
     "ecoName": "Queen's Pawn Opening: English Rat Defense",
@@ -4263,7 +4263,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black - d4 -  - trading - a little - tricks": {
     "ecoName": "Bogo-Indian Defense: Nimzowitsch Variation",
@@ -4272,7 +4272,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black - d4 -  - trading - some - tricks": {
     "ecoName": "Queen's Gambit Declined: Lasker Defense",
@@ -8052,7 +8052,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Miodrag Perunović"
   },
   "intermediate - white - e4 - e5 - counter-attacking - a little - tricks": {
     "ecoName": "Bishop's Opening",
@@ -8061,7 +8061,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Miodrag Perunović"
   },
   "intermediate - white - e4 - e5 - counter-attacking - a little - top-tier": {
     "ecoName": "Bishop's Opening",
@@ -8070,7 +8070,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Miodrag Perunović"
   },
   "intermediate - white - e4 - e5 - attacking - not much - tricks": {
     "ecoName": "Bishop's Opening",
@@ -11220,7 +11220,7 @@
     "courseLink": "https://www.chessable.com/butcher-1-e5-the-bishops-opening/course/77100/",
     "chessableCourseCover": "https://www.chessable.com/img/books/771001668518817.png",
     "chessableCourseTitle": "Butcher 1...e5: The Bishop's Opening",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Miodrag Perunović"
   },
   "advanced - white - e4 - e5 - trading - a little - solid": {
     "ecoName": "Four Knights Game: Scotch Variation",
@@ -15564,19 +15564,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate -  -  -  - balanced - some - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate -  -  -  - counter-attacking - a lot - surprises": {
     "ecoName": "Benoni Defense: Modern Variation",
@@ -15657,7 +15657,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate -  -  -  - counter-attacking - a little - tricks": {
     "ecoName": "Owen's Defense",
@@ -15738,7 +15738,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate -  -  -  - positional - a little - tricks": {
     "ecoName": "Lion Defense",
@@ -15879,19 +15879,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate -  -  -  - balanced - some - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate -  -  -  - counter-attacking - a lot - tricks": {
     "ecoName": "Benoni Defense: Modern Variation",
@@ -15954,7 +15954,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate -  -  -  - trading - a lot - tricks": {
     "ecoName": "Queen's Pawn Opening: Torre Attack",
@@ -16266,10 +16266,10 @@
     "ecoName": "London System",
     "ecoCode": "1590",
     "openingFor": "White",
-    "courseLink": "https://www.chessable.com/1-c3-venom-a-reverse-carokann-%26-london-system-repertoire/course/237189/",
+    "courseLink": "https://www.chessable.com/1-c3-venom-a-reverse-carokann-26-london-system-repertoire/course/237189/",
     "chessableCourseCover": "https://www.chessable.com/img/chessableSquarev2small.png",
     "chessableCourseTitle": "Chessable",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "Michael Green (aka ChessLifestyle)"
   },
   "advanced -  -  -  - balanced - not much - surprises": {
     "ecoName": "Bird's Opening",
@@ -16293,19 +16293,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced -  -  -  - balanced - some - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced -  -  -  - attacking - a lot - surprises": {
     "ecoName": "Sicilian Defense: Open, Dragon Variation",
@@ -16350,7 +16350,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced -  -  -  - counter-attacking - some - tricks": {
     "ecoName": "Philidor Defense: Nimzowitsch Variation",
@@ -16377,7 +16377,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced -  -  -  - counter-attacking - a little - tricks": {
     "ecoName": "Owen's Defense",
@@ -16458,7 +16458,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced -  -  -  - positional - a little - tricks": {
     "ecoName": "Lion Defense",
@@ -16608,19 +16608,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced -  -  -  - balanced - some - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced -  -  -  - trading - a lot - solid": {
     "ecoName": "Ruy López Opening: Berlin Defense",
@@ -16674,7 +16674,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced -  -  -  - trading - a lot - tricks": {
     "ecoName": "Torre Attack",
@@ -19230,7 +19230,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - attacking - a little - tricks": {
     "ecoName": "Owen's Defense",
@@ -19311,7 +19311,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a little - solid": {
     "ecoName": "Bogo-Indian Defense: Exchange Variation",
@@ -19320,7 +19320,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a little - top-tier": {
     "ecoName": "Queen's Pawn Opening: English Rat Defense",
@@ -19329,7 +19329,7 @@
     "courseLink": "https://www.chessable.com/dealing-with-1-d4-for-club-players/course/188877/",
     "chessableCourseCover": "https://www.chessable.com/img/books/1888771728581870.png",
     "chessableCourseTitle": "Dealing with 1.d4 for Club Players",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "GLSmyth"
   },
   "beginner - black -  -  - attacking - not much - surprises": {
     "ecoName": "Queen's Gambit Declined: Albin Countergambit",
@@ -19419,7 +19419,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - attacking - not much - tricks": {
     "ecoName": "Queen's Gambit Declined: Albin Countergambit",
@@ -19509,7 +19509,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - some - surprises": {
     "ecoName": "Bogo-Indian Defense",
@@ -19518,7 +19518,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - some - solid": {
     "ecoName": "Bogo-Indian Defense",
@@ -19527,7 +19527,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - some - top-tier": {
     "ecoName": "Bogo-Indian Defense",
@@ -19536,7 +19536,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a lot - tricks": {
     "ecoName": "Bogo-Indian Defense",
@@ -19545,7 +19545,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a lot - surprises": {
     "ecoName": "Bogo-Indian Defense",
@@ -19554,7 +19554,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a lot - solid": {
     "ecoName": "Bogo-Indian Defense",
@@ -19563,7 +19563,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "beginner - black -  -  - trading - a lot - top-tier": {
     "ecoName": "Bogo-Indian Defense",
@@ -19572,7 +19572,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black -  -  - attacking - a little - surprises": {
     "ecoName": "Benoni Defense",
@@ -19749,10 +19749,10 @@
     "ecoName": "Réti Opening: Réti Gambit Declined, Advance Variation",
     "ecoCode": "1836",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/100-repertoires-reti-(1-nf3)/course/170854/",
+    "courseLink": "https://www.chessable.com/100-repertoires-reti-1-nf3/course/170854/",
     "chessableCourseCover": "https://www.chessable.com/img/chessableSquarev2small.png",
     "chessableCourseTitle": "Chessable",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "FM Nate Solon"
   },
   "intermediate - black -  -  - balanced - a lot - solid": {
     "ecoName": "Semi-Slav Defense: Main Line, Normal Variation",
@@ -19866,19 +19866,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black -  -  - balanced - some - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black -  -  - trading - some - top-tier": {
     "ecoName": "Ruy López Opening: Berlin Defense",
@@ -19956,10 +19956,10 @@
     "ecoName": "Scandinavian Defense",
     "ecoCode": "1898",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/gm-alex-colovics-simplest-scandinavian/course/3457/",
+    "courseLink": "https://school-district.chessable.com/gm-alex-colovics-simplest-scandinavian/course/3457/",
     "chessableCourseCover": "https://www.chessable.com/img/books/34571613039293.png",
     "chessableCourseTitle": "GM Alex Colovic's Simplest Scandinavian",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "GM Alex Colovic"
   },
   "intermediate - black -  -  - balanced - not much - top-tier": {
     "ecoName": "Slav Defense",
@@ -20013,25 +20013,25 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black -  -  - trading - a little - top-tier": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black -  -  - positional - a lot - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black -  -  - positional - not much - solid": {
     "ecoName": "Réti Opening: King's Indian Attack, Symmetrical Defense",
@@ -20076,7 +20076,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black -  -  - attacking - not much - surprises": {
     "ecoName": "Benoni Defense",
@@ -20112,7 +20112,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black -  -  - trading - not much - top-tier": {
     "ecoName": "Slav Defense: Exchange, Symmetrical Line",
@@ -20157,25 +20157,25 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black -  -  - balanced - a lot - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black -  -  - balanced - some - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "intermediate - black -  -  - trading - some - solid": {
     "ecoName": "Ruy López Opening: Berlin Defense",
@@ -20202,7 +20202,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black -  -  - positional - a lot - tricks": {
     "ecoName": "Philidor Defense",
@@ -20256,7 +20256,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "intermediate - black -  -  - trading - some - tricks": {
     "ecoName": "Ruy López Opening: Berlin Defense",
@@ -20487,10 +20487,10 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black -  -  - balanced - some - solid": {
     "ecoName": "Queen's Gambit Declined: Ragozin Defense",
@@ -20604,19 +20604,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black -  -  - balanced - some - surprises": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black -  -  - positional - not much - surprises": {
     "ecoName": "Old Benoni Defense",
@@ -20676,10 +20676,10 @@
     "ecoName": "Scandinavian Defense",
     "ecoCode": "1898",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/gm-alex-colovics-simplest-scandinavian/course/3457",
+    "courseLink": "https://school-district.chessable.com/gm-alex-colovics-simplest-scandinavian/course/3457/",
     "chessableCourseCover": "https://www.chessable.com/img/books/34571613039293.png",
     "chessableCourseTitle": "GM Alex Colovic's Simplest Scandinavian",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "GM Alex Colovic"
   },
   "advanced - black -  -  - balanced - not much - top-tier": {
     "ecoName": "Slav Defense",
@@ -20751,7 +20751,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black -  -  - trading - a little - top-tier": {
     "ecoName": "Ruy López Opening: Berlin Defense",
@@ -20775,10 +20775,10 @@
     "ecoName": "Réti Opening: Kingside Fianchetto Variation",
     "ecoCode": "2799",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/a-grandmaster-guide-the-reti,-kings-indian-attack,-and-others,-based-on-the-qgd/course/6554",
+    "courseLink": "https://www.chessable.com/a-grandmaster-guide-the-reti-kings-indian-attack-and-others-based-on-the-qgd/course/6554/",
     "chessableCourseCover": "https://www.chessable.com/img/chessableSquarev2small.png",
     "chessableCourseTitle": "Chessable",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "GM Alex Colovic"
   },
   "advanced - black -  -  - trading - not much - surprises": {
     "ecoName": "French Defense: Rubinstein Variation",
@@ -20796,7 +20796,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black -  -  - attacking - not much - surprises": {
     "ecoName": "Benoni Defense",
@@ -20832,7 +20832,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black -  -  - trading - not much - top-tier": {
     "ecoName": "Slav Defense: Exchange, Symmetrical Line",
@@ -20877,7 +20877,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black -  -  - trading - some - solid": {
     "ecoName": "Ruy López Opening: Berlin Defense",
@@ -20901,19 +20901,19 @@
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black -  -  - balanced - some - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Arkhangelsk Variation",
     "ecoCode": "2445",
     "openingFor": "Black",
-    "courseLink": "https://www.chessable.com/course/245608",
+    "courseLink": "https://www.chessable.com/starting-out-1e4-e5/course/245608/",
     "chessableCourseCover": "https://www.chessable.com/img/books/2456081727790837.png",
     "chessableCourseTitle": "Starting Out: 1.e4 e5",
-    "chessableCourseAuthor": "No Author Found"
+    "chessableCourseAuthor": "WIM Anna-Maja Kazarian"
   },
   "advanced - black -  -  - balanced - not much - tricks": {
     "ecoName": "Bogo-Indian Defense: Nimzowitsch Variation",
@@ -20922,7 +20922,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black -  -  - positional - a lot - tricks": {
     "ecoName": "Ruy López Opening: Morphy Defense, Keres, Chigorin Defense",
@@ -20949,7 +20949,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black -  -  - trading - not much - tricks": {
     "ecoName": "French Defense: Rubinstein Variation",
@@ -20976,7 +20976,7 @@
     "courseLink": "https://www.chessable.com/the-active-bogoindian-defense/course/67801/",
     "chessableCourseCover": "https://www.chessable.com/img/books/678011668550096.png",
     "chessableCourseTitle": "The Active Bogo-Indian Defense",
-    "chessableCourseAuthor": "Irina Bulmaga"
+    "chessableCourseAuthor": "IM Irina Bulmaga"
   },
   "advanced - black -  -  - trading - some - tricks": {
     "ecoName": "Ruy López Opening: Berlin Defense",
