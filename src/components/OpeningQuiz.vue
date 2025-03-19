@@ -2,7 +2,7 @@
   <div class="quiz-container">
     <header>
       <img
-        src="/assets/images/header-logo-desktop.svg"
+        src="assets/images/header-logo-desktop.svg"
         alt="Opening quiz heading"
         width="229px"
         onclick="window.location.href='/'"
@@ -37,7 +37,7 @@
         v-if="currentQuestionIndex < questions.length"
       >
         <div class="question-img">
-          <img src="/assets/images/chess_board.jpg" />
+          <img :src="questions[currentQuestionIndex].questionImage" />
         </div>
         <div class="question-content">
           <div class="question-text desktop">
@@ -262,31 +262,31 @@ export default {
           text: "Agressive",
           subtext: "Always looking for attacks.",
           value: "attacking",
-          icon: "/assets/images/answers/05-01.svg",
+          icon: "assets/images/answers/05-01.svg",
         },
         {
           text: "Evasive",
           subtext: "Waiting for mistakes and countering.",
           value: "counter-attacking",
-          icon: "/assets/images/answers/05-02.svg",
+          icon: "assets/images/answers/05-02.svg",
         },
         {
           text: "Balanced",
           subtext: "Good moves = Good chess.",
           value: "balanced",
-          icon: "/assets/images/answers/05-03.svg",
+          icon: "assets/images/answers/05-03.svg",
         },
         {
           text: "Positional",
           subtext: "Controlling the board with patient strategy.",
           value: "positional",
-          icon: "/assets/images/answers/05-04.svg",
+          icon: "assets/images/answers/05-04.svg",
         },
         {
           text: "Resilient",
           subtext: "Trading early and winning the endgame.",
           value: "trading",
-          icon: "/assets/images/answers/05-05.svg",
+          icon: "assets/images/answers/05-05.svg",
         },
       ];
 
@@ -537,7 +537,7 @@ header span {
     margin-bottom: 16px;
   }
 
-  .question-text.mobile h1 {
+  .question-text.mobile h2 {
     color: #fff;
     font-family: "Chess Sans";
     font-size: 28px;
