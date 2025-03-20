@@ -111,7 +111,6 @@ body {
 }
 
 .primary-btn:focus {
-  border: 1px solid #fff;
   background: linear-gradient(
       180deg,
       rgba(178, 224, 104, 0.5) 0%,
@@ -178,7 +177,6 @@ body {
 }
 
 .secondary-btn:focus {
-  border: 1px solid #fff;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.1)) 0%,
     rgba(255, 255, 255, 0.05) 100%;
   box-shadow: 0px 0px 0px 3px #008cd1 inset,
