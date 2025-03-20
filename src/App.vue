@@ -1,6 +1,5 @@
 <template>
-  <WelcomePage v-if="!quizStarted" @startQuiz="startQuiz" />
-  <OpeningQuiz v-else />
+  <router-view />
   <footer>
     <div class="logo-container">
       <img
@@ -27,15 +26,8 @@
 </template>
 
 <script>
-import WelcomePage from "./components/WelcomePage.vue";
-import OpeningQuiz from "./components/OpeningQuiz.vue";
-
 export default {
   name: "App",
-  components: {
-    WelcomePage,
-    OpeningQuiz,
-  },
   data() {
     return {
       quizStarted: false,
