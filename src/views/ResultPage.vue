@@ -151,8 +151,8 @@
               <a
                 :href="
                   'https://www.x.com/share?url=' +
-                  encodeURIComponent(currentUrl) +
-                  '&title=Check out my recommended chess opening!&description=This is my recommended chess opening based on my playing style'
+                  encodeURIComponent(courseLink) +
+                  '&title=Learn The Scandinavian Defense&description=Explore the Scandinavian Defense opening on chess.com courses'
                 "
                 target="_blank"
               >
@@ -163,8 +163,8 @@
               <a
                 :href="
                   'https://www.linkedin.com/shareArticle?mini=true&url=' +
-                  encodeURIComponent(currentUrl) +
-                  '&title=My Recommended Chess Opening&summary=Check out this chess opening that matches my playing style'
+                  encodeURIComponent(courseLink) +
+                  '&title=Learn The Scandinavian Defense&summary=Explore the Scandinavian Defense opening on chess.com courses'
                 "
                 target="_blank"
               >
@@ -172,44 +172,16 @@
               </a>
             </div>
             <div class="share-item">
-              <a
-                :href="
-                  'https://www.facebook.com/sharer/sharer.php?u=' +
-                  encodeURIComponent(currentUrl)
-                "
-                target="_blank"
-              >
-                <img src="assets/images/fb-share.svg" alt="Facebook Share" />
-              </a>
+              <img src="assets/images/fb-share.svg" alt="" />
             </div>
             <div class="share-item">
-              <a
-                :href="
-                  'https://wa.me/?text=' +
-                  encodeURIComponent(
-                    'Check out my recommended chess opening: ' + currentUrl
-                  )
-                "
-                target="_blank"
-              >
-                <img src="assets/images/wa-share.svg" alt="WhatsApp Share" />
-              </a>
+              <img src="assets/images/wa-share.svg" alt="" />
             </div>
             <div class="share-item" @click="copyToClipboard">
               <img src="assets/images/copy-share.svg" alt="Copy Link" />
             </div>
             <div class="share-item">
-              <a
-                :href="
-                  'https://t.me/share/url?url=' +
-                  encodeURIComponent(currentUrl) +
-                  '&text=' +
-                  encodeURIComponent('Check out my recommended chess opening!')
-                "
-                target="_blank"
-              >
-                <img src="assets/images/tg-share.svg" alt="Telegram Share" />
-              </a>
+              <img src="assets/images/tg-share.svg" alt="" />
             </div>
           </div>
         </div>
