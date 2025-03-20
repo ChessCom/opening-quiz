@@ -22,91 +22,106 @@
         ></div>
       </div>
     </div>
-    <div>
-      <div
-        class="question-text mobile"
-        v-if="currentQuestionIndex < questions.length"
+    <AnimatePresence mode="out-in">
+      <Motion
+        tag="div"
+        :key="currentQuestionIndex"
+        initial="{ opacity: 0, y: 30 }"
+        animate="{ opacity: 1, y: 0 }"
+        exit="{ opacity: 0, y: -30 }"
+        transition="{ duration: 0.4 }"
+        style="width: 100%"
       >
-        <div class="questions-answered">{{ selectedAnswers.length }} of 7</div>
-        <h2 v-if="questions[currentQuestionIndex]">
-          {{ questions[currentQuestionIndex].question }}
-        </h2>
-      </div>
-      <div
-        class="question-container"
-        v-if="currentQuestionIndex < questions.length"
-      >
-        <div class="question-img">
-          <img :src="questions[currentQuestionIndex].questionImage" />
-        </div>
-        <div class="question-content">
-          <div class="question-text desktop">
-            <div class="questions-answered">
-              {{ selectedAnswers.length }} of 7
-            </div>
-            <h2>{{ questions[currentQuestionIndex].question }}</h2>
+        <div
+          class="question-text mobile"
+          v-if="currentQuestionIndex < questions.length"
+        >
+          <div class="questions-answered">
+            {{ selectedAnswers.length }} of 7
           </div>
+          <h2 v-if="questions[currentQuestionIndex]">
+            {{ questions[currentQuestionIndex].question }}
+          </h2>
+        </div>
+        <div
+          class="question-container"
+          v-if="currentQuestionIndex < questions.length"
+        >
+          <div class="question-img">
+            <img :src="questions[currentQuestionIndex].questionImage" />
+          </div>
+          <div class="question-content">
+            <div class="question-text desktop">
+              <div class="questions-answered">
+                {{ selectedAnswers.length }} of 7
+              </div>
+              <h2>{{ questions[currentQuestionIndex].question }}</h2>
+            </div>
 
-          <div class="answers-container" v-if="currentQuestionIndex === 6">
-            <div
-              class="answer-item"
-              v-for="(option, index) in getPlayStyleOptions()"
-              :key="index"
-              @click="selectOption(option.value)"
-            >
-              <div class="answer-item-img">
-                <img
-                  :src="option.icon"
-                  width="68"
-                  height="68"
-                  alt="answer image nerodo"
-                />
-              </div>
-              <div class="answer-item-text">
-                <span>{{ option.text }}</span>
-                <span class="subtext">{{ option.subtext }}</span>
+            <div class="answers-container" v-if="currentQuestionIndex === 6">
+              <div
+                class="answer-item"
+                v-for="(option, index) in getPlayStyleOptions()"
+                :key="index"
+                @click="selectOption(option.value)"
+              >
+                <div class="answer-item-img">
+                  <img
+                    :src="option.icon"
+                    width="68"
+                    height="68"
+                    alt="answer image nerodo"
+                  />
+                </div>
+                <div class="answer-item-text">
+                  <span>{{ option.text }}</span>
+                  <span class="subtext">{{ option.subtext }}</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="answers-container" v-else>
-            <div
-              class="answer-item"
-              v-for="(option, index) in questions[currentQuestionIndex].options"
-              :key="index"
-              @click="selectOption(option.value)"
-            >
-              <div class="answer-item-img">
-                <img
-                  :src="option.icon"
-                  width="68"
-                  height="68"
-                  alt="answer image"
-                />
-              </div>
-              <div class="answer-item-text">
-                <span>{{ option.text }}</span>
-                <span class="subtext">{{ option.subtext }}</span>
+            <div class="answers-container" v-else>
+              <div
+                class="answer-item"
+                v-for="(option, index) in questions[currentQuestionIndex]
+                  .options"
+                :key="index"
+                @click="selectOption(option.value)"
+              >
+                <div class="answer-item-img">
+                  <img
+                    :src="option.icon"
+                    width="68"
+                    height="68"
+                    alt="answer image"
+                  />
+                </div>
+                <div class="answer-item-text">
+                  <span>{{ option.text }}</span>
+                  <span class="subtext">{{ option.subtext }}</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Recommended Opening Section -->
-      <div class="results-container" v-else>
-        <div>
-          <ResultPage
-            v-if="openingDetails && openingDetails.Name"
-            :moves="convertedMoves"
-            :openingFor="openingDetails?.openingFor || 'Unknown'"
-            :openingName="openingDetails?.Name || 'Unknown Opening'"
-            :courseLink="openingDetails?.courseLink || ''"
-            :chessableCourseCover="openingDetails?.chessableCourseCover || ''"
-            :chessableCourseTitle="openingDetails?.chessableCourseTitle || ''"
-            :chessableCourseAuthor="openingDetails?.chessableCourseAuthor || ''"
-          />
+        <!-- Recommended Opening Section -->
+        <div class="results-container" v-else>
+          <div>
+            <ResultPage
+              v-if="openingDetails && openingDetails.Name"
+              :moves="convertedMoves"
+              :openingFor="openingDetails?.openingFor || 'Unknown'"
+              :openingName="openingDetails?.Name || 'Unknown Opening'"
+              :courseLink="openingDetails?.courseLink || ''"
+              :chessableCourseCover="openingDetails?.chessableCourseCover || ''"
+              :chessableCourseTitle="openingDetails?.chessableCourseTitle || ''"
+              :chessableCourseAuthor="
+                openingDetails?.chessableCourseAuthor || ''
+              "
+            />
+          </div>
         </div>
-      </div>
-    </div>
+      </Motion>
+    </AnimatePresence>
   </div>
 </template>
 
@@ -115,10 +130,13 @@ import questions from "@/data/questions.json";
 import results from "@/data/results.json";
 import ecoCodes from "@/data/eco-codes.json";
 import ResultPage from "@/views/ResultPage.vue";
+import { Motion, AnimatePresence } from "motion-v";
 
 export default {
   components: {
     ResultPage,
+    Motion,
+    AnimatePresence,
   },
   data() {
     return {
@@ -178,16 +196,20 @@ export default {
   methods: {
     selectOption(value) {
       this.selectedAnswers.push(value);
-      this.handleConditionalQuestions(value);
 
-      if (this.currentQuestionIndex >= this.questions.length) {
-        this.$router.push({
-          path: "/result",
-          query: {
-            answers: this.selectedAnswers.join(","),
-          },
-        });
-      }
+      // Delay advancing to next question so exit animation plays
+      setTimeout(() => {
+        this.handleConditionalQuestions(value);
+
+        if (this.currentQuestionIndex >= this.questions.length) {
+          this.$router.push({
+            path: "/result",
+            query: {
+              answers: this.selectedAnswers.join(","),
+            },
+          });
+        }
+      }, 450); // Should match exit animation duration (0.4s = 400ms+ buffer)
     },
     handleConditionalQuestions(value) {
       switch (this.currentQuestionIndex) {
@@ -327,6 +349,7 @@ export default {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
 header {
