@@ -136,7 +136,7 @@
               />
               <span>Play a Game</span>
             </a>
-            <button class="secondary-btn">
+            <button class="secondary-btn" @click="showShareContainer">
               <img
                 src="assets/images/share.svg"
                 width="24"
@@ -146,7 +146,7 @@
               <span>Share Result</span>
             </button>
           </div>
-          <div class="share-container">
+          <div v-if="isShareContainerVisible" class="share-container">
             <div class="share-item">
               <a
                 :href="
@@ -177,8 +177,8 @@
             <div class="share-item">
               <img src="assets/images/wa-share.svg" alt="" />
             </div>
-            <div class="share-item">
-              <img src="assets/images/copy-share.svg" alt="" />
+            <div class="share-item" @click="copyToClipboard">
+              <img src="assets/images/copy-share.svg" alt="Copy Link" />
             </div>
             <div class="share-item">
               <img src="assets/images/tg-share.svg" alt="" />
@@ -204,37 +204,48 @@ export default {
   name: "ResultPage",
   data() {
     return {
-      selectedAnswers: [],
-      ecoCodes: ecoCodes,
       game: null,
       currMove: 0,
       showControls: false,
+      isShareContainerVisible: false,
+      ecoCodes: ecoCodes,
     };
   },
   computed: {
-    resultEcoCode() {
-      const key = this.selectedAnswers
-        .map((answer) => answer.toLowerCase().trim())
-        .join(" - ");
-      const result = results[key];
-      return result ? result.ecoCode : "No ECO Code found";
+    ecoCode() {
+      return this.$route.query.ecoCode;
     },
     openingDetails() {
-      const ecoCode = this.resultEcoCode;
+      const ecoCode = this.ecoCode;
       if (!ecoCode || !this.ecoCodes[ecoCode]) {
+        console.log("No matching opening found for ECO Code:", ecoCode);
         return null;
       }
 
-      const resultKey = this.selectedAnswers.join(" - ").toLowerCase();
-      const result = results[resultKey] || {};
+      // Find the result that matches this ECO code
+      const matchingResult = Object.entries(results).find(
+        ([, value]) => value.ecoCode === ecoCode
+      );
+      const result = matchingResult ? matchingResult[1] : {};
 
       return {
         ...this.ecoCodes[ecoCode],
-        openingFor: result.openingFor || "Unknown",
-        courseLink: result.courseLink || "",
-        chessableCourseCover: result.chessableCourseCover || "",
-        chessableCourseTitle: result.chessableCourseTitle || "",
-        chessableCourseAuthor: result.chessableCourseAuthor || "",
+        openingFor:
+          result.openingFor || this.ecoCodes[ecoCode].openingFor || "Unknown",
+        courseLink:
+          result.courseLink || this.ecoCodes[ecoCode].courseLink || "",
+        chessableCourseCover:
+          result.chessableCourseCover ||
+          this.ecoCodes[ecoCode].chessableCourseCover ||
+          "",
+        chessableCourseTitle:
+          result.chessableCourseTitle ||
+          this.ecoCodes[ecoCode].chessableCourseTitle ||
+          "",
+        chessableCourseAuthor:
+          result.chessableCourseAuthor ||
+          this.ecoCodes[ecoCode].chessableCourseAuthor ||
+          "",
       };
     },
     moves() {
@@ -267,6 +278,12 @@ export default {
     isChessCom() {
       return this.courseLink && this.courseLink.includes("chess.com");
     },
+    currentUrl() {
+      if (typeof window !== "undefined") {
+        return window.location.href;
+      }
+      return "";
+    },
   },
   methods: {
     convertMovesToArray(movesString) {
@@ -297,6 +314,10 @@ export default {
       this.game.selectNode(0, this.moves.length - 1);
       this.currMove = this.moves.length;
     },
+    showShareContainer() {
+      this.isShareContainerVisible = !this.isShareContainerVisible; // Toggle visibility
+      console.log("Share button clicked!"); // Log for debugging
+    },
     shareOnTwitter() {
       const url = window.location.href;
       window.open(
@@ -324,6 +345,13 @@ export default {
         "_blank"
       );
     },
+    copyToClipboard() {
+      if (typeof window !== "undefined") {
+        navigator.clipboard.writeText(this.currentUrl).then(() => {
+          console.log("URL copied to clipboard");
+        });
+      }
+    },
   },
   mounted() {
     const el = document.getElementById("chessboard");
@@ -350,22 +378,8 @@ export default {
     });
     this.game.plugins.add(plugin);
   },
-  watch: {
-    openingFor(newValue) {
-      if (this.game) {
-        this.setBoardOrientation(newValue);
-      }
-    },
-  },
   beforeUnmount() {
     if (this.game) this.game.destroy();
-  },
-  created() {
-    // Get answers from URL query parameters
-    const answers = this.$route.query.answers;
-    if (answers) {
-      this.selectedAnswers = answers.split(",");
-    }
   },
 };
 </script>
@@ -709,6 +723,12 @@ button:disabled {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+.share-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .share-container {
