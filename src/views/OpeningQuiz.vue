@@ -181,10 +181,11 @@ export default {
       this.handleConditionalQuestions(value);
 
       if (this.currentQuestionIndex >= this.questions.length) {
+        sessionStorage.setItem("quizAnswers", this.selectedAnswers.join(","));
         this.$router.push({
           path: "/result",
           query: {
-            answers: this.selectedAnswers.join(","),
+            ecoCode: this.resultEcoCode,
           },
         });
       }

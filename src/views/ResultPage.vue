@@ -151,8 +151,8 @@
               <a
                 :href="
                   'https://www.x.com/share?url=' +
-                  encodeURIComponent(courseLink) +
-                  '&title=Learn The Scandinavian Defense&description=Explore the Scandinavian Defense opening on chess.com courses'
+                  encodeURIComponent(currentUrl) +
+                  '&title=Check out my recommended chess opening!&description=This is my recommended chess opening based on my playing style'
                 "
                 target="_blank"
               >
@@ -163,8 +163,8 @@
               <a
                 :href="
                   'https://www.linkedin.com/shareArticle?mini=true&url=' +
-                  encodeURIComponent(courseLink) +
-                  '&title=Learn The Scandinavian Defense&summary=Explore the Scandinavian Defense opening on chess.com courses'
+                  encodeURIComponent(currentUrl) +
+                  '&title=My Recommended Chess Opening&summary=Check out this chess opening that matches my playing style'
                 "
                 target="_blank"
               >
@@ -172,16 +172,44 @@
               </a>
             </div>
             <div class="share-item">
-              <img src="assets/images/fb-share.svg" alt="" />
+              <a
+                :href="
+                  'https://www.facebook.com/sharer/sharer.php?u=' +
+                  encodeURIComponent(currentUrl)
+                "
+                target="_blank"
+              >
+                <img src="assets/images/fb-share.svg" alt="Facebook Share" />
+              </a>
             </div>
             <div class="share-item">
-              <img src="assets/images/wa-share.svg" alt="" />
+              <a
+                :href="
+                  'https://wa.me/?text=' +
+                  encodeURIComponent(
+                    'Check out my recommended chess opening: ' + currentUrl
+                  )
+                "
+                target="_blank"
+              >
+                <img src="assets/images/wa-share.svg" alt="WhatsApp Share" />
+              </a>
+            </div>
+            <div class="share-item" @click="copyToClipboard">
+              <img src="assets/images/copy-share.svg" alt="Copy Link" />
             </div>
             <div class="share-item">
-              <img src="assets/images/copy-share.svg" alt="" />
-            </div>
-            <div class="share-item">
-              <img src="assets/images/tg-share.svg" alt="" />
+              <a
+                :href="
+                  'https://t.me/share/url?url=' +
+                  encodeURIComponent(currentUrl) +
+                  '&text=' +
+                  encodeURIComponent('Check out my recommended chess opening!')
+                "
+                target="_blank"
+              >
+                <img src="assets/images/tg-share.svg" alt="Telegram Share" />
+              </a>
             </div>
           </div>
         </div>
@@ -204,39 +232,48 @@ export default {
   name: "ResultPage",
   data() {
     return {
-      selectedAnswers: [],
-      ecoCodes: ecoCodes,
       game: null,
       currMove: 0,
       showControls: false,
       isShareContainerVisible: false,
+      ecoCodes: ecoCodes,
     };
   },
   computed: {
-    resultEcoCode() {
-      const key = this.selectedAnswers
-        .map((answer) => answer.toLowerCase().trim())
-        .join(" - ");
-      const result = results[key];
-      return result ? result.ecoCode : "No ECO Code found";
+    ecoCode() {
+      return this.$route.query.ecoCode;
     },
     openingDetails() {
-      const ecoCode = this.resultEcoCode;
+      const ecoCode = this.ecoCode;
       if (!ecoCode || !this.ecoCodes[ecoCode]) {
         console.log("No matching opening found for ECO Code:", ecoCode);
         return null;
       }
 
-      const resultKey = this.selectedAnswers.join(" - ").toLowerCase();
-      const result = results[resultKey] || {};
+      // Find the result that matches this ECO code
+      const matchingResult = Object.entries(results).find(
+        ([, value]) => value.ecoCode === ecoCode
+      );
+      const result = matchingResult ? matchingResult[1] : {};
 
       return {
         ...this.ecoCodes[ecoCode],
-        openingFor: result.openingFor || "Unknown",
-        courseLink: result.courseLink || "",
-        chessableCourseCover: result.chessableCourseCover || "",
-        chessableCourseTitle: result.chessableCourseTitle || "",
-        chessableCourseAuthor: result.chessableCourseAuthor || "",
+        openingFor:
+          result.openingFor || this.ecoCodes[ecoCode].openingFor || "Unknown",
+        courseLink:
+          result.courseLink || this.ecoCodes[ecoCode].courseLink || "",
+        chessableCourseCover:
+          result.chessableCourseCover ||
+          this.ecoCodes[ecoCode].chessableCourseCover ||
+          "",
+        chessableCourseTitle:
+          result.chessableCourseTitle ||
+          this.ecoCodes[ecoCode].chessableCourseTitle ||
+          "",
+        chessableCourseAuthor:
+          result.chessableCourseAuthor ||
+          this.ecoCodes[ecoCode].chessableCourseAuthor ||
+          "",
       };
     },
     moves() {
@@ -268,6 +305,12 @@ export default {
     },
     isChessCom() {
       return this.courseLink && this.courseLink.includes("chess.com");
+    },
+    currentUrl() {
+      if (typeof window !== "undefined") {
+        return window.location.href;
+      }
+      return "";
     },
   },
   methods: {
@@ -330,6 +373,13 @@ export default {
         "_blank"
       );
     },
+    copyToClipboard() {
+      if (typeof window !== "undefined") {
+        navigator.clipboard.writeText(this.currentUrl).then(() => {
+          console.log("URL copied to clipboard");
+        });
+      }
+    },
   },
   mounted() {
     const el = document.getElementById("chessboard");
@@ -358,12 +408,6 @@ export default {
   },
   beforeUnmount() {
     if (this.game) this.game.destroy();
-  },
-  created() {
-    const answers = this.$route.query.answers;
-    if (answers) {
-      this.selectedAnswers = answers.split(",");
-    }
   },
 };
 </script>
@@ -707,6 +751,12 @@ button:disabled {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+.share-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .share-container {
