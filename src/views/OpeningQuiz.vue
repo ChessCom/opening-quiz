@@ -94,11 +94,11 @@
       <!-- Recommended Opening Section -->
       <div class="results-container" v-else>
         <div>
-          <ChessBoardComponent
-            v-if="openingDetails"
+          <ResultPage
+            v-if="openingDetails && openingDetails.Name"
             :moves="convertedMoves"
-            :openingFor="openingDetails?.openingFor || ''"
-            :openingName="openingDetails?.Name || ''"
+            :openingFor="openingDetails?.openingFor || 'Unknown'"
+            :openingName="openingDetails?.Name || 'Unknown Opening'"
             :courseLink="openingDetails?.courseLink || ''"
             :chessableCourseCover="openingDetails?.chessableCourseCover || ''"
             :chessableCourseTitle="openingDetails?.chessableCourseTitle || ''"
@@ -114,11 +114,11 @@
 import questions from "@/data/questions.json";
 import results from "@/data/results.json";
 import ecoCodes from "@/data/eco-codes.json";
-import ChessBoardComponent from "@/components/ChessBoardComponent.vue";
+import ResultPage from "@/views/ResultPage.vue";
 
 export default {
   components: {
-    ChessBoardComponent,
+    ResultPage,
   },
   data() {
     return {
@@ -150,13 +150,18 @@ export default {
       const resultKey = this.selectedAnswers.join(" - ").toLowerCase();
       const result = results[resultKey] || {};
 
+      if (!result) {
+        console.warn("No result found for generated key:", resultKey);
+        return null;
+      }
+
       return {
         ...this.ecoCodes[ecoCode],
         openingFor: result.openingFor || "Unknown",
-        courseLink: result.courseLink || "", // Fetch from results.json
-        chessableCourseCover: result.chessableCourseCover || "", // Fetch from results.json
-        chessableCourseTitle: result.chessableCourseTitle || "", // Fetch from results.json
-        chessableCourseAuthor: result.chessableCourseAuthor || "", // Fetch from results.json
+        courseLink: result.courseLink || "",
+        chessableCourseCover: result.chessableCourseCover || "",
+        chessableCourseTitle: result.chessableCourseTitle || "",
+        chessableCourseAuthor: result.chessableCourseAuthor || "",
       };
     },
     convertedMoves() {
@@ -174,11 +179,16 @@ export default {
     selectOption(value) {
       this.selectedAnswers.push(value);
       this.handleConditionalQuestions(value);
+
+      if (this.currentQuestionIndex >= this.questions.length) {
+        this.$router.push({
+          path: "/result",
+          query: {
+            answers: this.selectedAnswers.join(","),
+          },
+        });
+      }
     },
-    // selectOption(value) {
-    //   this.selectedAnswers = [...this.selectedAnswers, value]; // Creates a new reactive array
-    //   this.handleConditionalQuestions(value);
-    // },
     handleConditionalQuestions(value) {
       switch (this.currentQuestionIndex) {
         case 1:
@@ -299,7 +309,6 @@ export default {
     convertMovesToArray(movesString) {
       if (!movesString) return [];
       const sanitizedString = movesString.replace(/\d+\./g, "").trim(); // Remove move numbers
-      console.log("Sanitized Moves String:", sanitizedString);
       return sanitizedString.split(/\s+/);
     },
     resetQuiz() {

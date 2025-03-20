@@ -47,7 +47,7 @@
 export default {
   methods: {
     startQuiz() {
-      this.$emit("startQuiz");
+      this.$router.push("/quiz");
     },
   },
 };
