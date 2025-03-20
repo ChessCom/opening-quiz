@@ -136,7 +136,7 @@
               />
               <span>Play a Game</span>
             </a>
-            <button class="secondary-btn">
+            <button class="secondary-btn" @click="showShareContainer">
               <img
                 src="assets/images/share.svg"
                 width="24"
@@ -146,7 +146,7 @@
               <span>Share Result</span>
             </button>
           </div>
-          <div class="share-container">
+          <div v-if="isShareContainerVisible" class="share-container">
             <div class="share-item">
               <a
                 :href="
@@ -209,6 +209,7 @@ export default {
       game: null,
       currMove: 0,
       showControls: false,
+      isShareContainerVisible: false,
     };
   },
   computed: {
@@ -222,6 +223,7 @@ export default {
     openingDetails() {
       const ecoCode = this.resultEcoCode;
       if (!ecoCode || !this.ecoCodes[ecoCode]) {
+        console.log("No matching opening found for ECO Code:", ecoCode);
         return null;
       }
 
@@ -297,6 +299,10 @@ export default {
       this.game.selectNode(0, this.moves.length - 1);
       this.currMove = this.moves.length;
     },
+    showShareContainer() {
+      this.isShareContainerVisible = !this.isShareContainerVisible; // Toggle visibility
+      console.log("Share button clicked!"); // Log for debugging
+    },
     shareOnTwitter() {
       const url = window.location.href;
       window.open(
@@ -350,18 +356,10 @@ export default {
     });
     this.game.plugins.add(plugin);
   },
-  watch: {
-    openingFor(newValue) {
-      if (this.game) {
-        this.setBoardOrientation(newValue);
-      }
-    },
-  },
   beforeUnmount() {
     if (this.game) this.game.destroy();
   },
   created() {
-    // Get answers from URL query parameters
     const answers = this.$route.query.answers;
     if (answers) {
       this.selectedAnswers = answers.split(",");
