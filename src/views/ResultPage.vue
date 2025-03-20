@@ -129,7 +129,7 @@
           <div class="action-btn-container">
             <a class="secondary-btn" href="https://www.chess.com/play/online">
               <img
-                src="/assets/images/playwhite.svg"
+                src="assets/images/playwhite.svg"
                 width="24"
                 height="24"
                 alt="hand and pawn"
@@ -138,7 +138,7 @@
             </a>
             <button class="secondary-btn">
               <img
-                src="/assets/images/share.svg"
+                src="assets/images/share.svg"
                 width="24"
                 height="24"
                 alt="hand and pawn"
