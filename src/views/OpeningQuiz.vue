@@ -1,6 +1,10 @@
 <template>
   <div class="quiz-container">
-    <header>
+    <header
+      v-motion
+      :initial="{ opacity: 0, y: -20 }"
+      :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
+    >
       <img
         src="assets/images/header-logo-desktop.svg"
         alt="Opening quiz heading"
@@ -13,9 +17,9 @@
     <div class="progress-bar-container">
       <div class="progress-bar">
         <div
-          class="progress-bar-item"
           v-for="index in 7"
           :key="index"
+          class="progress-bar-item"
           :class="{
             completed: selectedAnswers.length >= index,
           }"
@@ -26,6 +30,9 @@
       <div
         class="question-text mobile"
         v-if="currentQuestionIndex < questions.length"
+        v-motion
+        :initial="{ opacity: 0, y: 20 }"
+        :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
       >
         <div class="questions-answered">{{ selectedAnswers.length }} of 7</div>
         <h2 v-if="questions[currentQuestionIndex]">
@@ -36,11 +43,21 @@
         class="question-container"
         v-if="currentQuestionIndex < questions.length"
       >
-        <div class="question-img">
+        <div
+          class="question-img"
+          v-motion
+          :initial="{ opacity: 0, scale: 0.9 }"
+          :enter="{ opacity: 1, scale: 1, transition: { duration: 800 } }"
+        >
           <img :src="questions[currentQuestionIndex].questionImage" />
         </div>
         <div class="question-content">
-          <div class="question-text desktop">
+          <div
+            class="question-text desktop"
+            v-motion
+            :initial="{ opacity: 0, y: 20 }"
+            :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
+          >
             <div class="questions-answered">
               {{ selectedAnswers.length }} of 7
             </div>
@@ -52,6 +69,14 @@
               class="answer-item"
               v-for="(option, index) in getPlayStyleOptions()"
               :key="index"
+              v-motion
+              :initial="{ opacity: 0, x: -20 }"
+              :enter="{
+                opacity: 1,
+                x: 0,
+                transition: { duration: 500, delay: index * 100 },
+              }"
+              :hover="{ scale: 1.02, transition: { duration: 200 } }"
               @click="selectOption(option.value)"
             >
               <div class="answer-item-img">
@@ -73,6 +98,14 @@
               class="answer-item"
               v-for="(option, index) in questions[currentQuestionIndex].options"
               :key="index"
+              v-motion
+              :initial="{ opacity: 0, x: -20 }"
+              :enter="{
+                opacity: 1,
+                x: 0,
+                transition: { duration: 500, delay: index * 100 },
+              }"
+              :hover="{ scale: 1.02, transition: { duration: 200 } }"
               @click="selectOption(option.value)"
             >
               <div class="answer-item-img">
@@ -111,6 +144,7 @@
 </template>
 
 <script>
+import { VueUseMotion } from "@vueuse/motion";
 import questions from "@/data/questions.json";
 import results from "@/data/results.json";
 import ecoCodes from "@/data/eco-codes.json";
@@ -119,6 +153,9 @@ import ResultPage from "@/views/ResultPage.vue";
 export default {
   components: {
     ResultPage,
+  },
+  directives: {
+    motion: VueUseMotion,
   },
   data() {
     return {
