@@ -1,10 +1,6 @@
 <template>
   <div class="quiz-container">
-    <header
-      v-motion
-      :initial="{ opacity: 0, y: -20 }"
-      :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
-    >
+    <header>
       <img
         src="assets/images/header-logo-desktop.svg"
         alt="Opening quiz heading"
@@ -30,121 +26,97 @@
       <div
         class="question-text mobile"
         v-if="currentQuestionIndex < questions.length"
-        v-motion
-        :initial="{ opacity: 0, y: 20 }"
-        :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
       >
         <div class="questions-answered">{{ selectedAnswers.length }} of 7</div>
         <h2 v-if="questions[currentQuestionIndex]">
           {{ questions[currentQuestionIndex].question }}
         </h2>
       </div>
-      <div
-        class="question-container"
-        v-if="currentQuestionIndex < questions.length"
-      >
+      <transition name="slide" mode="out-in">
         <div
-          class="question-img"
-          v-motion
-          :initial="{ opacity: 0, scale: 0.9 }"
-          :enter="{ opacity: 1, scale: 1, transition: { duration: 800 } }"
+          class="question-container"
+          v-if="currentQuestionIndex < questions.length"
+          :key="currentQuestionIndex"
         >
-          <img :src="questions[currentQuestionIndex].questionImage" />
-        </div>
-        <div class="question-content">
-          <div
-            class="question-text desktop"
-            v-motion
-            :initial="{ opacity: 0, y: 20 }"
-            :enter="{ opacity: 1, y: 0, transition: { duration: 800 } }"
-          >
-            <div class="questions-answered">
-              {{ selectedAnswers.length }} of 7
-            </div>
-            <h2>{{ questions[currentQuestionIndex].question }}</h2>
+          <div class="question-img">
+            <img :src="questions[currentQuestionIndex].questionImage" />
           </div>
+          <div class="question-content">
+            <div class="question-text desktop">
+              <div class="questions-answered">
+                {{ selectedAnswers.length }} of 7
+              </div>
+              <h2>{{ questions[currentQuestionIndex].question }}</h2>
+            </div>
 
-          <div class="answers-container" v-if="currentQuestionIndex === 6">
-            <div
-              class="answer-item"
-              v-for="(option, index) in getPlayStyleOptions()"
-              :key="index"
-              v-motion
-              :initial="{ opacity: 0, x: -20 }"
-              :enter="{
-                opacity: 1,
-                x: 0,
-                transition: { duration: 500, delay: index * 100 },
-              }"
-              :hover="{ scale: 1.02, transition: { duration: 200 } }"
-              @click="selectOption(option.value)"
-            >
-              <div class="answer-item-img">
-                <img
-                  :src="option.icon"
-                  width="68"
-                  height="68"
-                  alt="answer image nerodo"
-                />
-              </div>
-              <div class="answer-item-text">
-                <span>{{ option.text }}</span>
-                <span class="subtext">{{ option.subtext }}</span>
+            <div class="answers-container" v-if="currentQuestionIndex === 6">
+              <div
+                class="answer-item"
+                v-for="(option, index) in getPlayStyleOptions()"
+                :key="index"
+                @click="selectOption(option.value)"
+              >
+                <div class="answer-item-img">
+                  <img
+                    :src="option.icon"
+                    width="68"
+                    height="68"
+                    alt="answer image nerodo"
+                  />
+                </div>
+                <div class="answer-item-text">
+                  <span>{{ option.text }}</span>
+                  <span class="subtext">{{ option.subtext }}</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="answers-container" v-else>
-            <div
-              class="answer-item"
-              v-for="(option, index) in questions[currentQuestionIndex].options"
-              :key="index"
-              v-motion
-              :initial="{ opacity: 0, x: -20 }"
-              :enter="{
-                opacity: 1,
-                x: 0,
-                transition: { duration: 500, delay: index * 100 },
-              }"
-              :hover="{ scale: 1.02, transition: { duration: 200 } }"
-              @click="selectOption(option.value)"
-            >
-              <div class="answer-item-img">
-                <img
-                  :src="option.icon"
-                  width="68"
-                  height="68"
-                  alt="answer image"
-                />
-              </div>
-              <div class="answer-item-text">
-                <span>{{ option.text }}</span>
-                <span class="subtext">{{ option.subtext }}</span>
+            <div class="answers-container" v-else>
+              <div
+                class="answer-item"
+                v-for="(option, index) in questions[currentQuestionIndex]
+                  .options"
+                :key="index"
+                @click="selectOption(option.value)"
+              >
+                <div class="answer-item-img">
+                  <img
+                    :src="option.icon"
+                    width="68"
+                    height="68"
+                    alt="answer image"
+                  />
+                </div>
+                <div class="answer-item-text">
+                  <span>{{ option.text }}</span>
+                  <span class="subtext">{{ option.subtext }}</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- Recommended Opening Section -->
-      <div class="results-container" v-else>
-        <div>
-          <ResultPage
-            v-if="openingDetails && openingDetails.Name"
-            :moves="convertedMoves"
-            :openingFor="openingDetails?.openingFor || 'Unknown'"
-            :openingName="openingDetails?.Name || 'Unknown Opening'"
-            :courseLink="openingDetails?.courseLink || ''"
-            :chessableCourseCover="openingDetails?.chessableCourseCover || ''"
-            :chessableCourseTitle="openingDetails?.chessableCourseTitle || ''"
-            :chessableCourseAuthor="openingDetails?.chessableCourseAuthor || ''"
-          />
+        <!-- Recommended Opening Section -->
+        <div class="results-container" v-else>
+          <div>
+            <ResultPage
+              v-if="openingDetails && openingDetails.Name"
+              :moves="convertedMoves"
+              :openingFor="openingDetails?.openingFor || 'Unknown'"
+              :openingName="openingDetails?.Name || 'Unknown Opening'"
+              :courseLink="openingDetails?.courseLink || ''"
+              :chessableCourseCover="openingDetails?.chessableCourseCover || ''"
+              :chessableCourseTitle="openingDetails?.chessableCourseTitle || ''"
+              :chessableCourseAuthor="
+                openingDetails?.chessableCourseAuthor || ''
+              "
+            />
+          </div>
         </div>
-      </div>
+      </transition>
     </div>
   </div>
 </template>
 
 <script>
-import { VueUseMotion } from "@vueuse/motion";
 import questions from "@/data/questions.json";
 import results from "@/data/results.json";
 import ecoCodes from "@/data/eco-codes.json";
@@ -154,9 +126,7 @@ export default {
   components: {
     ResultPage,
   },
-  directives: {
-    motion: VueUseMotion,
-  },
+  directives: {},
   data() {
     return {
       currentQuestionIndex: 0,
@@ -447,7 +417,7 @@ header span {
 
 .subtext {
   color: rgba(255, 255, 255, 0.72);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1em;
 }
 
@@ -518,7 +488,7 @@ header span {
 .answer-item-text span:nth-child(1) {
   color: #fff;
   font-family: "Chess Sans";
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 1em;
@@ -606,5 +576,41 @@ header span {
   .action-btn-container {
     flex-direction: column;
   }
+}
+
+/* animations */
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.1s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: all 0.2s ease;
+}
+
+.slide-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slide-enter-to {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-leave-from {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
 }
 </style>

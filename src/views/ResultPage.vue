@@ -127,14 +127,14 @@
         </div>
         <div class="action-btn-wrapper">
           <div class="action-btn-container">
-            <a class="secondary-btn" href="https://www.chess.com/play/online">
+            <a class="secondary-btn" href="/quiz">
               <img
-                src="assets/images/playwhite.svg"
+                src="assets/images/arrow-spin-undo.svg"
                 width="24"
                 height="24"
                 alt="hand and pawn"
               />
-              <span>Play a Game</span>
+              <span>Go Again</span>
             </a>
             <button class="secondary-btn" @click="showShareContainer">
               <img
