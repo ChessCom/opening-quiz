@@ -16,23 +16,25 @@
           v-for="index in 7"
           :key="index"
           class="progress-bar-item"
-          :class="{
-            completed: selectedAnswers.length >= index,
-          }"
+          :class="{ completed: selectedAnswers.length >= index }"
         ></div>
       </div>
     </div>
+
     <div>
+      <!-- Mobile Question Text -->
       <div
         class="question-text mobile"
         v-if="currentQuestionIndex < questions.length"
       >
-        <div class="questions-answered">{{ selectedAnswers.length }} of 7</div>
+        <div class="questions-answered">{{ currentQuestionNumber }} of 7</div>
         <h2 v-if="questions[currentQuestionIndex]">
           {{ questions[currentQuestionIndex].question }}
         </h2>
       </div>
-      <transition name="slide" mode="out-in">
+
+      <!-- Transition for Question Container / Results -->
+      <transition name="slide-fade" mode="out-in">
         <div
           class="question-container"
           v-if="currentQuestionIndex < questions.length"
@@ -44,11 +46,12 @@
           <div class="question-content">
             <div class="question-text desktop">
               <div class="questions-answered">
-                {{ selectedAnswers.length }} of 7
+                {{ currentQuestionNumber }} of 7
               </div>
               <h2>{{ questions[currentQuestionIndex].question }}</h2>
             </div>
 
+            <!-- Answer Options -->
             <div class="answers-container" v-if="currentQuestionIndex === 6">
               <div
                 class="answer-item"
@@ -93,9 +96,19 @@
               </div>
             </div>
           </div>
+          <!-- Back Button: Always visible if there is history (except on the first question) -->
+          <div
+            v-if="
+              currentQuestionIndex < questions.length &&
+              questionHistory.length > 1
+            "
+            class="back-button-container"
+          >
+            <button @click="goBack" class="back-button">Back</button>
+          </div>
         </div>
         <!-- Recommended Opening Section -->
-        <div class="results-container" v-else>
+        <div class="results-container" v-else key="result">
           <div>
             <ResultPage
               v-if="openingDetails && openingDetails.Name"
@@ -129,6 +142,7 @@ export default {
   directives: {},
   data() {
     return {
+      questionHistory: [{ index: 0, answers: [] }], // Store history of question indexes
       currentQuestionIndex: 0,
       selectedAnswers: [],
       questions: questions,
@@ -144,6 +158,9 @@ export default {
       console.log("Generated Key:", key);
       const result = results[key];
       return result ? result.ecoCode : "No ECO Code found";
+    },
+    currentQuestionNumber() {
+      return this.selectedAnswers.length + 1;
     },
     openingDetails() {
       const ecoCode = this.resultEcoCode;
@@ -184,17 +201,33 @@ export default {
   },
   methods: {
     selectOption(value) {
+      // Save the current state (before any changes)
+      this.questionHistory.push({
+        index: this.currentQuestionIndex,
+        answers: [...this.selectedAnswers],
+      });
+
+      // Add the new answer
       this.selectedAnswers.push(value);
+
+      // Update currentQuestionIndex using your custom logic
       this.handleConditionalQuestions(value);
 
+      // Check if we've reached the end of the questions
       if (this.currentQuestionIndex >= this.questions.length) {
         sessionStorage.setItem("quizAnswers", this.selectedAnswers.join(","));
         this.$router.push({
           path: "/result",
-          query: {
-            ecoCode: this.resultEcoCode,
-          },
+          query: { ecoCode: this.resultEcoCode },
         });
+      }
+    },
+    goBack() {
+      // Ensure there's a previous state to revert to (don't pop the initial state)
+      if (this.questionHistory.length > 1) {
+        const previousState = this.questionHistory.pop();
+        this.currentQuestionIndex = previousState.index;
+        this.selectedAnswers = previousState.answers;
       }
     },
     handleConditionalQuestions(value) {
@@ -579,38 +612,30 @@ header span {
 }
 
 /* animations */
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.1s ease;
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  /* Separate easing for transform and opacity for a smoother feel */
+  transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1), opacity 0.2s ease;
+  will-change: transform, opacity;
 }
-.fade-enter-from,
-.fade-leave-to {
+
+.slide-fade-enter-from {
+  transform: translateX(30px); /* Subtle slide from the right */
   opacity: 0;
 }
 
-.slide-enter-active,
-.slide-leave-active {
-  transition: all 0.2s ease;
-}
-
-.slide-enter-from {
-  transform: translateX(100%);
-  opacity: 0;
-}
-
-.slide-enter-to {
+.slide-fade-enter-to {
   transform: translateX(0);
   opacity: 1;
 }
 
-.slide-leave-from {
+.slide-fade-leave-from {
   transform: translateX(0);
   opacity: 1;
 }
 
-.slide-leave-to {
-  transform: translateX(-100%);
+.slide-fade-leave-to {
+  transform: translateX(-50px); /* Subtle slide to the left */
   opacity: 0;
 }
 </style>
