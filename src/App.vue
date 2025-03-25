@@ -1,5 +1,7 @@
 <template>
-  <router-view />
+  <transition name="fade" mode="out-in">
+    <router-view />
+  </transition>
   <footer>
     <div class="logo-container">
       <img
@@ -241,5 +243,15 @@ footer nav a:hover {
   footer {
     padding: 40px 16px 24px;
   }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
