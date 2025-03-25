@@ -1,6 +1,131 @@
 <template>
   <div class="quiz-container">
     <header>
+      <div class="header-left">
+        <!-- Back Button: Always visible if there is history (except on the first question) -->
+        <div
+          v-if="
+            currentQuestionIndex < questions.length &&
+            questionHistory.length > 1
+          "
+          class="back-button-container desktop"
+        >
+          <button @click="goBack" class="back-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <g filter="url(#filter0_d_917_6056)">
+                <path
+                  d="M6.70005 14.4333L13.4334 21.1667C14.6 22.3333 15.0667 22.3333 16.2334 21.1667C17.4 20 17.4 19.5333 16.2334 18.3333L9.90005 12L16.2334 5.63333C17.4 4.46666 17.4 4 16.2334 2.83333C15.0667 1.66666 14.6 1.66666 13.4 2.83333L6.70005 9.56666C5.16672 11.0667 5.16672 12.9333 6.70005 14.4333Z"
+                  fill="white"
+                  fill-opacity="0.72"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_917_6056"
+                  x="0"
+                  y="0"
+                  width="24"
+                  height="25"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="1" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_917_6056"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_917_6056"
+                    result="shape"
+                  />
+                </filter>
+              </defs></svg
+            >Previous Question
+          </button>
+        </div>
+        <div
+          v-if="
+            currentQuestionIndex < questions.length &&
+            questionHistory.length > 1
+          "
+          class="back-button-container mobile2"
+        >
+          <button @click="goBack" class="back-button mobile">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <g filter="url(#filter0_d_917_6056)">
+                <path
+                  d="M6.70005 14.4333L13.4334 21.1667C14.6 22.3333 15.0667 22.3333 16.2334 21.1667C17.4 20 17.4 19.5333 16.2334 18.3333L9.90005 12L16.2334 5.63333C17.4 4.46666 17.4 4 16.2334 2.83333C15.0667 1.66666 14.6 1.66666 13.4 2.83333L6.70005 9.56666C5.16672 11.0667 5.16672 12.9333 6.70005 14.4333Z"
+                  fill="white"
+                  fill-opacity="0.72"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_917_6056"
+                  x="0"
+                  y="0"
+                  width="24"
+                  height="25"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="1" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_917_6056"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_917_6056"
+                    result="shape"
+                  />
+                </filter>
+              </defs></svg
+            >Previous
+          </button>
+        </div>
+      </div>
       <img
         src="assets/images/header-logo-desktop.svg"
         alt="Opening quiz heading"
@@ -8,6 +133,7 @@
         onclick="window.location.href='/'"
         style="cursor: pointer"
       />
+      <div class="header-right"></div>
     </header>
 
     <div class="progress-bar-container">
@@ -95,16 +221,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Back Button: Always visible if there is history (except on the first question) -->
-          <div
-            v-if="
-              currentQuestionIndex < questions.length &&
-              questionHistory.length > 1
-            "
-            class="back-button-container"
-          >
-            <button @click="goBack" class="back-button">Back</button>
           </div>
         </div>
         <!-- Recommended Opening Section -->
@@ -372,10 +488,16 @@ export default {
 
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 6px;
   align-items: center;
   padding: 32px 0;
+  justify-content: space-between;
+}
+
+.header-left,
+.header-right {
+  width: 200px;
 }
 
 header span {
@@ -389,6 +511,27 @@ header span {
   letter-spacing: 1.5px;
   transform: scaleX(1.18);
   transform-origin: left;
+}
+
+.back-button {
+  all: unset;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--color-text-bolder, rgba(255, 255, 255, 0.72));
+  cursor: pointer;
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s;
+}
+
+.back-button:hover {
+  color: white;
+}
+
+.back-button svg path {
+  fill: currentColor !important;
 }
 
 .progress-bar-container {
@@ -534,6 +677,10 @@ header span {
   border: 1px solid #ddd;
 }
 
+.mobile2 {
+  display: none;
+}
+
 @media only screen and (max-width: 900px) {
   .question-container {
     gap: 24px;
@@ -545,16 +692,30 @@ header span {
     display: block;
   }
 
+  .mobile2 {
+    display: flex;
+  }
+
   .desktop {
     display: none;
   }
 
   header {
-    padding: 24px;
+    padding: 24px 0;
   }
 
   header > img {
     max-width: 155px;
+  }
+
+  .back-button {
+    font-size: 14px;
+    display: flex;
+  }
+
+  .back-button svg {
+    width: 14px;
+    height: 14px;
   }
 
   .question-container {
