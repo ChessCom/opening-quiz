@@ -8,16 +8,26 @@
     />
   </div>
   <div class="welcome-page">
-    <div class="welcome-text">
+    <div class="welcome-image">
       <div class="header-logo desktop-img">
         <img
-          src="assets/images/splash-header.svg"
-          width="405"
-          height="130"
+          src="assets/images/header-logo-desktop.svg"
           alt="Opening quiz header"
         />
       </div>
-      <p>Which opening <br />should you play?</p>
+      <img
+        src="assets/images/open-book-hero.svg"
+        alt="openings book"
+        class="desktop-img"
+      />
+      <img
+        src="assets/images/open-book-hero.svg"
+        alt="openings book"
+        class="mobile-img"
+      />
+    </div>
+    <div class="welcome-text">
+      <h1>Find your opening to play</h1>
       <button class="primary-btn" @click="startQuiz">
         <img
           src="assets/images/magnifier.png"
@@ -27,18 +37,6 @@
         />
         <span>Take Quiz</span>
       </button>
-    </div>
-    <div class="welcome-image">
-      <img
-        src="assets/images/open-book.svg"
-        alt="openings book"
-        class="desktop-img"
-      />
-      <img
-        src="assets/images/open-book.svg"
-        alt="openings book"
-        class="mobile-img"
-      />
     </div>
   </div>
 </template>
@@ -63,48 +61,50 @@ export default {
 .welcome-page {
   position: relative;
   display: flex;
-  margin-left: auto;
+  margin: auto;
   width: 100vw;
   overflow-x: hidden;
+  padding: 2vh;
+  gap: 40px;
 }
 
 .welcome-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: start;
-  max-width: 486px;
-  width: 100%;
-  padding-top: 215px;
-  padding-bottom: 177px;
-  min-width: 40%;
-  padding-left: 50px;
+  padding: 24px 40px;
+  gap: 24px;
 }
 
 .welcome-image {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
   width: 100%;
   flex-grow: 1;
-  overflow: visible; /* Allow overflow outside the div */
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  max-height: 96vh;
+  padding-top: 24px;
+  gap: 24px;
 }
 
 .welcome-image img {
-  position: absolute;
-  left: 0;
   object-fit: contain;
 }
 
-.welcome-text p {
-  margin: 39px 0 40px;
+.welcome-text h1 {
   color: #fff;
-  font-size: 42px;
+  font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-align: start;
   font-family: "Chess Sans";
+  display: flex;
 }
 
 .mobile-img {
