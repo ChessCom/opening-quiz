@@ -17,7 +17,7 @@
           alt="Opening quiz header"
         />
       </div>
-      <p>Which opening <br />should you play?</p>
+      <p>Find your next <br />chess opening</p>
       <button class="primary-btn" @click="startQuiz">
         <img
           src="assets/images/magnifier.png"
