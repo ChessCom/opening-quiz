@@ -1,9 +1,9 @@
 <template>
   <div class="header-logo mobile-img">
     <img
-      src="assets/images/mobile-header.svg"
-      width="155"
-      height="50"
+      src="assets/images/header-logo-desktop.svg"
+      width="230"
+      height="55"
       alt="Opening quiz header"
     />
   </div>
@@ -12,12 +12,18 @@
       <div class="header-logo desktop-img">
         <img
           src="assets/images/splash-header.svg"
-          width="405"
-          height="130"
+          width="406"
+          height="94"
           alt="Opening quiz header"
         />
       </div>
-      <p>Find your next <br />chess opening</p>
+      <div class="bubble-wrapper">
+        <img src="assets/images/coach.svg" height="48" width="48" alt="coach" class="coach"/>
+        <div class="bubble-text">
+          <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+          <p>Find your next chess opening</p>
+        </div>
+      </div>
       <button class="primary-btn" @click="startQuiz">
         <img
           src="assets/images/magnifier.png"
@@ -25,7 +31,7 @@
           height="32"
           alt="magnifier"
         />
-        <span>Take Quiz</span>
+        <span>Start the Quiz</span>
       </button>
     </div>
     <div class="welcome-image">
@@ -64,7 +70,7 @@ export default {
   position: relative;
   display: flex;
   margin-left: auto;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
 }
 
@@ -72,12 +78,16 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: start;
-  max-width: 486px;
+  max-width: 456px;
   width: 100%;
   padding-top: 215px;
   padding-bottom: 177px;
-  min-width: 40%;
+  min-width: 456px;
   padding-left: 50px;
+}
+
+.welcome-text .primary-btn{
+  width: 100%;
 }
 
 .welcome-image {
@@ -96,15 +106,45 @@ export default {
   object-fit: contain;
 }
 
-.welcome-text p {
-  margin: 39px 0 40px;
-  color: #fff;
-  font-size: 42px;
+.bubble-text {
+  position: relative;
+}
+
+.bubble-text p {
+  color:  #312E2B;
+  font-family: "Chess Sans";
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
-  text-align: start;
-  font-family: "Chess Sans";
+  line-height: 28px; /* 127.273% */
+  width: 100%;
+}
+
+.bubble-wrapper {
+  display: flex;
+  gap: 20px;
+  margin: 40px 0 24px;
+  width: 100%;
+  align-items: end;
+}
+
+.bubble-part {
+  position: absolute;
+  left: -9px;
+  bottom: 10px
+}
+
+.coach {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+}
+
+.bubble-text {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 16px;
 }
 
 .mobile-img {
@@ -118,17 +158,13 @@ export default {
 }
 
 @media only screen and (max-width: 1024px) {
-  .welcome-text p {
-    color: #fff;
+  .bubble-text p {
+    color: #312E2B;
     font-family: "Chess Sans";
-    font-size: 34px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-  }
-  .header-logo.desktop-img img {
-    width: 290px;
-    height: auto;
+    line-height: 28px; /* 127.273% */
   }
 }
 
@@ -150,12 +186,16 @@ export default {
     bottom: 0;
     z-index: 100000;
     backdrop-filter: blur(10px);
-    padding: 24px 12px;
+    padding: 24px 16px;
     align-items: center;
-    gap: 26px;
+    gap: 12px;
     min-width: unset;
     max-width: 100%;
     width: 100%;
+  }
+
+  .bubble-wrapper {
+    margin: 4px 0 0 0;
   }
 
   .header-logo.mobile-img {
@@ -175,19 +215,16 @@ export default {
     overflow: visible; /* Allow overflow outside the div */
   }
 
-  .welcome-text p {
-    color: #fff;
-    text-align: center;
+  .bubble-text p {
+    color: #312E2B;
     font-family: "Chess Sans";
-    font-size: 32px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    margin: 0px;
+    line-height: 28px; /* 127.273% */
   }
 
   .welcome-text .primary-btn {
-    max-width: 225px;
     width: 100%;
   }
 
