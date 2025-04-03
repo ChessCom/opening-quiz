@@ -24,9 +24,15 @@
     </div>
 
     <div class="chessboard-component">
-      <div class="recommended-opening mobile">
-        <span>We recommend to play</span>
-        <div class="opening-name">{{ openingName }}</div>
+      <div class="recommended-opening-wrapper mobile">
+        <div class="coach">
+          <img src="assets/images/coach.svg" width="44" height="44" alt="coach"/>
+        </div>
+        <div class="recommended-opening">
+          <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+          <span>You should try...</span>
+          <div class="opening-name">{{ openingName }}</div>
+        </div>
       </div>
       <div class="chessboard-wrapper">
         <div
@@ -41,9 +47,15 @@
         ></div>
       </div>
       <div class="results-content">
-        <div class="recommended-opening desktop">
-          <span>We recommend to play</span>
-          <div class="opening-name">{{ openingName }}</div>
+        <div class="recommended-opening-wrapper desktop">
+          <div class="coach">
+            <img src="assets/images/coach.svg" width="44" height="44" alt="coach"/>
+          </div>
+          <div class="recommended-opening">
+            <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+            <span>You should try...</span>
+            <div class="opening-name">{{ openingName }}</div>
+          </div>
         </div>
         <div
           v-if="!showControls"
@@ -114,7 +126,7 @@
           </a>
           <a v-if="isChessCom" class="lesson-card" :href="courseLink">
             <img
-              src="assets/images/chess-coach.svg"
+              src="assets/images/open-book-icon.svg"
               width="48"
               height="48"
               alt="Chess Coach image"
@@ -442,27 +454,29 @@ header {
 
 .recommended-opening {
   display: flex;
-  gap: 4px;
+  gap: 8px;
   flex-direction: column;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  position: relative;
 }
 
 .recommended-opening span {
-  color: rgba(255, 255, 255, 0.72);
+  color: rgba(49, 46, 43, 0.72);
   font-size: 12px;
-  font-style: normal;
   font-weight: 600;
-  line-height: 16px; /* 133.333% */
+  line-height:  16px;
   letter-spacing: 0.6px;
   text-transform: uppercase;
 }
 
-.recommended-opening .opening-name {
-  color: #fff;
+.recommended-opening-wrapper .opening-name {
+  color: #312E2B;
   font-family: "Chess Sans";
-  font-size: 31px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 36px; /* 116.129% */
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
 }
 
 .learn-opening {
@@ -715,8 +729,16 @@ button:disabled {
   display: block;
 }
 
-.mobile {
-  display: none;
+.recommended-opening-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+
+.bubble-part {
+  position: absolute;
+  left: -9px;
+  bottom: 10px
 }
 
 .action-btn-wrapper {
@@ -760,6 +782,11 @@ button:disabled {
     0px 2px 4px 0px var(--color-transparent-black-10, rgba(0, 0, 0, 0.1));
   backdrop-filter: blur(25px);
 }
+
+.mobile {
+  display: none;
+}
+
 
 @media only screen and (max-width: 1024px) {
   .action-btn-container {
@@ -808,7 +835,7 @@ button:disabled {
     gap: 0px;
   }
 
-  .recommended-opening.mobile {
+  .recommended-opening-wrapper.mobile{
     margin-bottom: 24px;
     display: flex;
   }
@@ -817,13 +844,13 @@ button:disabled {
     margin-top: 24px;
   }
 
-  .recommended-opening.mobile .opening-name {
-    color: #fff;
+  .recommended-opening-wrapper.mobile .opening-name {
+    color: var(--color-text-speech, #312E2B);
     font-family: "Chess Sans";
-    font-size: 28px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 600;
-    line-height: 32px; /* 114.286% */
+    line-height: 28px;
   }
   .action-btn-container {
     flex-direction: column;

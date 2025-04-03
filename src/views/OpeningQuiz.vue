@@ -153,10 +153,18 @@
         class="question-text mobile"
         v-if="currentQuestionIndex < questions.length"
       >
-        <div class="questions-answered">{{ currentQuestionNumber }} of 7</div>
-        <h2 v-if="questions[currentQuestionIndex]">
-          {{ questions[currentQuestionIndex].question }}
-        </h2>
+        <div class="question-left">
+          <div class="questions-answered">{{ currentQuestionNumber }} of 7</div>
+          <div class="coach">
+            <img src="assets/images/coach.svg" width="44" height="44" alt="coach"/>
+          </div>
+        </div>
+        <div class="bubble-text">
+          <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+          <h2 v-if="questions[currentQuestionIndex]">
+            {{ questions[currentQuestionIndex].question }}
+          </h2>
+        </div>
       </div>
 
       <!-- Transition for Question Container / Results -->
@@ -171,10 +179,18 @@
           </div>
           <div class="question-content">
             <div class="question-text desktop">
-              <div class="questions-answered">
-                {{ currentQuestionNumber }} of 7
+              <div class="question-left">
+                <div class="questions-answered">
+                  {{ currentQuestionNumber }} of 7
+                </div>
+                <div class="coach">
+                  <img src="assets/images/coach.svg" width="44" height="44" alt="coach"/>
+                </div>
               </div>
-              <h2>{{ questions[currentQuestionIndex].question }}</h2>
+              <div class="bubble-text">
+                <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+                <h2>{{ questions[currentQuestionIndex].question }}</h2>
+              </div>
             </div>
 
             <!-- Answer Options -->
@@ -576,14 +592,20 @@ header span {
   width: 100%;
 }
 
+.question-left {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  justify-content: end;
+}
+
 .question-img > img {
   width: 100%;
 }
 
 .question-text {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   margin-bottom: 45px;
 }
 
@@ -599,22 +621,46 @@ header span {
 
 .question-text .questions-answered {
   color: rgba(255, 255, 255, 0.72);
-  font-size: 12px;
+  text-align: center;
+  font-size:  12px;
   font-style: normal;
   font-weight: 600;
-  line-height: 16px; /* 133.333% */
+  line-height: 16px;
   letter-spacing: 0.6px;
   text-transform: uppercase;
 }
 
 .question-text h2 {
-  color: #fff;
+  color: #312E2B;
   font-family: "Chess Sans";
-  font-size: 31px;
-  font-style: normal;
+  font-size: 22px;
   font-weight: 600;
-  line-height: 36px; /* 116.129% */
-  text-wrap: balance;
+  line-height: 28px;
+}
+
+.bubble-text {
+  position: relative;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 16px;
+}
+
+.bubble-part {
+  position: absolute;
+  left: -9px;
+  bottom: 10px
+}
+
+.coach {
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: rgba(0, 0, 0, 0.20);
+  border-radius: 8px;
 }
 
 .answers-container {
@@ -738,18 +784,27 @@ header span {
   .question-text.mobile {
     display: flex;
     margin-bottom: 16px;
+    align-items: end;
   }
 
   .question-text.mobile h2 {
-    color: #fff;
+    color: #312E2B;
     font-family: "Chess Sans";
-    font-size: 28px;
+    font-size: 17px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 32px; /* 114.286% */
+    font-weight: 700;
+    line-height: 20px;
   }
   .question-container {
     gap: 16px;
+  }
+
+  .question-text.mobile .bubble-text {
+    padding: 10px;
+  }
+
+  .question-text.mobile .question-left {
+    gap: 8px;
   }
 
   .answer-item-img img {
