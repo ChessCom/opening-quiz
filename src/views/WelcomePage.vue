@@ -22,7 +22,7 @@
           <img src="assets/images/coach.svg" height="44" width="44" alt="coach"/>
         </div>
         <div class="bubble-text">
-            <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+          <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
           <p>Find your next chess opening</p>
         </div>
       </div>
@@ -108,10 +108,6 @@ export default {
   object-fit: contain;
 }
 
-.bubble-text {
-  position: relative;
-}
-
 .bubble-text p {
   color:  #312E2B;
   font-family: "Chess Sans";
@@ -152,6 +148,7 @@ export default {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.95);
   padding: 16px;
+  position: relative;
 }
 
 .mobile-img {
