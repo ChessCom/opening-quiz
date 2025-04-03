@@ -12,8 +12,10 @@
   },
   "dependencies": {
     "@chesscom/chessboard": "^1.111.0",
+    "@microsoft/clarity": "^1.0.0",
     "@motionone/vue": "^10.16.4",
     "@vueuse/motion": "^3.0.3",
+    "clarity": "^1.0.2",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
     "vue-router": "^4.5.0"
