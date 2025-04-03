@@ -26,10 +26,20 @@
     <div class="chessboard-component">
       <div class="recommended-opening-wrapper mobile">
         <div class="coach">
-          <img src="assets/images/coach.svg" width="44" height="44" alt="coach"/>
+          <img
+            src="assets/images/coach.svg"
+            width="44"
+            height="44"
+            alt="coach"
+          />
         </div>
         <div class="recommended-opening">
-          <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+          <img
+            src="assets/images/bubble-part.svg"
+            height="15"
+            width="10"
+            class="bubble-part"
+          />
           <span>You should try...</span>
           <div class="opening-name">{{ openingName }}</div>
         </div>
@@ -49,10 +59,20 @@
       <div class="results-content">
         <div class="recommended-opening-wrapper desktop">
           <div class="coach">
-            <img src="assets/images/coach.svg" width="44" height="44" alt="coach"/>
+            <img
+              src="assets/images/coach.svg"
+              width="44"
+              height="44"
+              alt="coach"
+            />
           </div>
           <div class="recommended-opening">
-            <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+            <img
+              src="assets/images/bubble-part.svg"
+              height="15"
+              width="10"
+              class="bubble-part"
+            />
             <span>You should try...</span>
             <div class="opening-name">{{ openingName }}</div>
           </div>
@@ -159,40 +179,23 @@
             </button>
           </div>
           <div v-if="isShareContainerVisible" class="share-container">
-            <div class="share-item">
-              <a
-                :href="
-                  'https://www.x.com/share?url=' +
-                  encodeURIComponent(courseLink) +
-                  '&title=Learn The Scandinavian Defense&description=Explore the Scandinavian Defense opening on chess.com courses'
-                "
-                target="_blank"
-              >
-                <img src="assets/images/x-share.svg" alt="X Share" />
-              </a>
+            <div class="share-item" @click="shareOnTwitter">
+              <img src="assets/images/x-share.svg" alt="X Share" />
             </div>
-            <div class="share-item">
-              <a
-                :href="
-                  'https://www.linkedin.com/shareArticle?mini=true&url=' +
-                  encodeURIComponent(courseLink) +
-                  '&title=Learn The Scandinavian Defense&summary=Explore the Scandinavian Defense opening on chess.com courses'
-                "
-                target="_blank"
-              >
-                <img src="assets/images/li-share.svg" alt="LinkedIn Share" />
-              </a>
+            <div class="share-item" @click="shareOnLinkedIn">
+              <img src="assets/images/li-share.svg" alt="LinkedIn Share" />
             </div>
-            <div class="share-item">
+            <div class="share-item" @click="shareOnFacebook">
               <img src="assets/images/fb-share.svg" alt="" />
             </div>
-            <div class="share-item">
+            <div class="share-item" @click="shareOnWhatsApp">
               <img src="assets/images/wa-share.svg" alt="" />
             </div>
             <div class="share-item" @click="copyToClipboard">
+              <div class="copied-popup">copied</div>
               <img src="assets/images/copy-share.svg" alt="Copy Link" />
             </div>
-            <div class="share-item">
+            <div class="share-item" @click="shareOnTelegram">
               <img src="assets/images/tg-share.svg" alt="" />
             </div>
           </div>
@@ -339,11 +342,29 @@ export default {
         "_blank"
       );
     },
+    shareOnLinkedIn() {
+      const url = window.location.href;
+      window.open(
+        `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
+          url
+        )}&title=${encodeURIComponent("Check out my recommended opening!")}`,
+        "_blank"
+      );
+    },
     shareOnFacebook() {
       const url = window.location.href;
       window.open(
         `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
           url
+        )}&hashtag=${encodeURIComponent("Check out my recommended opening!")}`,
+        "_blank"
+      );
+    },
+    shareOnWhatsApp() {
+      const url = window.location.href;
+      window.open(
+        `https://api.whatsapp.com/send?text=${encodeURIComponent(
+          "Check out my recommended opening! " + url
         )}`,
         "_blank"
       );
@@ -361,6 +382,10 @@ export default {
       if (typeof window !== "undefined") {
         navigator.clipboard.writeText(this.currentUrl).then(() => {
           console.log("URL copied to clipboard");
+          const popup = document.querySelector(".copied-popup");
+          if (popup) {
+            popup.classList.add("show");
+          }
         });
       }
     },
@@ -466,13 +491,13 @@ header {
   color: rgba(49, 46, 43, 0.72);
   font-size: 12px;
   font-weight: 600;
-  line-height:  16px;
+  line-height: 16px;
   letter-spacing: 0.6px;
   text-transform: uppercase;
 }
 
 .recommended-opening-wrapper .opening-name {
-  color: #312E2B;
+  color: #312e2b;
   font-family: "Chess Sans";
   font-size: 28px;
   font-weight: 600;
@@ -738,7 +763,7 @@ button:disabled {
 .bubble-part {
   position: absolute;
   left: -9px;
-  bottom: 10px
+  bottom: 10px;
 }
 
 .action-btn-wrapper {
@@ -753,10 +778,34 @@ button:disabled {
   cursor: pointer;
 }
 
+.share-item:has(.copied-popup) {
+  position: relative;
+}
+
+.copied-popup {
+  display: none;
+  position: absolute;
+  top: -26px;
+  padding: 4px 8px;
+  color: #fff;
+  font-family: "Chess Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 115%;
+  border-radius: 3px;
+  background: #008cd1;
+}
+
+.copied-popup.show {
+  display: block;
+}
+
 .share-container {
-  width: 100%;
+  align-self: end;
+  gap: 12px;
+  width: max-content;
   display: flex;
-  padding: 12px 24px;
+  padding: 12px;
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
@@ -786,7 +835,6 @@ button:disabled {
 .mobile {
   display: none;
 }
-
 
 @media only screen and (max-width: 1024px) {
   .action-btn-container {
@@ -835,7 +883,7 @@ button:disabled {
     gap: 0px;
   }
 
-  .recommended-opening-wrapper.mobile{
+  .recommended-opening-wrapper.mobile {
     margin-bottom: 24px;
     display: flex;
   }
@@ -845,7 +893,7 @@ button:disabled {
   }
 
   .recommended-opening-wrapper.mobile .opening-name {
-    color: var(--color-text-speech, #312E2B);
+    color: var(--color-text-speech, #312e2b);
     font-family: "Chess Sans";
     font-size: 22px;
     font-style: normal;
@@ -877,6 +925,11 @@ button:disabled {
 
   .progress-bar-item {
     height: 10px;
+  }
+
+  .share-container {
+    width: 100%;
+    justify-content: center;
   }
 }
 
