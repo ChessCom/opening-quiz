@@ -202,6 +202,7 @@ export default {
 
   .welcome-page {
     flex-direction: column-reverse;
+    gap: 0;
   }
 
   .welcome-text {
