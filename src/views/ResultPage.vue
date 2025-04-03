@@ -182,8 +182,17 @@
             <div class="share-item" @click="shareOnTwitter">
               <img src="assets/images/x-share.svg" alt="X Share" />
             </div>
-            <div class="share-item" @click="shareOnLinkedIn">
-              <img src="assets/images/li-share.svg" alt="LinkedIn Share" />
+            <div class="share-item">
+              <a
+                :href="
+                  'https://www.linkedin.com/shareArticle?mini=true&url=' +
+                  encodeURIComponent(courseLink) +
+                  '&title=Check out my recommended opening!'
+                "
+                target="_blank"
+              >
+                <img src="assets/images/li-share.svg" alt="LinkedIn Share" />
+              </a>
             </div>
             <div class="share-item" @click="shareOnFacebook">
               <img src="assets/images/fb-share.svg" alt="" />
@@ -339,15 +348,6 @@ export default {
         `https://twitter.com/intent/tweet?text=${encodeURIComponent(
           "Check out my recommended opening!"
         )}&url=${encodeURIComponent(url)}`,
-        "_blank"
-      );
-    },
-    shareOnLinkedIn() {
-      const url = window.location.href;
-      window.open(
-        `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(
-          url
-        )}&title=${encodeURIComponent("Check out my recommended opening!")}`,
         "_blank"
       );
     },
