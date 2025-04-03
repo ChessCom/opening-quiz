@@ -126,7 +126,7 @@
           </a>
           <a v-if="isChessCom" class="lesson-card" :href="courseLink">
             <img
-              src="assets/images/chess-coach.svg"
+              src="assets/images/open-book-icon.svg"
               width="48"
               height="48"
               alt="Chess Coach image"

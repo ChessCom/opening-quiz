@@ -9,32 +9,34 @@
   </div>
   <div class="welcome-page">
     <div class="welcome-text">
-      <div class="header-logo desktop-img">
-        <img
-          src="assets/images/splash-header.svg"
-          width="406"
-          height="94"
-          alt="Opening quiz header"
-        />
-      </div>
-      <div class="bubble-wrapper">
-        <div class="coach">
-          <img src="assets/images/coach.svg" height="44" width="44" alt="coach"/>
+      <div class="welcome-text-content">
+        <div class="header-logo desktop-img">
+          <img
+            src="assets/images/splash-header.svg"
+            width="406"
+            height="94"
+            alt="Opening quiz header"
+          />
         </div>
-        <div class="bubble-text">
-          <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
-          <p>Find your next chess opening</p>
+        <div class="bubble-wrapper">
+          <div class="coach">
+            <img src="assets/images/coach.svg" height="44" width="44" alt="coach"/>
+          </div>
+          <div class="bubble-text">
+            <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+            <p>Find your next chess opening</p>
+          </div>
         </div>
+        <button class="primary-btn" @click="startQuiz">
+          <img
+            src="assets/images/magnifier.png"
+            width="32"
+            height="32"
+            alt="magnifier"
+          />
+          <span>Start the Quiz</span>
+        </button>
       </div>
-      <button class="primary-btn" @click="startQuiz">
-        <img
-          src="assets/images/magnifier.png"
-          width="32"
-          height="32"
-          alt="magnifier"
-        />
-        <span>Start the Quiz</span>
-      </button>
     </div>
     <div class="welcome-image">
       <img
@@ -72,20 +74,31 @@ export default {
   position: relative;
   display: flex;
   margin-left: auto;
-  width: 100%;
+  width: 100vw;
   overflow-x: hidden;
+  gap: 40px;
 }
 
 .welcome-text {
   display: flex;
-  flex-direction: column;
-  align-items: start;
-  max-width: 456px;
+  max-width: 486px;
   width: 100%;
   padding-top: 215px;
   padding-bottom: 177px;
-  min-width: 456px;
-  padding-left: 50px;
+  min-width: 40%;
+  padding-left: 170px;
+}
+
+.welcome-text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 406px;
+  max-width: 100%;
+}
+
+.welcome-text img {
+  max-width: 100%;
 }
 
 .welcome-text .primary-btn{
@@ -155,6 +168,12 @@ export default {
   display: none;
 }
 
+@media only screen and (max-width: 1380px) {
+  .welcome-text {
+    padding-left: 50px;
+  }
+}
+
 @media only screen and (max-width: 1050px) {
   .welcome-image img {
     overflow: hidden;
@@ -183,6 +202,7 @@ export default {
 
   .welcome-page {
     flex-direction: column-reverse;
+    overflow-x: unset;
   }
 
   .welcome-text {
@@ -196,6 +216,13 @@ export default {
     min-width: unset;
     max-width: 100%;
     width: 100%;
+  }
+
+  .welcome-text-content {
+    min-width: unset;
+    max-width: 100%;
+    width: 100%;
+    gap: 12px;
   }
 
   .bubble-wrapper {
