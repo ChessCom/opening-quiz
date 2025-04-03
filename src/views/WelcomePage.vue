@@ -202,7 +202,6 @@ export default {
 
   .welcome-page {
     flex-direction: column-reverse;
-    overflow-x: unset;
   }
 
   .welcome-text {
