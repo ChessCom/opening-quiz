@@ -1,25 +1,25 @@
 [
   {
     "id": 1,
-    "question": "First, what is your average skill level?",
+    "question": "First, what is your chess level?",
     "questionImage": "assets/images/questions/Q1.jpg",
     "conditional": false,
     "options": [
       {
         "text": "Beginner",
-        "subtext": "500+ ELO",
+        "subtext": "Rating 500+",
         "value": "beginner",
         "icon": "assets/images/answers/01-01.svg"
       },
       {
         "text": "Intermediate",
-        "subtext": "1200+ ELO",
+        "subtext": "Rating 1200+",
         "value": "intermediate",
         "icon": "assets/images/answers/01-02.svg"
       },
       {
         "text": "Advanced",
-        "subtext": "1800+ ELO",
+        "subtext": "Rating 1800+",
         "value": "advanced",
         "icon": "assets/images/answers/01-03.svg"
       }
@@ -27,7 +27,7 @@
   },
   {
     "id": 2,
-    "question": "Great! Which side of the board do you want to focus on?",
+    "question": "Great! What color do you want an opening for?",
     "questionImage": "assets/images/questions/Q2.jpg",
     "conditional": false,
     "options": [
@@ -42,7 +42,7 @@
         "icon": "assets/images/answers/02-02.svg"
       },
       {
-        "text": "Surprise me!",
+        "text": "No preference",
         "value": "",
         "icon": "assets/images/answers/02-03.svg"
       }
@@ -50,7 +50,7 @@
   },
   {
     "id": 3,
-    "question": "From the starting position, what would be your first move?",
+    "question": "What would be your first move?",
     "questionImage": "assets/images/questions/Q3 - White.jpg",
     "conditional": "white",
     "options": [
@@ -65,12 +65,12 @@
         "icon": "assets/images/answers/03-02.svg"
       },
       {
-        "text": "Other",
+        "text": "Another move",
         "value": "other",
         "icon": "assets/images/answers/03-03.svg"
       },
       {
-        "text": "Surprise me!",
+        "text": "No preference",
         "value": "",
         "icon": "assets/images/answers/03-04.svg"
       }
@@ -93,12 +93,12 @@
         "icon": "assets/images/answers/03-02.svg"
       },
       {
-        "text": "Other",
+        "text": "Another move",
         "value": "other",
         "icon": "assets/images/answers/03-03.svg"
       },
       {
-        "text": "Surprise me!",
+        "text": "No preference",
         "value": "",
         "icon": "assets/images/answers/03-04.svg"
       }
@@ -106,7 +106,7 @@
   },
   {
     "id": 5,
-    "question": "How do your opponents usually respond?",
+    "question": "Is there an opening you specifically want a response to?",
     "questionImage": "assets/images/questions/Q4 - White - e4.jpg",
     "conditional": "e4",
     "options": [
@@ -126,12 +126,12 @@
         "icon": "assets/images/answers/04-03.svg"
       },
       {
-        "text": "Other",
+        "text": "Another move",
         "value": "other",
         "icon": "assets/images/answers/04-04.svg"
       },
       {
-        "text": "Surprise me!",
+        "text": "No preference",
         "value": "",
         "icon": "assets/images/answers/04-05.svg"
       }
@@ -139,7 +139,7 @@
   },
   {
     "id": 6,
-    "question": "What would be your opponents first move?",
+    "question": "Is there an opening you specifically want a response to?",
     "questionImage": "assets/images/questions/Q4 - White - d4.jpg",
     "conditional": "d4",
     "options": [
@@ -154,12 +154,12 @@
         "icon": "assets/images/answers/04-02.svg"
       },
       {
-        "text": "Other",
+        "text": "Another move",
         "value": "other",
         "icon": "assets/images/answers/04-03.svg"
       },
       {
-        "text": "Surprise me!",
+        "text": "No preference",
         "value": "",
         "icon": "assets/images/answers/04-04.svg"
       }
@@ -167,19 +167,19 @@
   },
   {
     "id": 7,
-    "question": "Opponents would say your play style is...?",
+    "question": "Now, how do you like to play?",
     "questionImage": "assets/images/questions/Q5.jpg",
     "conditional": false,
     "options": [
       {
-        "text": "Agressive",
-        "subtext": "Always looking for attacks.",
+        "text": "Attacking",
+        "subtext": "Aggressive all the way.",
         "value": "attacking",
         "icon": "assets/images/answers/05-01.svg"
       },
       {
-        "text": "Evasive",
-        "subtext": "Waiting for mistakes and countering.",
+        "text": "Counter-attacking",
+        "subtext": "Waiting for mistakes and punish them.",
         "value": "counter-attacking",
         "icon": "assets/images/answers/05-02.svg"
       },
@@ -196,8 +196,8 @@
         "icon": "assets/images/answers/05-04.svg"
       },
       {
-        "text": "Resilient",
-        "subtext": "Trading early and winning the endgame.",
+        "text": "Trading",
+        "subtext": "Exchange pieces and win the endgame.",
         "value": "trading",
         "icon": "assets/images/answers/05-05.svg"
       }
@@ -211,19 +211,19 @@
     "options": [
       {
         "text": "What was the question?",
-        "subtext": "No thanks. I’d rather focus on playing.",
+        "subtext": "No thanks. I'd rather focus on playing.",
         "value": "not much",
         "icon": "assets/images/answers/06-01.svg"
       },
       {
-        "text": "Okay, I guess...",
+        "text": "Just the bare minimum",
         "subtext": "I want to learn ideas more than memorize.",
         "value": "a little",
         "icon": "assets/images/answers/06-02.svg"
       },
       {
         "text": "If it helps me improve",
-        "subtext": "I’ll learn key lines if it means I’ll win more.",
+        "subtext": "I'll learn key lines if it means I'll win more.",
         "value": "some",
         "icon": "assets/images/answers/06-03.svg"
       },
@@ -260,7 +260,7 @@
         "icon": "assets/images/answers/07-03.svg"
       },
       {
-        "text": "Competitive",
+        "text": "Top-tier",
         "subtext": "Openings played by the best players.",
         "value": "top-tier",
         "icon": "assets/images/answers/07-04.svg"
