@@ -18,9 +18,11 @@
         />
       </div>
       <div class="bubble-wrapper">
-        <img src="assets/images/coach.svg" height="48" width="48" alt="coach" class="coach"/>
+        <div class="coach">
+          <img src="assets/images/coach.svg" height="44" width="44" alt="coach"/>
+        </div>
         <div class="bubble-text">
-          <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+            <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
           <p>Find your next chess opening</p>
         </div>
       </div>
@@ -139,6 +141,11 @@ export default {
   height: 48px;
   min-width: 48px;
   min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: rgba(0, 0, 0, 0.20);
+  border-radius: 8px;
 }
 
 .bubble-text {
