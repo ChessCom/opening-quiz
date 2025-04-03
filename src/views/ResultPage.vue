@@ -131,7 +131,7 @@
           </div>
         </div>
         <div class="learn-opening">
-          <span v-if="isChessable">Learn this opening on chesscom courses</span>
+          <span v-if="isChessable">Learn this opening with Chessable</span>
           <span v-if="isChessCom"
             >Practice this opening with a chess.com Lesson</span
           >
