@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://chesscomwebprojects.github.io/opening-quiz-mvp",
   "scripts": {
-    "deploy": "vue-cli-service build && gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist -r git@github.com:ChessCom/opening-quiz-mvp.git",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
