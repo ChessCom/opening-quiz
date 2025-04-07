@@ -206,7 +206,7 @@
   {
     "id": 8,
     "question": "How do you feel about memorizing moves?",
-    "questionImage": "assets/images/questions/Q6.gif",
+    "questionImage": "assets/images/questions/Q6-2.gif",
     "conditional": false,
     "options": [
       {
@@ -238,7 +238,7 @@
   {
     "id": 9,
     "question": "Finally, what type of opening do you want to learn?",
-    "questionImage": "assets/images/questions/Q7.gif",
+    "questionImage": "assets/images/questions/Q7-2.gif",
     "conditional": false,
     "options": [
       {
