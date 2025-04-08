@@ -1,5 +1,12 @@
 <template>
   <div class="quiz-container">
+    <LottieAnimation
+      v-if="showConfetti"
+      animationPath="assets/animations/confetti.json"
+      :loop="false"
+      @animationComplete="showConfetti = false"
+      class="confetti-overlay"
+    />
     <header>
       <img
         src="assets/images/header-logo-desktop.svg"
@@ -223,9 +230,13 @@ import {
 import "@chesscom/chessboard/dist/chessboard/chessboard.css";
 import results from "@/data/results.json";
 import ecoCodes from "@/data/eco-codes.json";
+import LottieAnimation from "@/components/LottieAnimation.vue";
 
 export default {
   name: "ResultPage",
+  components: {
+    LottieAnimation,
+  },
   data() {
     return {
       game: null,
@@ -233,6 +244,7 @@ export default {
       showControls: false,
       isShareContainerVisible: false,
       ecoCodes: ecoCodes,
+      showConfetti: true,
     };
   },
   computed: {
@@ -937,5 +949,16 @@ button:disabled {
   .chessboard-wrapper {
     width: 100%;
   }
+}
+
+/* Animations */
+.confetti-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
 }
 </style>
