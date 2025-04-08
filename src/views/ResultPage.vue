@@ -2,7 +2,7 @@
   <div class="quiz-container">
     <LottieAnimation
       v-if="showConfetti"
-      animationPath="assets/animations/confetti.json"
+      animationPath="assets/animations/confetti-colors.json"
       :loop="false"
       @animationComplete="showConfetti = false"
       class="confetti-overlay"
