@@ -442,13 +442,13 @@ export default {
     getPlayStyleOptions() {
       let options = [
         {
-          text: "Agressive",
+          text: "Attacking",
           subtext: "Always looking for attacks.",
           value: "attacking",
           icon: "assets/images/answers/05-01.svg",
         },
         {
-          text: "Evasive",
+          text: "Counter-attacking",
           subtext: "Waiting for mistakes and countering.",
           value: "counter-attacking",
           icon: "assets/images/answers/05-02.svg",
@@ -466,7 +466,7 @@ export default {
           icon: "assets/images/answers/05-04.svg",
         },
         {
-          text: "Resilient",
+          text: "Trading",
           subtext: "Trading early and winning the endgame.",
           value: "trading",
           icon: "assets/images/answers/05-05.svg",
@@ -622,7 +622,7 @@ header span {
 .question-text .questions-answered {
   color: rgba(255, 255, 255, 0.72);
   text-align: center;
-  font-size:  12px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
@@ -631,7 +631,7 @@ header span {
 }
 
 .question-text h2 {
-  color: #312E2B;
+  color: #312e2b;
   font-family: "Chess Sans";
   font-size: 22px;
   font-weight: 600;
@@ -648,7 +648,7 @@ header span {
 .bubble-part {
   position: absolute;
   left: -9px;
-  bottom: 10px
+  bottom: 10px;
 }
 
 .coach {
@@ -659,7 +659,7 @@ header span {
   display: flex;
   justify-content: center;
   align-items: end;
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
 
@@ -788,7 +788,7 @@ header span {
   }
 
   .question-text.mobile h2 {
-    color: #312E2B;
+    color: #312e2b;
     font-family: "Chess Sans";
     font-size: 17px;
     font-style: normal;

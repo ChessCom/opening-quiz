@@ -152,7 +152,7 @@
               alt="Chess Coach image"
             />
             <div class="lesson-info">
-              <div class="title">Learn {{ openingName }}</div>
+              <div class="title">Learn the {{ openingName }}</div>
               <div class="author">Chess.com Lesson</div>
             </div>
           </a>
@@ -320,13 +320,13 @@ export default {
     },
     nextMove() {
       if (this.currMove < this.moves.length) {
-        this.game.moveForward();
+      this.game.moveForward();
         this.currMove++;
       }
     },
     prevMove() {
       if (this.currMove > 0) {
-        this.game.moveBackward();
+      this.game.moveBackward();
         this.currMove--;
       }
     },

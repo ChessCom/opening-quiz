@@ -7,7 +7,7 @@
     "options": [
       {
         "text": "Beginner",
-        "subtext": "Rating 500+",
+        "subtext": "Rating below 1200",
         "value": "beginner",
         "icon": "assets/images/answers/01-01.svg"
       },
@@ -78,19 +78,19 @@
   },
   {
     "id": 4,
-    "question": "What would be your opponents first move?",
+    "question": "What would be your opponent's first move?",
     "questionImage": "assets/images/questions/Q3 - Black.jpg",
     "conditional": "black",
     "options": [
       {
         "text": "1. d4",
         "value": "d4",
-        "icon": "assets/images/answers/03-01.svg"
+        "icon": "assets/images/answers/03-02.svg"
       },
       {
         "text": "1. e4",
         "value": "e4",
-        "icon": "assets/images/answers/03-02.svg"
+        "icon": "assets/images/answers/03-01.svg"
       },
       {
         "text": "Another move",
@@ -146,17 +146,17 @@
       {
         "text": "1... d5",
         "value": "d5",
-        "icon": "assets/images/answers/04-01.svg"
+        "icon": "assets/images/answers/04-02.svg"
       },
       {
         "text": "1... Nf6",
         "value": "Nf6",
-        "icon": "assets/images/answers/04-02.svg"
+        "icon": "assets/images/answers/04-03.svg"
       },
       {
         "text": "Another move",
         "value": "other",
-        "icon": "assets/images/answers/04-03.svg"
+        "icon": "assets/images/answers/04-01.svg"
       },
       {
         "text": "No preference",
