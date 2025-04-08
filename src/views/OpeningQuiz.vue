@@ -61,7 +61,7 @@
                   />
                 </filter>
               </defs></svg
-            >Previous Question
+            >Back
           </button>
         </div>
         <div
@@ -122,7 +122,7 @@
                   />
                 </filter>
               </defs></svg
-            >Previous
+            >Back
           </button>
         </div>
       </div>
@@ -156,11 +156,21 @@
         <div class="question-left">
           <div class="questions-answered">{{ currentQuestionNumber }} of 7</div>
           <div class="coach">
-            <img src="assets/images/coach.svg" width="44" height="44" alt="coach"/>
+            <img
+              src="assets/images/coach.svg"
+              width="44"
+              height="44"
+              alt="coach"
+            />
           </div>
         </div>
         <div class="bubble-text">
-          <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+          <img
+            src="assets/images/bubble-part.svg"
+            height="15"
+            width="10"
+            class="bubble-part"
+          />
           <h2 v-if="questions[currentQuestionIndex]">
             {{ questions[currentQuestionIndex].question }}
           </h2>
@@ -184,11 +194,21 @@
                   {{ currentQuestionNumber }} of 7
                 </div>
                 <div class="coach">
-                  <img src="assets/images/coach.svg" width="44" height="44" alt="coach"/>
+                  <img
+                    src="assets/images/coach.svg"
+                    width="44"
+                    height="44"
+                    alt="coach"
+                  />
                 </div>
               </div>
               <div class="bubble-text">
-                <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+                <img
+                  src="assets/images/bubble-part.svg"
+                  height="15"
+                  width="10"
+                  class="bubble-part"
+                />
                 <h2>{{ questions[currentQuestionIndex].question }}</h2>
               </div>
             </div>
@@ -443,13 +463,13 @@ export default {
       let options = [
         {
           text: "Attacking",
-          subtext: "Always looking for attacks.",
+          subtext: "Aggressive all the way.",
           value: "attacking",
           icon: "assets/images/answers/05-01.svg",
         },
         {
           text: "Counter-attacking",
-          subtext: "Waiting for mistakes and countering.",
+          subtext: "Waiting for mistakes and punish them.",
           value: "counter-attacking",
           icon: "assets/images/answers/05-02.svg",
         },
@@ -467,7 +487,7 @@ export default {
         },
         {
           text: "Trading",
-          subtext: "Trading early and winning the endgame.",
+          subtext: "Exchange pieces and win the endgame.",
           value: "trading",
           icon: "assets/images/answers/05-05.svg",
         },
@@ -556,11 +576,19 @@ header span {
 
 .progress-bar {
   display: flex;
-  gap: 4px;
+  gap: 2px;
+}
+
+.progress-bar > :first-child {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.progress-bar > :nth-child(7) {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .progress-bar-item {
-  border-radius: 4px;
+  border-radius: 0px;
   background: rgba(255, 255, 255, 0.05);
   height: 12px;
   width: 100%;

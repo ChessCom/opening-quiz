@@ -20,10 +20,20 @@
         </div>
         <div class="bubble-wrapper">
           <div class="coach">
-            <img src="assets/images/coach.svg" height="44" width="44" alt="coach"/>
+            <img
+              src="assets/images/coach.svg"
+              height="44"
+              width="44"
+              alt="coach"
+            />
           </div>
           <div class="bubble-text">
-            <img src="assets/images/bubble-part.svg" height="15" width="10" class="bubble-part"/>
+            <img
+              src="assets/images/bubble-part.svg"
+              height="15"
+              width="10"
+              class="bubble-part"
+            />
             <p>Find your next chess opening</p>
           </div>
         </div>
@@ -75,6 +85,7 @@ export default {
   display: flex;
   margin-left: auto;
   width: 100vw;
+  height: 100vh;
   overflow-x: hidden;
   gap: 40px;
 }
@@ -83,8 +94,7 @@ export default {
   display: flex;
   max-width: 486px;
   width: 100%;
-  padding-top: 215px;
-  padding-bottom: 177px;
+  align-self: center;
   min-width: 40%;
   padding-left: 170px;
 }
@@ -101,7 +111,7 @@ export default {
   max-width: 100%;
 }
 
-.welcome-text .primary-btn{
+.welcome-text .primary-btn {
   width: 100%;
 }
 
@@ -122,7 +132,7 @@ export default {
 }
 
 .bubble-text p {
-  color:  #312E2B;
+  color: #312e2b;
   font-family: "Chess Sans";
   font-size: 22px;
   font-style: normal;
@@ -142,7 +152,7 @@ export default {
 .bubble-part {
   position: absolute;
   left: -9px;
-  bottom: 10px
+  bottom: 10px;
 }
 
 .coach {
@@ -153,7 +163,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: end;
-  background: rgba(0, 0, 0, 0.20);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 8px;
 }
 
@@ -182,7 +192,7 @@ export default {
 
 @media only screen and (max-width: 1024px) {
   .bubble-text p {
-    color: #312E2B;
+    color: #312e2b;
     font-family: "Chess Sans";
     font-size: 22px;
     font-style: normal;
@@ -203,6 +213,9 @@ export default {
   .welcome-page {
     flex-direction: column-reverse;
     gap: 0;
+    height: fit-content;
+    position: relative;
+    overflow: visible;
   }
 
   .welcome-text {
@@ -243,11 +256,11 @@ export default {
 
   .welcome-image {
     width: 100%;
-    overflow: visible; /* Allow overflow outside the div */
+    overflow-x: hidden;
   }
 
   .bubble-text p {
-    color: #312E2B;
+    color: #312e2b;
     font-family: "Chess Sans";
     font-size: 22px;
     font-style: normal;

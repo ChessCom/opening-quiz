@@ -332,13 +332,13 @@ export default {
     },
     nextMove() {
       if (this.currMove < this.moves.length) {
-      this.game.moveForward();
+        this.game.moveForward();
         this.currMove++;
       }
     },
     prevMove() {
       if (this.currMove > 0) {
-      this.game.moveBackward();
+        this.game.moveBackward();
         this.currMove--;
       }
     },
@@ -454,11 +454,19 @@ header {
 
 .progress-bar {
   display: flex;
-  gap: 4px;
+  gap: 2px;
+}
+
+.progress-bar > :first-child {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.progress-bar > :nth-child(7) {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .progress-bar-item {
-  border-radius: 4px;
+  border-radius: 0px;
   background: rgba(255, 255, 255, 0.05);
   height: 12px;
   width: 100%;
