@@ -142,7 +142,7 @@
           <span v-if="isChessCom"
             >Practice this opening with a chess.com Lesson</span
           >
-          <a v-if="isChessable" class="course-card" :href="courseLink">
+          <a v-if="isChessable" class="course-card" :href="courseLink" target="_blank">
             <div class="course-img">
               <img :src="chessableCourseCover" width="65" height="65" alt="" />
             </div>
@@ -151,7 +151,7 @@
               <div class="author">{{ chessableCourseAuthor }}</div>
             </div>
           </a>
-          <a v-if="isChessCom" class="lesson-card" :href="courseLink">
+          <a v-if="isChessCom" class="lesson-card" :href="courseLink" target="_blank">
             <img
               src="assets/images/open-book-icon.svg"
               width="48"
