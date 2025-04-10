@@ -12,9 +12,7 @@
       <div class="welcome-text-content">
         <div class="header-logo desktop-img">
           <img
-            src="assets/images/splash-header.svg"
-            width="406"
-            height="94"
+            src="assets/images/logo-left-aligned.svg"
             alt="Opening quiz header"
           />
         </div>
@@ -34,16 +32,12 @@
               width="10"
               class="bubble-part"
             />
-            <p>Find your next chess opening</p>
+            <p>
+              There's a gazillion chess openings let's find the one for you!
+            </p>
           </div>
         </div>
         <button class="primary-btn" @click="startQuiz">
-          <img
-            src="assets/images/magnifier.png"
-            width="32"
-            height="32"
-            alt="magnifier"
-          />
           <span>Start the Quiz</span>
         </button>
       </div>
@@ -77,7 +71,7 @@ export default {
 .header-logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .welcome-page {
