@@ -12,8 +12,8 @@
             step - 1 !== currentIndex &&
             !skipIndices.includes(step - 1),
           skipped: skipIndices.includes(step - 1),
-          active: step === answeredCount + 1 && !isReviewing,
-          reviewing: step - 1 === currentIndex && isReviewing,
+          active: step === answeredCount + 1,
+          reviewing: step - 1 === currentIndex,
         }"
         @click="onStepClick(step - 1)"
         :data-label="tooltipLabel(step - 1, step)"

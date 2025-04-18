@@ -289,20 +289,30 @@ export default {
      * Trims selectedAnswers & history, then sets the current index.
      */
     onProgressClick(stepIndex) {
-      // only allow clicking dots for questions you've already answered
+      // Navigate to a previous step via progress bar, preserving conditional skips
       if (this.selectedAnswers.length > stepIndex) {
-        // 1) Trim answers array back to that question
+        // Trim answers & history
         this.selectedAnswers = this.selectedAnswers.slice(0, stepIndex);
-
-        // 2) Trim history so it matches (keep the initial state + one per answered question)
         this.questionHistory = this.questionHistory.slice(0, stepIndex + 1);
-
-        // 3) Jump the quiz back to that question index
-        this.currentQuestionIndex = stepIndex;
-
-        // 4) Handle conditional questions based on color selection
-        if (stepIndex === 2 && this.selectedAnswers[1] === "black") {
+        const color = this.selectedAnswers[1];
+        const firstMove = this.selectedAnswers[2];
+        // Black path: adjust first move skip
+        if (stepIndex === 2 && color === "black") {
           this.currentQuestionIndex = 3;
+        }
+        // White path: map opponent's move response
+        else if (color === "white" && stepIndex === 3) {
+          if (firstMove === "e4") this.currentQuestionIndex = 4;
+          else if (firstMove === "d4") this.currentQuestionIndex = 5;
+          else this.currentQuestionIndex = 6;
+        }
+        // Later steps: skip two conditional slots
+        else if (stepIndex >= 4) {
+          this.currentQuestionIndex = stepIndex + 2;
+        }
+        // Direct mapping for other steps
+        else {
+          this.currentQuestionIndex = stepIndex;
         }
       }
     },
