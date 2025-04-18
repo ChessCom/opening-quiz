@@ -97,8 +97,8 @@
           />
           <span>Show Move Controls</span>
         </div>
-        <div :class="['notation-wrapper', { 'mobile-show': showControls }]">
-          <div class="vertical-move-list scroll-container"></div>
+        <div :class="['notation-wrapper', { 'mobile-show': showControls }, 'dark-mode']">
+          <div class="move-list"></div>
           <div class="board-controls">
             <button @click="toStartPostition" :disabled="currMove === 0">
               <img
@@ -225,9 +225,10 @@
 import {
   Modes,
   createGame,
-  createVerticalMoveListPlugin,
+  createMoveListPlugin,
 } from "@chesscom/chessboard";
 import "@chesscom/chessboard/dist/chessboard/chessboard.css";
+import '@chesscom/design-system/dist/variables.css';
 import results from "@/data/results.json";
 import ecoCodes from "@/data/eco-codes.json";
 import LottieAnimation from "@/components/LottieAnimation.vue";
@@ -421,11 +422,13 @@ export default {
       this.setBoardOrientation(this.openingFor);
     }
 
-    const plugin = createVerticalMoveListPlugin({
+    const plugin = createMoveListPlugin({
       displayTimeInClockFormat: false,
-      el: document.querySelector(".vertical-move-list"),
+      target: document.querySelector(".move-list"),
     });
     this.game.plugins.add(plugin);
+    this.game['move-list'].getMoveList().setAnalysisHidden(true);
+    this.game['move-list'].getMoveList().setContextMenuEnabled(false);
   },
   beforeUnmount() {
     if (this.game) this.game.destroy();
@@ -689,47 +692,9 @@ header {
   width: 25%;
 }
 
-.vertical-move-list div.move:nth-child(odd) {
-  background: rgba(255, 255, 255, 0.02);
-}
-
-.vertical-move-list {
-  color: rgba(255, 255, 255, 0.5);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.vertical-move-list .move .node {
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 16px; /* 123.077% */
-}
-
-.vertical-move-list .white,
-.vertical-move-list .black {
-  height: 18px;
-  top: 6px;
-  display: flex;
-  align-items: center;
-  min-width: max-content;
-}
-
 button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
-}
-
-.vertical-move-list .white.selected,
-.vertical-move-list .black.selected {
-  background: rgba(255, 255, 255, 0.14);
-  border-radius: 2px;
 }
 
 .learn-opening .secondary-btn {
