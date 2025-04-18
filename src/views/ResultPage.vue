@@ -97,10 +97,16 @@
           />
           <span>Show Move Controls</span>
         </div>
-        <div :class="['notation-wrapper', { 'mobile-show': showControls }, 'dark-mode']">
+        <div
+          :class="[
+            'notation-wrapper',
+            { 'mobile-show': showControls },
+            'dark-mode',
+          ]"
+        >
           <div class="move-list"></div>
           <div class="board-controls">
-            <button @click="toStartPostition" :disabled="currMove === 0">
+            <button @click="toStartPostition">
               <img
                 src="assets/images/chevron-start.svg"
                 width="28"
@@ -108,7 +114,7 @@
                 alt="to start position"
               />
             </button>
-            <button @click="prevMove" :disabled="currMove === 0">
+            <button @click="prevMove">
               <img
                 src="assets/images/chevron-left.svg"
                 width="28"
@@ -116,7 +122,7 @@
                 alt="previous move"
               />
             </button>
-            <button @click="nextMove" :disabled="currMove >= moves.length">
+            <button @click="nextMove">
               <img
                 src="assets/images/chevron-right.svg"
                 width="28"
@@ -124,10 +130,7 @@
                 alt="next move"
               />
             </button>
-            <button
-              @click="toEndPostition"
-              :disabled="currMove >= moves.length"
-            >
+            <button @click="toEndPostition">
               <img
                 src="assets/images/chevron-end.svg"
                 width="28"
@@ -142,7 +145,12 @@
           <span v-if="isChessCom"
             >Practice this opening with a chess.com Lesson</span
           >
-          <a v-if="isChessable" class="course-card" :href="courseLink" target="_blank">
+          <a
+            v-if="isChessable"
+            class="course-card"
+            :href="courseLink"
+            target="_blank"
+          >
             <div class="course-img">
               <img :src="chessableCourseCover" width="65" height="65" alt="" />
             </div>
@@ -151,7 +159,12 @@
               <div class="author">{{ chessableCourseAuthor }}</div>
             </div>
           </a>
-          <a v-if="isChessCom" class="lesson-card" :href="courseLink" target="_blank">
+          <a
+            v-if="isChessCom"
+            class="lesson-card"
+            :href="courseLink"
+            target="_blank"
+          >
             <img
               src="assets/images/open-book-icon.svg"
               width="48"
@@ -222,13 +235,9 @@
 </template>
 
 <script>
-import {
-  Modes,
-  createGame,
-  createMoveListPlugin,
-} from "@chesscom/chessboard";
+import { Modes, createGame, createMoveListPlugin } from "@chesscom/chessboard";
 import "@chesscom/chessboard/dist/chessboard/chessboard.css";
-import '@chesscom/design-system/dist/variables.css';
+import "@chesscom/design-system/dist/variables.css";
 import results from "@/data/results.json";
 import ecoCodes from "@/data/eco-codes.json";
 import LottieAnimation from "@/components/LottieAnimation.vue";
@@ -332,24 +341,16 @@ export default {
       this.game.setOptions({ flipped: openingFor === "Black" });
     },
     nextMove() {
-      if (this.currMove < this.moves.length) {
-        this.game.moveForward();
-        this.currMove++;
-      }
+      this.game.moveForward();
     },
     prevMove() {
-      if (this.currMove > 0) {
-        this.game.moveBackward();
-        this.currMove--;
-      }
+      this.game.moveBackward();
     },
     toStartPostition() {
       this.game.selectNode(0, -1);
-      this.currMove = 0;
     },
     toEndPostition() {
       this.game.selectNode(0, this.moves.length - 1);
-      this.currMove = this.moves.length;
     },
     showShareContainer() {
       this.isShareContainerVisible = !this.isShareContainerVisible; // Toggle visibility
@@ -427,8 +428,8 @@ export default {
       target: document.querySelector(".move-list"),
     });
     this.game.plugins.add(plugin);
-    this.game['move-list'].getMoveList().setAnalysisHidden(true);
-    this.game['move-list'].getMoveList().setContextMenuEnabled(false);
+    this.game["move-list"].getMoveList().setAnalysisHidden(true);
+    this.game["move-list"].getMoveList().setContextMenuEnabled(false);
   },
   beforeUnmount() {
     if (this.game) this.game.destroy();
