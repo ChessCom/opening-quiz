@@ -8,120 +8,21 @@
             currentQuestionIndex < questions.length &&
             questionHistory.length > 1
           "
-          class="back-button-container desktop"
+          class="back-button-container mobile2"
         >
           <button @click="goBack" class="back-button">
             <svg
+              width="29"
+              height="28"
+              viewBox="0 0 29 28"
+              fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="currentColor"
             >
-              <g filter="url(#filter0_d_917_6056)">
-                <path
-                  d="M6.70005 14.4333L13.4334 21.1667C14.6 22.3333 15.0667 22.3333 16.2334 21.1667C17.4 20 17.4 19.5333 16.2334 18.3333L9.90005 12L16.2334 5.63333C17.4 4.46666 17.4 4 16.2334 2.83333C15.0667 1.66666 14.6 1.66666 13.4 2.83333L6.70005 9.56666C5.16672 11.0667 5.16672 12.9333 6.70005 14.4333Z"
-                  fill="white"
-                  fill-opacity="0.72"
-                />
-              </g>
-              <defs>
-                <filter
-                  id="filter0_d_917_6056"
-                  x="0"
-                  y="0"
-                  width="24"
-                  height="25"
-                  filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
-                >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix
-                    in="SourceAlpha"
-                    type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    result="hardAlpha"
-                  />
-                  <feOffset dy="1" />
-                  <feComposite in2="hardAlpha" operator="out" />
-                  <feColorMatrix
-                    type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
-                  />
-                  <feBlend
-                    mode="normal"
-                    in2="BackgroundImageFix"
-                    result="effect1_dropShadow_917_6056"
-                  />
-                  <feBlend
-                    mode="normal"
-                    in="SourceGraphic"
-                    in2="effect1_dropShadow_917_6056"
-                    result="shape"
-                  />
-                </filter>
-              </defs></svg
-            >Back
-          </button>
-        </div>
-        <div
-          v-if="
-            currentQuestionIndex < questions.length &&
-            questionHistory.length > 1
-          "
-          class="back-button-container mobile2"
-        >
-          <button @click="goBack" class="back-button mobile">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-            >
-              <g filter="url(#filter0_d_917_6056)">
-                <path
-                  d="M6.70005 14.4333L13.4334 21.1667C14.6 22.3333 15.0667 22.3333 16.2334 21.1667C17.4 20 17.4 19.5333 16.2334 18.3333L9.90005 12L16.2334 5.63333C17.4 4.46666 17.4 4 16.2334 2.83333C15.0667 1.66666 14.6 1.66666 13.4 2.83333L6.70005 9.56666C5.16672 11.0667 5.16672 12.9333 6.70005 14.4333Z"
-                  fill="white"
-                  fill-opacity="0.72"
-                />
-              </g>
-              <defs>
-                <filter
-                  id="filter0_d_917_6056"
-                  x="0"
-                  y="0"
-                  width="24"
-                  height="25"
-                  filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB"
-                >
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix
-                    in="SourceAlpha"
-                    type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                    result="hardAlpha"
-                  />
-                  <feOffset dy="1" />
-                  <feComposite in2="hardAlpha" operator="out" />
-                  <feColorMatrix
-                    type="matrix"
-                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
-                  />
-                  <feBlend
-                    mode="normal"
-                    in2="BackgroundImageFix"
-                    result="effect1_dropShadow_917_6056"
-                  />
-                  <feBlend
-                    mode="normal"
-                    in="SourceGraphic"
-                    in2="effect1_dropShadow_917_6056"
-                    result="shape"
-                  />
-                </filter>
-              </defs></svg
+              <path
+                d="M8.17999 14.91C8.05443 14.7952 7.95415 14.6555 7.88554 14.4999C7.81693 14.3442 7.78149 14.1759 7.78149 14.0058C7.78149 13.8357 7.81693 13.6674 7.88554 13.5118C7.95415 13.3561 8.05443 13.2164 8.17999 13.1016L17.3383 3.89664C17.4588 3.77059 17.6037 3.6704 17.7641 3.6022C17.9246 3.534 18.0973 3.49922 18.2717 3.49997C18.4462 3.49783 18.6193 3.53198 18.78 3.60026C18.9407 3.66854 19.0854 3.76947 19.205 3.89664L20.57 5.26164C20.695 5.38293 20.7944 5.52797 20.8626 5.68825C20.9307 5.84854 20.9661 6.02082 20.9667 6.19497C20.9656 6.36561 20.9299 6.53426 20.8617 6.69068C20.7935 6.84711 20.6943 6.98806 20.57 7.10497L13.6283 14.105L20.57 20.93C20.6937 21.0473 20.7926 21.1883 20.8608 21.3447C20.9289 21.501 20.9649 21.6694 20.9667 21.84C20.9636 22.0103 20.927 22.1783 20.859 22.3345C20.7909 22.4906 20.6927 22.6318 20.57 22.75L19.205 24.1383C19.0854 24.2655 18.9407 24.3664 18.78 24.4347C18.6193 24.503 18.4462 24.5371 18.2717 24.535C18.0973 24.5357 17.9246 24.5009 17.7641 24.4327C17.6037 24.3645 17.4588 24.2644 17.3383 24.1383L8.17999 14.91Z"
+                fill="white"
+                fill-opacity="0.5"
+              /></svg
             >Back
           </button>
         </div>
@@ -136,16 +37,22 @@
       <div class="header-right"></div>
     </header>
 
-    <div class="progress-bar-container">
-      <div class="progress-bar">
-        <div
-          v-for="index in 7"
-          :key="index"
-          class="progress-bar-item"
-          :class="{ completed: selectedAnswers.length >= index }"
-        ></div>
-      </div>
-    </div>
+    <ProgressBar
+      :total="7"
+      :currentIndex="currentQuestionIndex"
+      :answeredCount="selectedAnswers.length"
+      :answers="selectedAnswers"
+      :labels="[
+        'Chess Level',
+        'Color',
+        'First move',
+        'Opponent’s move',
+        'Play style',
+        'Memorization',
+        'Opening type',
+      ]"
+      @step-click="onProgressClick"
+    />
 
     <div>
       <!-- Mobile Question Text -->
@@ -220,6 +127,7 @@
                 v-for="(option, index) in getPlayStyleOptions()"
                 :key="index"
                 @click="selectOption(option.value)"
+                :class="{ selected: previousAnswer === option.value }"
               >
                 <div class="answer-item-img">
                   <img
@@ -242,6 +150,7 @@
                   .options"
                 :key="index"
                 @click="selectOption(option.value)"
+                :class="{ selected: previousAnswer === option.value }"
               >
                 <div class="answer-item-img">
                   <img
@@ -286,28 +195,54 @@ import questions from "@/data/questions.json";
 import results from "@/data/results.json";
 import ecoCodes from "@/data/eco-codes.json";
 import ResultPage from "@/views/ResultPage.vue";
+import ProgressBar from "@/components/ProgressBar.vue";
 
 export default {
-  components: {
-    ResultPage,
-  },
-  directives: {},
+  components: { ResultPage, ProgressBar },
   data() {
     return {
-      questionHistory: [{ index: 0, answers: [] }], // Store history of question indexes
+      questionHistory: [{ index: 0, answers: [] }],
       currentQuestionIndex: 0,
       selectedAnswers: [],
       questions: questions,
       ecoCodes: ecoCodes,
       initialFen: "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      allAnswers: [],
     };
   },
   computed: {
+    previousAnswer() {
+      return this.allAnswers[this.currentQuestionIndex];
+    },
+    progressLabels() {
+      const color = this.selectedAnswers[1];
+      // Base two questions
+      const labels = ["Chess Level", "Color"];
+      if (color === "black") {
+        // Q3…Q7 for Black
+        labels.push(
+          "Opponent’s move",
+          "", // skipped
+          "Play style",
+          "Memorization",
+          "Opening type"
+        );
+      } else {
+        // Q3…Q7 for White or no preference
+        labels.push(
+          "First move", // or "Your move" if you prefer
+          "Opponent’s move",
+          "Play style",
+          "Memorization",
+          "Opening type"
+        );
+      }
+      return labels;
+    },
     resultEcoCode() {
       const key = this.selectedAnswers
-        .map((answer) => answer.toLowerCase().trim())
+        .map((ans) => ans.toLowerCase().trim())
         .join(" - ");
-      console.log("Generated Key:", key);
       const result = results[key];
       return result ? result.ecoCode : "No ECO Code found";
     },
@@ -316,56 +251,31 @@ export default {
     },
     openingDetails() {
       const ecoCode = this.resultEcoCode;
-      console.log("Resolved ECO Code:", ecoCode);
-
-      if (!ecoCode || !this.ecoCodes[ecoCode]) {
-        console.log("No matching opening found for ECO Code:", ecoCode);
-        return null;
-      }
-
+      if (!ecoCode || !this.ecoCodes[ecoCode]) return null;
       const resultKey = this.selectedAnswers.join(" - ").toLowerCase();
       const result = results[resultKey] || {};
-
-      if (!result) {
-        console.warn("No result found for generated key:", resultKey);
-        return null;
-      }
-
-      return {
-        ...this.ecoCodes[ecoCode],
-        openingFor: result.openingFor || "Unknown",
-        courseLink: result.courseLink || "",
-        chessableCourseCover: result.chessableCourseCover || "",
-        chessableCourseTitle: result.chessableCourseTitle || "",
-        chessableCourseAuthor: result.chessableCourseAuthor || "",
-      };
+      return { ...this.ecoCodes[ecoCode], ...result };
     },
     convertedMoves() {
       if (this.openingDetails && this.openingDetails.Moves) {
-        return this.convertMovesToArray(this.openingDetails.Moves);
+        return this.openingDetails.Moves.replace(/\d+\./g, "")
+          .trim()
+          .split(/\s+/);
       }
       return [];
-    },
-    openingForColor() {
-      const isEven = this.convertedMoves.length % 2 === 0;
-      return `${isEven ? "Black" : "White"}`;
     },
   },
   methods: {
     selectOption(value) {
-      // Save the current state (before any changes)
+      // Update the answer in allAnswers
+      this.allAnswers[this.currentQuestionIndex] = value;
+
       this.questionHistory.push({
         index: this.currentQuestionIndex,
         answers: [...this.selectedAnswers],
       });
-
-      // Add the new answer
       this.selectedAnswers.push(value);
-
-      // Update currentQuestionIndex using your custom logic
       this.handleConditionalQuestions(value);
-
-      // Check if we've reached the end of the questions
       if (this.currentQuestionIndex >= this.questions.length) {
         sessionStorage.setItem("quizAnswers", this.selectedAnswers.join(","));
         this.$router.push({
@@ -374,13 +284,52 @@ export default {
         });
       }
     },
-    goBack() {
-      // Ensure there's a previous state to revert to (don't pop the initial state)
-      if (this.questionHistory.length > 1) {
-        const previousState = this.questionHistory.pop();
-        this.currentQuestionIndex = previousState.index;
-        this.selectedAnswers = previousState.answers;
+    /**
+     * Jump back to any completed question when the progress-bar dot is clicked.
+     * Trims selectedAnswers & history, then sets the current index.
+     */
+    onProgressClick(stepIndex) {
+      // Navigate to a previous step via progress bar, preserving conditional skips
+      if (this.selectedAnswers.length > stepIndex) {
+        // Trim answers & history
+        this.selectedAnswers = this.selectedAnswers.slice(0, stepIndex);
+        this.questionHistory = this.questionHistory.slice(0, stepIndex + 1);
+        const color = this.selectedAnswers[1];
+        const firstMove = this.selectedAnswers[2];
+        // Black path: adjust first move skip
+        if (stepIndex === 2 && color === "black") {
+          this.currentQuestionIndex = 3;
+        }
+        // White path: map opponent's move response
+        else if (color === "white" && stepIndex === 3) {
+          if (firstMove === "e4") this.currentQuestionIndex = 4;
+          else if (firstMove === "d4") this.currentQuestionIndex = 5;
+          else this.currentQuestionIndex = 6;
+        }
+        // Later steps: skip two conditional slots
+        else if (stepIndex >= 4) {
+          this.currentQuestionIndex = stepIndex + 2;
+        }
+        // Direct mapping for other steps
+        else {
+          this.currentQuestionIndex = stepIndex;
+        }
       }
+    },
+    goBack() {
+      if (this.questionHistory.length > 1) {
+        const prev = this.questionHistory.pop();
+        this.currentQuestionIndex = prev.index;
+        this.selectedAnswers = prev.answers;
+      }
+    },
+    goToQuestion(stepIndex) {
+      // Reset the quiz from the selected step
+      this.currentQuestionIndex = stepIndex;
+      this.selectedAnswers = this.selectedAnswers.slice(0, stepIndex);
+      this.questionHistory = [
+        { index: stepIndex, answers: [...this.selectedAnswers] },
+      ];
     },
     handleConditionalQuestions(value) {
       switch (this.currentQuestionIndex) {
@@ -390,16 +339,15 @@ export default {
         case 2:
           this.handleThirdQuestion(value);
           break;
+        case 3:
+          this.handleBlackThirdQuestion(value);
+          break;
         case 4:
         case 5:
           this.currentQuestionIndex = 6;
           break;
-        case 3:
-          this.handleBlackThirdQuestion(value);
-          break;
         default:
           this.currentQuestionIndex++;
-          break;
       }
     },
     handleSecondQuestion(value) {
@@ -407,8 +355,11 @@ export default {
         this.currentQuestionIndex = 2;
       } else if (value === "black") {
         this.currentQuestionIndex = 3;
-      } else if (value === "") {
+      } else {
+        // For "no preference", we still want to count this as an answer
+        // and allow going back to it
         this.currentQuestionIndex = 6;
+        // Add empty strings for the skipped questions
         this.selectedAnswers.push("", "");
       }
     },
@@ -417,7 +368,7 @@ export default {
         this.currentQuestionIndex = 4;
       } else if (value === "d4") {
         this.currentQuestionIndex = 5;
-      } else if (value === "other" || value === "") {
+      } else {
         this.currentQuestionIndex = 6;
         this.selectedAnswers.push("");
       }
@@ -426,15 +377,12 @@ export default {
       if (value === "e4" || value === "d4") {
         this.selectedAnswers.push("");
         this.currentQuestionIndex = 6;
-      } else if (value === "other" || value === "") {
-        this.selectedAnswers.push("");
-        this.currentQuestionIndex = 6;
       } else {
         this.currentQuestionIndex++;
       }
     },
     shouldRemoveTrading() {
-      const combinations = [
+      const combos = [
         ["advanced", "black", "other", ""],
         ["intermediate", "black", "other", ""],
         ["advanced", "white", "e4", "c5"],
@@ -452,15 +400,12 @@ export default {
         ["intermediate", "white", "d4", "other"],
         ["beginner", "white", "d4", "other"],
       ];
-
-      return combinations.some((combination) => {
-        return combination.every(
-          (answer, index) => this.selectedAnswers[index] === answer
-        );
-      });
+      return combos.some((combo) =>
+        combo.every((ans, i) => this.selectedAnswers[i] === ans)
+      );
     },
     getPlayStyleOptions() {
-      let options = [
+      let opts = [
         {
           text: "Attacking",
           subtext: "Aggressive all the way.",
@@ -492,21 +437,17 @@ export default {
           icon: "assets/images/answers/05-05.svg",
         },
       ];
-
-      if (this.shouldRemoveTrading()) {
-        options = options.filter((option) => option.value !== "trading");
-      }
-
-      return options;
+      if (this.shouldRemoveTrading())
+        opts = opts.filter((o) => o.value !== "trading");
+      return opts;
     },
-    convertMovesToArray(movesString) {
-      if (!movesString) return [];
-      const sanitizedString = movesString.replace(/\d+\./g, "").trim(); // Remove move numbers
-      return sanitizedString.split(/\s+/);
+    convertMovesToArray(moves) {
+      return moves ? moves.replace(/\d+\./g, "").trim().split(/\s+/) : [];
     },
     resetQuiz() {
       this.currentQuestionIndex = 0;
       this.selectedAnswers = [];
+      this.questionHistory = [{ index: 0, answers: [] }];
     },
   },
   mounted() {
@@ -572,31 +513,6 @@ header span {
 
 .progress-bar-container {
   margin-bottom: 41px;
-}
-
-.progress-bar {
-  display: flex;
-  gap: 2px;
-}
-
-.progress-bar > :first-child {
-  border-radius: 4px 0px 0px 4px;
-}
-
-.progress-bar > :nth-child(7) {
-  border-radius: 0px 4px 4px 0px;
-}
-
-.progress-bar-item {
-  border-radius: 0px;
-  background: rgba(255, 255, 255, 0.05);
-  height: 12px;
-  width: 100%;
-  transition: background-color 0.3s ease;
-}
-
-.progress-bar-item.completed {
-  background: #81b64c;
 }
 
 .question-container {
@@ -711,6 +627,10 @@ header span {
 .answer-item:hover {
   background: rgba(255, 255, 255, 0.1);
   transition: background 200ms ease-in-out;
+}
+
+.answer-item.selected {
+  border: 2px solid #81b64c;
 }
 
 .answer-item-img {
