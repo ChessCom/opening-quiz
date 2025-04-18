@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@chesscom/chessboard": "^1.111.0",
+    "@chesscom/design-system": "^0.11.0",
     "@microsoft/clarity": "^1.0.0",
     "@motionone/vue": "^10.16.4",
     "@vueuse/motion": "^3.0.3",
